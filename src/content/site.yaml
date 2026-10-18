@@ -1,0 +1,15 @@
+# Site-wide settings. Replace the placeholder domain with your real one.
+url: "https://thomasstenius.com"
+noindex: true
+
+# Language switcher and hreflang links. Order = order of the buttons.
+languages:
+  - code: fi
+    label: "Suomi"
+    path: "/fi/"
+  - code: sv
+    label: "Svenska"
+    path: "/sv/"
+  - code: en
+    label: "English"
+    path: "/"

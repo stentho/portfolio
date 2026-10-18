@@ -1,0 +1,68 @@
+{% set t = copy[lang] %}<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ t.title }}</title>
+  <meta name="description" content="{{ t.description }}">
+  {% if site.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  <link rel="stylesheet" href="/style.css">
+  {% for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{{ l.path }}">
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+  {% if redirect %}
+  <script>
+    // Send first-time visitors to their language. A saved choice (set when a
+    // language button is clicked) always wins, so English users are never trapped.
+    (function () {
+      var target = null;
+      try { target = localStorage.getItem("lang-choice"); } catch (e) {}
+      if (!target) {
+        var langs = navigator.languages || [navigator.language || ""];
+        for (var i = 0; i < langs.length; i++) {
+          var code = String(langs[i]).slice(0, 2).toLowerCase();
+          if (code === "fi" || code === "sv" || code === "en") { target = code; break; }
+        }
+      }
+      if (target === "fi") location.replace("/fi/");
+      else if (target === "sv") location.replace("/sv/");
+    })();
+  </script>
+  {% endif %}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ t.skip_link }}</a>
+
+  <header class="top-bar">
+    <div class="wrap">
+      <nav aria-label="{{ t.nav_label }}">
+        <ul class="lang-list">
+          {% for l in site.languages %}
+          <li><a href="{{ l.path }}" lang="{{ l.code }}" hreflang="{{ l.code }}"{% if l.code == lang %} aria-current="page"{% endif %}>{{ l.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>{{ t.footer }}</p>
+    </div>
+  </footer>
+
+  <script>
+    // Remember the visitor's language choice (used by the redirect on the home page).
+    document.querySelectorAll(".lang-list a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        try { localStorage.setItem("lang-choice", link.getAttribute("lang")); } catch (e) {}
+      });
+    });
+  </script>
+</body>
+</html>
