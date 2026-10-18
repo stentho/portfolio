@@ -1,0 +1,12 @@
+{# A single quote. Shows "(Translated from ...)" when original_lang differs from the page language. #}
+{% macro render_quote(q, t, lang) %}
+<figure class="quote">
+  <blockquote><p>{{ q.text }}</p></blockquote>
+  <figcaption>
+    <span class="quote-source">{{ q.name }}, {{ q.title }}</span>
+    {% if q.original_lang and q.original_lang != lang %}
+    <span class="quote-note">({{ t.translated_from[q.original_lang] }})</span>
+    {% endif %}
+  </figcaption>
+</figure>
+{% endmacro %}
