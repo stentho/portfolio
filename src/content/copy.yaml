@@ -33,7 +33,7 @@ en:
       original_lang: "en"
   work_heading: "Selected work"
   glance_labels:
-    role: "Role"
+    role: "My role"
     scope: "Scope"
     outcome: "Outcome"
   outcome_label: "Outcome"
@@ -108,7 +108,7 @@ fi:
       original_lang: "en"
   work_heading: "Valittuja projekteja"
   glance_labels:
-    role: "Rooli"
+    role: "Roolini"
     scope: "Työn sisältö"
     outcome: "Lopputulos"
   outcome_label: "Lopputulos"
@@ -153,15 +153,15 @@ fi:
 
 sv:
   lang_name: "Svenska"
-  title: "Thomas Stenius – Senior UX- och service designer"
+  title: "Thomas Stenius – Senior UX- och tjänstedesigner"
   description: "Thomas Stenius portfolio. Senior UX- och tjänstedesigner samt användarforskare."
   skip_link: "Hoppa till huvudinnehållet"
   nav_label: "Språkval"
   name: "Thomas Stenius"
   role: "Senior UX- och tjänstedesigner"
   intro: 
-    - "9 år, 100+ kundprojekt. Jag hjälper organisationer omvandla affärsmål och användarbehov till tydliga designbeslut."
-    - "Människocentrerad, flexibel i valet av metoder och praktiskt lagd när det gäller tillgänglighet och LLM-verktyg."
+    - "9 år, 100+ kundprojekt. Jag hjälper organisationer omvandla sina mål och användarbehov till klara och tydliga designriktningar."
+    - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg."
   portrait_alt: "Porträtt av Thomas Stenius"
   testimonials_heading: "Vad kunder säger"
   translated_from:
@@ -179,7 +179,7 @@ sv:
       original_lang: "en"
   work_heading: "Utvalda projekt"
   glance_labels:
-    role: "Roll"
+    role: "Min roll"
     scope: "Omfattning"
     outcome: "Resultat"
   outcome_label: "Resultat"
@@ -194,24 +194,24 @@ sv:
   projects:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
-        role: "Ansvarig för UX-research och utvärdering (konsult)"
-        scope: "Användarforskning, formativ testning, summativ användbarhetsutvärdering, samdesign av användargränssnittet"
+        role: "Ansvarig för UX-forskning och utvärdering (konsult)"
+        scope: "Användarforskning, formativ och summativ användbarhetstestning, co-design av användargränssnittet"
         outcome: "Användbarhetsutvärderingen godkänd; produkten CE-märkt"
       sections:
         - heading: ""
           paragraphs:
-            - "Inom medicinteknik är patientsäkerhet allt. Kunden hade ett tidigt produktkoncept, som byggde på inledande användarforskning och mockups från tidigare arbete. Jag gick med i ett litet team av designers och utvecklare och arbetade nära kundens produktägare och personal för att ta konceptet från det utgångsläget till ett färdigt, CE-märkt system. Vi arbetade i tre faser:"
-        - heading: "1. Förstå sammanhanget, komplettera det som fattas"
+            - "Inom medicinteknik är patientsäkerhet allt. Kunden hade ett preliminärt produktkoncept, som byggde på inledande användarforskning och konceptbilder från tidigare arbete. Jag gick med i ett litet team designers och utvecklare och arbetade tillsammans med produktägaren för att ta konceptet från utgångsläget till ett färdigt CE-märkt system. Vi arbetade i tre faser:"
+        - heading: "1. Förstå sammanhanget, komplettera med forskning"
           paragraphs:
-            - "Vi började med att gå igenom den befintliga forskningen och de befintliga mockuparna. Jag är inte läkare, så jag intervjuade flera erfarna läkare för att fördjupa min förståelse för det praktiska arbetet och för var patientsäkerheten är mest hotad. Som komplement byggde vi ett internt LLM-baserat verktyg m.h.a. offentliga källor som bollplank för snabb utforskning, men validerade alltid allt viktigt med riktiga läkare."
-        - heading: "2. Designa och utvärdera"
+            - "Vi började med att gå igenom den befintliga forskningen och konceptbilderna. Jag är inte läkare, så jag passade på att intervjua flera erfarna läkare för att fördjupa min förståelse för det praktiska läkararbetet och förstå var patientsäkerheten är mest hotad. För att komplettera detta byggde vi ett internt LLM-baserat verktyg med hjälp av offentliga källor som bollplank, men validerade alltid allt viktigt med riktiga läkare."
+        - heading: "2. Design och utvärdering"
           paragraphs:
-            - "Mina designerkollegor ledde arbetet med gränssnittet och flödena. Jag bidrog till viktiga designbeslut och lyfte fram användbarhetsproblem allteftersom designen utvecklades. I medicinska sammanhang är gränsfall situationer där patientsäkerheten kan äventyras, så tillsammans med en kollega utformade jag testscenarier baserade på användningsrelaterade faror, som vi byggde med läkare för att vara så realistiska som möjligt. Jag ledde all formativ testning (tidiga, iterativa tester som formar designen). Den bekräftade risker som hade antagits tidigare i projektet, identifierade nya faror och ledde till att vi ändrade designen för att hantera dem. Arbetet vägleddes av ISO 14971, IEC 62366-1 och IEC/TR 62366-2."
+            - "Mina kollegor ansvarade huvudsakligen för användargränssnittet, men jag bidrog till viktiga designbeslut och lyfte fram användbarhetsproblem under processens lopp. I medicinska sammanhang är gränsfall situationer som kan skapa risker för patientsäkerheten, så tillsammans med en kollega utformade vi testscenarier som utgick från användningsrelaterade faror och konsulterade läkare för att göra scenarierna så realistiska som möjligt. Jag ledde all formativ användartestning (tidiga, iterativa tester som formar designen). Via testningen bekräftade vi tidigare antagna risker och identifierade nya möjliga faror, vilket ledde till ändringar i designen. Arbetet vägleddes också av standarderna ISO 14971, IEC 62366-1 och IEC/TR 62366-2."
         - heading: "3. Summativ utvärdering" 
           paragraphs:
-            - "Jag ledde den summativa användbarhetsutvärderingen som krävs för CE-märkning, det vill säga slutprovet som visar att produkten kan användas säkert av sina avsedda användare. Jag modererade varje session personligen. Trettio målgruppsrepresentanter från de relevanta användargrupperna deltog i sessioner på 2,5 timmar (introduktion, intervju, praktisk testning och utvärdering). Med deltagare som inte delade något språk med mig arbetade jag med tolkar."
+            - "Jag ledde den summativa användbarhetsutvärderingen (som krävs för CE-märkning), alltså slutprovet där man testar att målgruppen kan använda produkten säkert. Jag modererade varje session personligen. 30 användare från de relevanta målgrupperna deltog i sessioner på 2,5 timmar (introduktion, intervju, praktisk testning och utvärdering). Med deltagare som inte delade något språk med mig arbetade jag med tolkar."
       outcome:
-        - "Utvärderingen uppfyllde sina acceptanskriterier, och produkten är nu CE-märkt."
+        - "Acceptanskriterierna uppfylldes och produkten är nu CE-märkt."
       # One or two images, shown top right with the text wrapping around them.
       # alt: leave empty ("") if the image is just decoration; otherwise describe it.
       images:
