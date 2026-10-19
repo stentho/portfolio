@@ -14,7 +14,7 @@ en:
   role: "Senior UX & Service Designer"
   intro: 
     - "9 years, 100+ client projects. Helping organizations turn business goals and user needs into clear design decisions."
-    - "People-centered, method-flexible, and hands-on with accessibility and LLM tools."
+    - "People-centered, method-flexible, and hands-on with accessibility and LLM tools*."
   portrait_alt: "Portrait of Thomas Stenius"
   testimonials_heading: "What clients say"
   translated_from:
@@ -45,6 +45,7 @@ en:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
+  footer_note: "*Co-developed with Claude Sonnet 5.5. I led the layout, requirements, content, and accessibility criteria (WCAG 2.2); Claude generated code and illustrations, which I reviewed and iterated on."
   projects:
     - title: "Medical device: from early concept to CE-marked product"
       # "At a glance": three short lines shown under the title
@@ -90,7 +91,7 @@ fi:
   role: "Johtava UX-asiantuntija ja palvelumuotoilija"
   intro: 
     - "9 vuotta, 100+ asiakasprojektia. Autan organisaatioita muuntamaan liiketoimintatavoitteet ja käyttäjien tarpeet selkeiksi toimintamalleiksi."
-    - "Ihmiskeskeinen, menetelmiltään joustava ja käytännönläheinen saavutettavuuden ja LLM-työkalujen parissa."
+    - "Ihmiskeskeinen, menetelmiltään joustava ja käytännönläheinen saavutettavuuden ja LLM-työkalujen parissa*."
   portrait_alt: "Etunimi Sukunimen muotokuva"
   testimonials_heading: "Mitä asiakkaat sanovat"
   translated_from:
@@ -120,6 +121,7 @@ fi:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
+  footer_note: "*Rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin."
   projects:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
@@ -161,7 +163,7 @@ sv:
   role: "Senior UX- och tjänstedesigner"
   intro: 
     - "9 år, 100+ kundprojekt. Jag hjälper organisationer omvandla sina mål och användarbehov till klara och tydliga designriktningar."
-    - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg."
+    - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg*."
   portrait_alt: "Porträtt av Thomas Stenius"
   testimonials_heading: "Vad kunder säger"
   translated_from:
@@ -191,6 +193,7 @@ sv:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
+  footer_note: "*Byggd tillsammans med Claude Sonnet 5.5. Jag ansvarade för layout, krav, innehåll och tillgänglighetskriterier (WCAG 2.2); Claude genererade kod och illustrationer, som jag granskade och itererade."
   projects:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
