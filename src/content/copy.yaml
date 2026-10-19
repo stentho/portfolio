@@ -91,7 +91,7 @@ fi:
   role: "Johtava UX-asiantuntija ja palvelumuotoilija"
   intro: 
     - "9 vuotta, 100+ asiakasprojektia. Autan organisaatioita muuntamaan liiketoimintatavoitteet ja käyttäjien tarpeet selkeiksi toimintamalleiksi."
-    - "Ihmiskeskeinen, menetelmiltään joustava ja käytännönläheinen saavutettavuuden ja LLM-työkalujen parissa*."
+    - "Olen ihmiskeskeinen ja menetelmiltäni joustava - lähestymistapani käyttäjäkokemukseen, saavutettavuuteen sekä LLM-työkaluihin* on käytännönläheinen."
   portrait_alt: "Etunimi Sukunimen muotokuva"
   testimonials_heading: "Mitä asiakkaat sanovat"
   translated_from:
@@ -103,7 +103,7 @@ fi:
       name: "Asiakas"
       title: "terveysteknologian toimiala"
       original_lang: "fi"
-    - text: "Erinomainen työnne on ylittänyt odotuksemme. Toimittamanne havainnot ovat olleet keskeisessä asemassa muokatessamme suunnittelu- ja liiketoimintastrategioitamme, ja ne ovat antaneet meille selkeämmän käsityksen asiakkaistamme ja heidän tarpeistaan."
+    - text: "Poikkeuksellinen työpanoksesi todellakin ylitti odotuksemme. Esittämäsi havainnot ovat keskeisesti vaikuttaneet suunnittelu- ja liiketoimintastrategioihimme lisäten ymmärrystämme asiakkaistamme ja heidän tarpeistaan."
       name: "Asiakas"
       title: "telekommunikaatioyritys"
       original_lang: "en"
@@ -121,7 +121,7 @@ fi:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin."
+  footer_note: "*Sivu on rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin."
   projects:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
@@ -175,7 +175,7 @@ sv:
       name: "Kund"
       title: "hälso-IT-branschen"
       original_lang: "fi"
-    - text: "Ditt utmärkta arbete har verkligen överträffat våra förväntningar. De insikter du levererade har varit avgörande för att forma våra design- och affärsstrategier och gett oss en tydligare förståelse för våra kunder och deras behov."
+    - text: "Ditt exceptionella arbete har verkligen överträffat våra förväntningar. De insikter du levererade har varit avgörande för att forma våra design- och affärsstrategier och gett oss en tydligare förståelse för våra kunder och deras behov."
       name: "Kund"
       title: "telekommunikationsföretag"
       original_lang: "en"
