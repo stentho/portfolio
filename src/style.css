@@ -5,11 +5,17 @@
 :root {
   --bg:      #F8F2E9;
   --surface: #fffefe;
+  --bg-alt:  #ebdfd0;
+  --bg-alt2: #c0b4a4;
+  --dropshadow: #c0b4a452;
+  --dropshadow-faint: #c0b4a414;
   --text:    #2B231D;
+  --text-alt: #6a3f2c;
   --muted:   #5A4B40;
   --accent:  #4e5840;
   --border:  #6B5B4E;
-  --focus:   #1C5BB0;
+  --border-alt: #5a4230;
+  --focus:   #000000;
   --max-width: 60rem;
 }
 
@@ -36,6 +42,7 @@ img {
 
 a {
   color: var(--accent);
+  font-weight: 600;
   text-underline-offset: 0.2em;
 }
 
@@ -73,8 +80,9 @@ a:hover {
 
 /* ---------- Top bar / language selection ---------- */
 .top-bar {
-  border-bottom: 4px solid var(--border);
   padding-block: 1rem;
+  background: var(--bg-alt);
+  filter: drop-shadow(0 0 1rem var(--dropshadow-faint));
 }
 
 .lang-list {
@@ -92,12 +100,13 @@ a:hover {
   align-items: center;
   min-height: 2.75rem;
   padding-inline: 1rem;
-  border: 2px solid var(--text);
-  border-radius: 6px;
+  border-radius: 10px;
   color: var(--text);
-  font-size: 1rem;
+  font-size: 1rem;+
   font-weight: 600;
   text-decoration: none;
+  background: var(--bg);
+  filter: drop-shadow(0 0 0.1rem var(--dropshadow));
 }
 
 .lang-list a:hover {
@@ -106,7 +115,7 @@ a:hover {
 
 /* Current language: filled AND underlined, so it is not shown by colour alone */
 .lang-list a[aria-current="page"] {
-  background: var(--text);
+  background: var(--border-alt);
   color: #fff;
   text-decoration: underline;
   text-underline-offset: 0.25em;
@@ -143,14 +152,15 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  align-items: center;
+  align-items: top;
   padding-block: 4rem;
 }
 
 .hero img {
   width: 100%;
   max-width: 18rem;
-  border-radius: 8px;
+  border-radius: 15px;
+  filter: drop-shadow(0 0 1rem var(--dropshadow));
 }
 
 .role {
@@ -179,7 +189,7 @@ h4 {
 
 /* ---------- Sections ---------- */
 .section {
-  padding-block: 4rem;
+  padding-block: 2rem;
 }
 
 /* ---------- Projects ---------- */
@@ -190,7 +200,8 @@ h4 {
   align-items: center;
   padding: 1.5rem;
   background: var(--surface);
-  border-radius: 12px;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 1rem var(--dropshadow));
 }
 
 .project + .project {
@@ -209,7 +220,7 @@ h4 {
 /* ---------- Contact ---------- */
 .contact-list {
   list-style: none;
-  margin: 1.5rem 0 0;
+  margin: 0 0 4rem;
   padding: 0;
 }
 
@@ -224,10 +235,10 @@ h4 {
 
 /* ---------- Footer ---------- */
 .site-footer {
-  padding-block: 2rem 3rem;
-  border-top: 2px solid var(--border);
-  color: var(--muted);
+  padding-block: 3rem 6rem;
+  color: var(--text);
   font-size: 1rem;
+  background: var(--bg-alt);
 }
 
 .site-footer p {
@@ -242,7 +253,7 @@ h4 {
 @media (min-width: 48rem) {
   .hero {
     grid-template-columns: 18rem 1fr;
-    gap: 3rem;
+    gap: 4rem;
   }
 
   .project {
