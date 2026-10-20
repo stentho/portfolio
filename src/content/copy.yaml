@@ -45,7 +45,7 @@ en:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Co-developed with Claude Sonnet 5.5. I led the layout, requirements, content, and accessibility criteria (WCAG 2.2); Claude generated code and illustrations, which I reviewed and iterated on."
+  footer_note: "*Co-developed with Claude Sonnet 5.5. I led the layout, requirements, content, and accessibility criteria (WCAG 2.2); Claude generated code and illustrations, which I reviewed and iterated on. Built with Eleventy, YAML content files and plain HTML/CSS, hosted on GitHub Pages."
   projects:
     - title: "Medical device: from early concept to CE-marked product"
       # "At a glance": three short lines shown under the title
@@ -121,7 +121,7 @@ fi:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Sivu on rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin."
+  footer_note: "*Sivusto on rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin. Sivusto on tehty Eleventyllä, YAML-sisältötiedostoilla sekä pelkällä HTML:llä ja CSS:llä, ja sijaitsee GitHub Pagesissa."
   projects:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
@@ -193,7 +193,7 @@ sv:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Byggd tillsammans med Claude Sonnet 5.5. Jag ansvarade för layout, krav, innehåll och tillgänglighetskriterier (WCAG 2.2); Claude genererade kod och illustrationer, som jag granskade och itererade."
+  footer_note: "*Byggd tillsammans med Claude Sonnet 5.5. Jag ansvarade för layout, krav, innehåll och tillgänglighetskriterier (WCAG 2.2); Claude genererade kod och illustrationer, som jag granskade och itererade. Byggd med Eleventy, YAML-innehållsfiler och ren HTML/CSS. Hostad på GitHub Pages."
   projects:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
