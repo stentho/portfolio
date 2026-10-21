@@ -268,7 +268,11 @@ h4 {
 /* ---------- Narrow screens (down to 320px) ---------- */
 @media (max-width: 30rem) {
   .wrap {
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
+  }
+
+  .project {
+  margin-inline: -0.5rem;     /* pulls the cards back to where they were */
   }
 
   /* Keep the three language buttons on one row, sharing the width */
@@ -421,6 +425,9 @@ h4 {
 
   .glance dt {
     flex: none;
+    text-align: left;
+    margin-bottom: 0.25rem;
+    font-weight: 650;
   }
 }
 
