@@ -68,7 +68,7 @@ en:
           paragraphs:
             - "My colleagues led the interface design, but I was closely involved in the design process and in evaluating design solutions. As the design evolved, I identified potential usability issues and raised, in particular, those related to safe use."
             - "In medtech, unusual use situations and edge cases matter a lot, because even small usability problems can have serious consequences for patient safety. So, with a colleague, I designed test scenarios based on identified hazards and the related use situations, and worked with physicians to ensure they were realistic."
-            - "I ran all the formative testing: iterative user tests to evaluate the designs and identify possible use errors in the development stage. These tests confirmed previously hypothesized risks and identified new hazards. Based on the findings we made, design changes to improve usability and use safety."
+            - "I ran all the formative testing: iterative user tests to evaluate the designs and identify possible use errors in the development stage. These tests confirmed previously found risks and identified new hazards. Based on the findings we made, design changes to improve usability and use safety."
             - "The work was guided by medical device risk management and usability standards ISO 14971, IEC 62366-1 and IEC/TR 62366-2."
         - heading: "3. Summative evaluation"
           paragraphs:
@@ -76,7 +76,7 @@ en:
             - "I was closely involved in the planning of the tests and moderated each session personally. A total of 30 target users across the relevant user groups took part in 2.5-hour sessions (briefing, interview, hands-on testing and evaluation). Participants came from many different countries."
       # Shown under the heading set in outcome_label above
       outcome:
-        - "The summative evaluation passed its acceptance criteria, and the device is now CE marked."
+        - "The summative evaluation passed its acceptance criteria, supporting the CE-marking of the device. The product is now CE marked."
       # Optional project quote: delete the whole "quote" block if there is none.
       # One or two images, shown top right with the text wrapping around them.
       # alt: leave empty ("") if the image is just decoration; otherwise describe it.
@@ -212,23 +212,30 @@ sv:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
         role: "Ansvarig för UX-forskning och utvärdering (konsult)"
-        scope: "Användarforskning, formativ och summativ användbarhetstestning, co-design av användargränssnittet"
-        outcome: "Användbarhetsutvärderingen godkänd; produkten CE-märkt"
+        scope: "Jag ansvarade för användarforskningen samt den formativa och summativa användbarhetsutvärderingen av produkten som en del av CE-märkningsprocessen. Utifrån resultaten bidrog jag till att göra användargränssnittet mer användarcentrerat, lättare att använda och säkrare."
+        outcome: "En användarvänligare och säkrare produkt som bygger på forskning. Användbarheten är validerad och dokumenterad, och produkten är nu CE-märkt."
       sections:
         - heading: ""
           paragraphs:
-            - "Inom medicinteknik är patientsäkerhet allt. Kunden hade ett preliminärt produktkoncept, som byggde på inledande användarforskning och konceptbilder från tidigare arbete. Jag gick med i ett litet team designers och utvecklare och arbetade tillsammans med produktägaren för att ta konceptet från utgångsläget till ett färdigt CE-märkt system. Vi arbetade i tre faser:"
+            - "Inom medicinteknik är patientsäkerhet allt. Kunden hade ett koncept för en medicinteknisk produkt i ett tidigt skede, med inledande användarforskning och konceptbilder som underlag."
+            - "Jag gick med i ett litet team av designers och utvecklare som arbetade i nära samarbete med kundens produktägare. Vårt mål var att utveckla det tidiga konceptet till en färdig, användarcentrerad och säker medicinteknisk produkt som uppfyller kraven för CE-märkning."
+            - "Vi arbetade i tre faser:"
         - heading: "1. Förstå sammanhanget, komplettera med forskning"
           paragraphs:
-            - "Vi började med att gå igenom den befintliga forskningen och konceptbilderna. Jag är inte läkare, så jag passade på att intervjua flera erfarna läkare för att fördjupa min förståelse för det praktiska läkararbetet och förstå var patientsäkerheten är mest hotad. För att komplettera detta byggde vi ett internt LLM-baserat verktyg med hjälp av offentliga källor som bollplank, men validerade alltid allt viktigt med riktiga läkare."
+            - "Vi började med att gå igenom den befintliga användarforskningen och konceptbilderna. Jag fördjupade min förståelse för läkares arbete genom att intervjua flera erfarna läkare om deras vardag och om situationer där patientsäkerheten är mest utsatt."
+            - "Dessutom byggde vi ett internt LLM-verktyg baserat på offentliga källor som bollplank. Allt som var kritiskt för patientsäkerheten eller designlösningarna validerade vi alltid med medicinska experter."
         - heading: "2. Design och utvärdering"
           paragraphs:
-            - "Mina kollegor ansvarade huvudsakligen för användargränssnittet, men jag bidrog till viktiga designbeslut och lyfte fram användbarhetsproblem under processens lopp. I medicinska sammanhang är gränsfall situationer som kan skapa risker för patientsäkerheten, så tillsammans med en kollega utformade vi testscenarier som utgick från användningsrelaterade faror och konsulterade läkare för att göra scenarierna så realistiska som möjligt. Jag ledde all formativ användartestning (tidiga, iterativa tester som formar designen). Via testningen bekräftade vi tidigare antagna risker och identifierade nya möjliga faror, vilket ledde till ändringar i designen. Arbetet vägleddes också av standarderna ISO 14971, IEC 62366-1 och IEC/TR 62366-2."
+            - "Mina kollegor ansvarade för själva gränssnittsdesignen, men jag var nära involverad i designprocessen och i utvärderingen av designlösningarna. Under arbetets gång identifierade jag möjliga användbarhetsproblem och lyfte särskilt fram risker som gällde patientsäkerhet."
+            - "Inom medicinteknik är ovanliga användningssituationer och gränsfall särskilt viktiga, eftersom även små användbarhetsproblem kan ha allvarliga följder för patientsäkerheten. Tillsammans med en kollega utformade jag därför testscenarier som utgick från identifierade faror och relaterade användningssituationer. Vi arbetade med läkare för att säkerställa att scenarierna var realistiska."
+            - "Jag genomförde all formativ användbarhetstestning, vars mål var att iterativt utvärdera designlösningarna och identifiera möjliga användningsfel redan under utvecklingen. Med hjälp av testerna bekräftade vi tidigare identifierade risker och upptäckte nya möjliga användningsfel och faror. Utifrån iakttagelserna gjorde vi gränssnittet smidigare och säkrare."
+            - "Arbetet vägleddes av standarderna för riskhantering och användbarhet inom medicinteknik: ISO 14971, IEC 62366-1 och IEC/TR 62366-2."
         - heading: "3. Summativ utvärdering" 
           paragraphs:
-            - "Jag ledde den summativa användbarhetsutvärderingen (som krävs för CE-märkning), alltså slutprovet där man testar att målgruppen kan använda produkten säkert. Jag modererade varje session personligen. 30 användare från de relevanta målgrupperna deltog i sessioner på 2,5 timmar (introduktion, intervju, praktisk testning och utvärdering). Vi hade deltagare från flera olika länder."
+            - "Jag ledde den summativa användbarhetsutvärderingen som ingår i CE-märkningsprocessen och vars mål var att visa att de avsedda användarna kan använda produkten säkert i de avsedda användningssituationerna."
+            - "Jag ansvarade för planeringen och genomförandet av testningen och modererade alla sessioner personligen. Totalt 30 användare från de relevanta användargrupperna deltog i sessioner på 2,5 timmar (introduktion, intervju, praktisk testning och utvärdering). Deltagarna kom från flera olika länder."
       outcome:
-        - "Acceptanskriterierna uppfylldes och produkten är nu CE-märkt."
+        - "Den summativa användbarhetsutvärderingens acceptanskriterier uppfylldes, och utvärderingen stödde produktens CE-märkning. Produkten är nu CE-märkt."
       # One or two images, shown top right with the text wrapping around them.
       # alt: leave empty ("") if the image is just decoration; otherwise describe it.
       images:

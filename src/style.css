@@ -53,8 +53,9 @@ a:hover {
 
 /* Distinct keyboard focus indicator for everything focusable */
 :focus-visible {
-  outline: 3px solid var(--focus);
-  outline-offset: 3px;
+  box-shadow: 0 0 0 0.2rem #ffffff;
+  outline: 0.2rem solid var(--focus);
+  outline-offset: 0.2rem;
 }
 
 .wrap {
@@ -241,6 +242,7 @@ h4 {
   padding-block: 3rem 6rem;
   color: var(--text);
   font-size: 1rem;
+  line-height: 1.5;
   background: var(--bg-alt);
 }
 
@@ -249,7 +251,7 @@ h4 {
 }
 
 .site-footer p + p {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 /* ---------- Wider screens ---------- */
