@@ -31,12 +31,10 @@
 
   {% for p in t.projects %}
   <article class="project">
-    <div class="project-images">
-      {% for img in p.images %}
-      <img src="/images/{{ img.file }}" alt="{{ img.alt }}" width="480" height="320">
-      {% endfor %}
-    </div>
     <div class="project-text">
+      {% if p.cover %}
+      <img class="cover" src="/images/{{ p.cover.file }}" alt="{{ p.cover.alt }}" width="480" height="320">
+      {% endif %}
       <h3>{{ p.title }}</h3>
       <dl class="glance">
         <div>
@@ -52,16 +50,20 @@
           <dd>{{ p.glance.outcome }}</dd>
         </div>
       </dl>
-      {% for s in p.sections %}
-      <h4>{{ s.heading }}</h4>
-      {% for para in s.paragraphs %}
-      <p>{{ para }}</p>
-      {% endfor %}
-      {% endfor %}
-      <h4>{{ t.outcome_label }}</h4>
-      {% for para in p.outcome %}
-      <p>{{ para }}</p>
-      {% endfor %}
+      <details class="more">
+        <summary>{{ t.read_more }}</summary>
+        {% for s in p.sections %}
+        <div class="case-section">
+          {% if s.image %}
+          <img class="case-image" src="/images/{{ s.image.file }}" alt="{{ s.image.alt }}" width="480" height="320">
+          {% endif %}
+          <h4>{{ s.heading }}</h4>
+          {% for para in s.paragraphs %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </details>
     </div>
     {% if p.quote %}
     {{ render_quote(p.quote, t, lang) }}

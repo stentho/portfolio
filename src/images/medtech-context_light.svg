@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <rect width="480" height="320" fill="#F8F2E9"/>
+  <!-- existing research and mockups -->
+  <rect x="50" y="62" width="140" height="190" rx="12" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4"/>
+  <rect x="92" y="48" width="56" height="26" rx="8" fill="#6A3F2C"/>
+  <rect x="72" y="100" width="96" height="10" rx="5" fill="#CDB8A0"/>
+  <rect x="72" y="124" width="70" height="10" rx="5" fill="#CDB8A0"/>
+  <rect x="72" y="148" width="96" height="10" rx="5" fill="#CDB8A0"/>
+  <rect x="72" y="172" width="56" height="10" rx="5" fill="#CDB8A0"/>
+  <rect x="72" y="198" width="96" height="40" rx="8" fill="#F8F2E9" stroke="#6A3F2C" stroke-width="3"/>
+  <!-- interview: question -->
+  <path d="M226 50 H404 a16 16 0 0 1 16 16 V114 a16 16 0 0 1 -16 16 H262 L238 156 V130 H226 a16 16 0 0 1 -16 -16 V66 a16 16 0 0 1 16 -16 Z" fill="#6A3F2C"/>
+  <rect x="234" y="70" width="150" height="10" rx="5" fill="#FFFCF7"/>
+  <rect x="234" y="94" width="96" height="10" rx="5" fill="#FFFCF7"/>
+  <!-- interview: the doctor's answer -->
+  <path d="M266 176 H424 a16 16 0 0 1 16 16 V240 a16 16 0 0 1 -16 16 H416 V286 L380 256 H266 a16 16 0 0 1 -16 -16 V192 a16 16 0 0 1 16 -16 Z" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4"/>
+  <rect x="337" y="196" width="16" height="40" rx="3" fill="#6A3F2C"/>
+  <rect x="325" y="208" width="40" height="16" rx="3" fill="#6A3F2C"/>
+</svg>

@@ -36,6 +36,7 @@ en:
     role: "My role"
     scope: "Scope"
     outcome: "Outcome"
+  read_more: "Read the case study"
   outcome_label: "Outcome"
   contact_heading: "Contact me"
   contact_text: "I'd love to hear from you."
@@ -54,6 +55,9 @@ en:
         scope: "I was responsible for the user research and formative and summative usability evaluation of the device as part of the CE marking process. Based on the findings, I helped make the UI more user-friendly and safer to use."
         outcome: "A user-friendlier, safer device backed by research; documented usability validation for CE marking; device CE marked."
       # Any number of sections, each with a heading and one or more paragraphs
+      cover:
+        file: "medtech-cover.svg"
+        alt: ""
       sections:
         - heading: ""
           paragraphs:
@@ -61,32 +65,34 @@ en:
             - "I joined a small team of designers and developers working closely with the client’s product owner. Our goal was to turn the early concept into a finished, user-centered and safe-to-use medical product that meets CE marking requirements."
             - "We worked in three phases:"
         - heading: "1. Understand the context, fill the research gaps"
+          image:
+            file: "medtech-context_light.svg"
+            alt: ""
           paragraphs:
             - "We started by reviewing the existing user research and mockups. To deepen my understanding of physicians’ work, I interviewed several experienced doctors about their daily practice and the situations where patient safety is most at risk."
             - "To supplement this, we built an internal LLM-based tool from public sources as a sounding board. Any findings critical to patient safety or design decisions were always validated with medical experts."
         - heading: "2. Design and evaluate"
+          image:
+            file: "medtech-design-testing_light.svg"
+            alt: ""
           paragraphs:
             - "My colleagues led the interface design, but I was closely involved in the design process and in evaluating design solutions. As the design evolved, I identified potential usability issues and raised, in particular, those related to safe use."
             - "In medtech, unusual use situations and edge cases matter a lot, because even small usability problems can have serious consequences for patient safety. So, with a colleague, I designed test scenarios based on identified hazards and the related use situations, and worked with physicians to ensure they were realistic."
             - "I ran all the formative testing: iterative user tests to evaluate the designs and identify possible use errors in the development stage. These tests confirmed previously found risks and identified new hazards. Based on the findings we made, design changes to improve usability and use safety."
             - "The work was guided by medical device risk management and usability standards ISO 14971, IEC 62366-1 and IEC/TR 62366-2."
         - heading: "3. Summative evaluation"
+          image:
+            file: "medtech-evaluation_light.svg"
+            alt: ""
           paragraphs:
             - "I led the summative usability evaluation required for CE marking: the final test showing that the device can be used safely by its intended users."
             - "I was closely involved in the planning of the tests and moderated each session personally. A total of 30 target users across the relevant user groups took part in 2.5-hour sessions (briefing, interview, hands-on testing and evaluation). Participants came from many different countries."
-      # Shown under the heading set in outcome_label above
-      outcome:
-        - "The summative evaluation passed its acceptance criteria, supporting the CE-marking of the device. The product is now CE marked."
+        - heading: "Outcome"
+          paragraphs:
+          - "The summative evaluation passed its acceptance criteria, supporting the CE-marking of the device. The product is now CE marked."
       # Optional project quote: delete the whole "quote" block if there is none.
       # One or two images, shown top right with the text wrapping around them.
       # alt: leave empty ("") if the image is just decoration; otherwise describe it.
-      images:
-        - file: "medtech-context.svg"
-          alt: ""
-        - file: "medtech-design-testing.svg"
-          alt: ""
-        - file: "medtech-evaluation.svg"
-          alt: ""
 
 fi:
   lang_name: "Suomi"
@@ -119,6 +125,7 @@ fi:
     role: "Roolini"
     scope: "Työn sisältö"
     outcome: "Lopputulos"
+  read_more: "Lue projektin kuvaus"
   outcome_label: "Lopputulos"
   contact_heading: "Ota yhteyttä"
   contact_text: "Vastaan mielelläni kysymyksiin."
@@ -135,6 +142,9 @@ fi:
         role: "UX-tutkimuksista ja arvioinneista vastaava (konsultti)"
         scope: "Vastasin käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tulosten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
         outcome: "Tutkimukseen perustuva, käyttäjälähtöisempi ja käyttöturvallisempi tuote. Dokumentoitu näyttö käytettävyyden validoinnista CE-merkintäprosessissa. Tuote on saanut CE-merkinnän."
+      cover:
+        file: "medtech-cover.svg"
+        alt: ""
       sections:
         - heading: ""
           paragraphs:
@@ -142,30 +152,33 @@ fi:
             - "Liityin pieneen, suunnittelijoista ja ohjelmistokehittäjistä koostuvaan tiimiin, joka työskenteli tiiviissä yhteistyössä asiakkaan tuoteomistajan kanssa. Tavoitteenamme oli kehittää varhaisesta konseptista valmis, käyttäjälähtöinen ja käyttöturvallinen lääkinnällinen tuote, joka täyttää CE-merkinnän vaatimukset."
             - "Työ eteni kolmessa vaiheessa:"
         - heading: "1. Kontekstin ymmärtäminen ja tutkimustiedon täydentäminen"
+          image:
+            file: "medtech-context_light.svg"
+            alt: ""
           paragraphs:
             - "Aloitimme perehtymällä aiempaan käyttäjätutkimukseen ja käyttöliittymäkonseptin luonnoksiin. Syvensin ymmärrystäni lääkäreiden työstä haastattelemalla useita kokeneita lääkäreitä. Tavoitteena oli lisätä ymmärrystä lääkäreiden arjen työskentelystä, sekä tilanteista, joihin liittyy merkittäviä potilasturvallisuusriskejä."
             - "Lisäksi rakensimme julkisiin tietolähteisiin perustuvan sisäisen LLM-työkalun sparrailukumppaniksi. Kaikki potilasturvallisuuteen ja suunnitteluratkaisujen kannalta kriittiset havainnot varmistimme aina lääketieteen asiantuntijoilta."
         - heading: "2. Suunnittelu ja arviointi"
+          image:
+            file: "medtech-design-testing_light.svg"
+            alt: ""
           paragraphs:
             - "Kollegani vastasivat varsinaisesta käyttöliittymäsuunnittelusta, mutta osallistuin tiiviisti suunnitteluprosessiin ja suunnitteluratkaisujen arviointiin. Tunnistin suunnittelun edetessä mahdollisia käytettävyysongelmia ja nostin esiin erityisesti käyttöturvallisuuteen liittyviä riskejä."
             - "Lääkinnällisten laitteiden kehityksessä poikkeukselliset käyttötilanteet ja reunatapaukset ovat erityisen tärkeitä, sillä niissä pienilläkin käytettävyysongelmilla voi olla vakavia seurauksia potilasturvallisuudelle. Suunnittelimme siksi yhdessä kollegani kanssa testiskenaarioita, jotka perustuivat tunnistettuihin vaaroihin ja niihin liittyviin käyttötilanteisiin. Varmistimme skenaarioiden realistisuuden yhteistyössä lääkäreiden kanssa."
             - "Vastasin kaikista formatiivisista käytettävyystesteistä, joiden tavoitteena oli arvioida suunnitteluratkaisuja iteratiivisesti ja tunnistaa mahdolliset käyttövirheet jo kehityksen aikana. Testien avulla pystyimme arvioimaan aiemmin tunnistettuja käyttöturvallisuusriskejä sekä tunnistamaan uusia käyttövirheitä ja mahdollisia vaaratilanteita. Havaintojen perusteella kehitimme käyttöliittymää sujuvammaksi ja turvallisemmaksi."
             - "Työtä ohjasivat lääkinnällisten laitteiden riskienhallinnan ja käytettävyyssuunnittelun standardit ISO 14971, IEC 62366-1 ja IEC/TR 62366-2."
         - heading: "3. Summatiivinen arviointi"
+          image:
+            file: "medtech-evaluation_light.svg"
+            alt: ""
           paragraphs:
             - "Johdin CE-merkintäprosessiin kuuluvaa summatiivista käytettävyysarviointia, jonka tavoitteena oli osoittaa, että kohderyhmien käyttäjät pystyvät käyttämään lääkinnällistä laitetta turvallisesti tarkoitetuissa käyttötilanteissa."
             - "Vastasin testauksen suunnittelusta ja toteutuksesta sekä moderoin henkilökohtaisesti kaikki testi-istunnot. Arviointiin osallistui yhteensä 30 käyttäjää eri kohderyhmistä. Kukin noin 2,5 tunnin istunto sisälsi tuotteen esittelyn, haastattelun, käytännön käyttötehtäviä ja loppuarvioinnin. Osallistujia oli useista eri maista."
-      outcome:
-        - "Summatiivinen käytettävyysarviointi täytti hyväksymiskriteerit ja tuki laitteen CE-merkinnän saavuttamista. Laite on nyt CE-merkitty."
+        - heading: "Lopputulos"
+          paragraphs:
+          - "Summatiivinen käytettävyysarviointi täytti hyväksymiskriteerit ja tuki laitteen CE-merkinnän saavuttamista. Laite on nyt CE-merkitty."
       # One or two images, shown top right with the text wrapping around them.
       # alt: leave empty ("") if the image is just decoration; otherwise describe it.
-      images:
-        - file: "medtech-context.svg"
-          alt: ""
-        - file: "medtech-design-testing.svg"
-          alt: ""
-        - file: "medtech-evaluation.svg"
-          alt: ""
 
 sv:
   lang_name: "Svenska"
@@ -198,6 +211,7 @@ sv:
     role: "Min roll"
     scope: "Omfattning"
     outcome: "Resultat"
+  read_more: "Läs fallstudien"
   outcome_label: "Resultat"
   contact_heading: "Kontakta mig"
   contact_text: "Hör gärna av dig."
@@ -214,6 +228,9 @@ sv:
         role: "Ansvarig för UX-forskning och utvärdering (konsult)"
         scope: "Jag ansvarade för användarforskningen samt den formativa och summativa användbarhetsutvärderingen av produkten som en del av CE-märkningsprocessen. Utifrån resultaten bidrog jag till att göra användargränssnittet mer användarcentrerat, lättare att använda och säkrare."
         outcome: "En användarvänligare och säkrare produkt som bygger på forskning. Användbarheten är validerad och dokumenterad, och produkten är nu CE-märkt."
+      cover:
+        file: "medtech-cover.svg"
+        alt: ""
       sections:
         - heading: ""
           paragraphs:
@@ -221,27 +238,30 @@ sv:
             - "Jag gick med i ett litet team av designers och utvecklare som arbetade i nära samarbete med kundens produktägare. Vårt mål var att utveckla det tidiga konceptet till en färdig, användarcentrerad och säker medicinteknisk produkt som uppfyller kraven för CE-märkning."
             - "Vi arbetade i tre faser:"
         - heading: "1. Förstå sammanhanget, komplettera med forskning"
+          image:
+            file: "medtech-context_light.svg"
+            alt: ""
           paragraphs:
             - "Vi började med att gå igenom den befintliga användarforskningen och konceptbilderna. Jag fördjupade min förståelse för läkares arbete genom att intervjua flera erfarna läkare om deras vardag och om situationer där patientsäkerheten är mest utsatt."
             - "Dessutom byggde vi ett internt LLM-verktyg baserat på offentliga källor som bollplank. Allt som var kritiskt för patientsäkerheten eller designlösningarna validerade vi alltid med medicinska experter."
         - heading: "2. Design och utvärdering"
+          image:
+            file: "medtech-design-testing_light.svg"
+            alt: ""
           paragraphs:
             - "Mina kollegor ansvarade för själva gränssnittsdesignen, men jag var nära involverad i designprocessen och i utvärderingen av designlösningarna. Under arbetets gång identifierade jag möjliga användbarhetsproblem och lyfte särskilt fram risker som gällde patientsäkerhet."
             - "Inom medicinteknik är ovanliga användningssituationer och gränsfall särskilt viktiga, eftersom även små användbarhetsproblem kan ha allvarliga följder för patientsäkerheten. Tillsammans med en kollega utformade jag därför testscenarier som utgick från identifierade faror och relaterade användningssituationer. Vi arbetade med läkare för att säkerställa att scenarierna var realistiska."
             - "Jag genomförde all formativ användbarhetstestning, vars mål var att iterativt utvärdera designlösningarna och identifiera möjliga användningsfel redan under utvecklingen. Med hjälp av testerna bekräftade vi tidigare identifierade risker och upptäckte nya möjliga användningsfel och faror. Utifrån iakttagelserna gjorde vi gränssnittet smidigare och säkrare."
             - "Arbetet vägleddes av standarderna för riskhantering och användbarhet inom medicinteknik: ISO 14971, IEC 62366-1 och IEC/TR 62366-2."
         - heading: "3. Summativ utvärdering" 
+          image:
+            file: "medtech-evaluation_light.svg"
+            alt: ""
           paragraphs:
             - "Jag ledde den summativa användbarhetsutvärderingen som ingår i CE-märkningsprocessen och vars mål var att visa att de avsedda användarna kan använda produkten säkert i de avsedda användningssituationerna."
             - "Jag ansvarade för planeringen och genomförandet av testningen och modererade alla sessioner personligen. Totalt 30 användare från de relevanta användargrupperna deltog i sessioner på 2,5 timmar (introduktion, intervju, praktisk testning och utvärdering). Deltagarna kom från flera olika länder."
-      outcome:
-        - "Den summativa användbarhetsutvärderingens acceptanskriterier uppfylldes, och utvärderingen stödde produktens CE-märkning. Produkten är nu CE-märkt."
+        - heading: "Resultat"
+          paragraphs:
+          - "Den summativa användbarhetsutvärderingens acceptanskriterier uppfylldes, och utvärderingen stödde produktens CE-märkning. Produkten är nu CE-märkt."
       # One or two images, shown top right with the text wrapping around them.
       # alt: leave empty ("") if the image is just decoration; otherwise describe it.
-      images:
-        - file: "medtech-context.svg"
-          alt: ""
-        - file: "medtech-design-testing.svg"
-          alt: ""
-        - file: "medtech-evaluation.svg"
-          alt: ""

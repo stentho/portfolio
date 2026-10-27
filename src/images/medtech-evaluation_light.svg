@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <rect width="480" height="320" fill="#F8F2E9"/>
+  <defs>
+    <g id="user"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  </defs>
+  <!-- thirty target users in three user groups -->
+  <use href="#user" x="60" y="58" fill="#6A3F2C"/>
+  <use href="#user" x="104" y="58" fill="#6A3F2C"/>
+  <use href="#user" x="148" y="58" fill="#6A3F2C"/>
+  <use href="#user" x="192" y="58" fill="#6A3F2C"/>
+  <use href="#user" x="236" y="58" fill="#6A3F2C"/>
+  <use href="#user" x="60" y="100" fill="#6A3F2C"/>
+  <use href="#user" x="104" y="100" fill="#6A3F2C"/>
+  <use href="#user" x="148" y="100" fill="#6A3F2C"/>
+  <use href="#user" x="192" y="100" fill="#6A3F2C"/>
+  <use href="#user" x="236" y="100" fill="#6A3F2C"/>
+  <use href="#user" x="60" y="142" fill="#A47B62"/>
+  <use href="#user" x="104" y="142" fill="#A47B62"/>
+  <use href="#user" x="148" y="142" fill="#A47B62"/>
+  <use href="#user" x="192" y="142" fill="#A47B62"/>
+  <use href="#user" x="236" y="142" fill="#A47B62"/>
+  <use href="#user" x="60" y="184" fill="#A47B62"/>
+  <use href="#user" x="104" y="184" fill="#A47B62"/>
+  <use href="#user" x="148" y="184" fill="#A47B62"/>
+  <use href="#user" x="192" y="184" fill="#A47B62"/>
+  <use href="#user" x="236" y="184" fill="#A47B62"/>
+  <use href="#user" x="60" y="226" fill="#9AA0A6"/>
+  <use href="#user" x="104" y="226" fill="#9AA0A6"/>
+  <use href="#user" x="148" y="226" fill="#9AA0A6"/>
+  <use href="#user" x="192" y="226" fill="#9AA0A6"/>
+  <use href="#user" x="236" y="226" fill="#9AA0A6"/>
+  <use href="#user" x="60" y="268" fill="#9AA0A6"/>
+  <use href="#user" x="104" y="268" fill="#9AA0A6"/>
+  <use href="#user" x="148" y="268" fill="#9AA0A6"/>
+  <use href="#user" x="192" y="268" fill="#9AA0A6"/>
+  <use href="#user" x="236" y="268" fill="#9AA0A6"/>
+  <!-- passed -->
+  <circle cx="372" cy="160" r="80" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="6"/>
+  <circle cx="372" cy="160" r="64" fill="none" stroke="#CDB8A0" stroke-width="4" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <polyline points="338,162 362,188 410,128" fill="none" stroke="#6A3F2C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
