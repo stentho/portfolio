@@ -79,9 +79,7 @@ en:
       # "At a glance": three short lines shown under the title
       glance:
         - label: "My role"
-          value: "UX research and evaluation lead (consultant)"
-        - label: "Scope"
-          value: "I was responsible for the user research and formative and summative usability evaluation of the device as part of the CE marking process. Based on the findings, I helped make the UI more user-friendly and safer to use."
+          value: "I was a senior UX consultant part of a larger team. Among other responsibilities, I led the user research and formative and summative usability evaluation of the device as part of the CE marking process. Based on the findings, I helped make the UI more user-friendly and safer to use."
         - label: "Outcome"
           value: "A user-friendlier, safer device backed by research; documented usability validation for CE marking; device CE marked."
       # Any number of sections, each with a heading and one or more paragraphs
@@ -106,7 +104,7 @@ en:
             file: "medtech-design-testing_light.svg"
             alt: ""
           paragraphs:
-            - "My colleagues led the interface design, but I was closely involved in the design process and in evaluating design solutions. As the design evolved, I identified potential usability issues and raised, in particular, those related to safe use."
+            - "I was closely involved in the user interface design process and in evaluating design solutions. As the design evolved, I identified potential usability issues and raised, in particular, those related to safe use."
             - "In medtech, unusual use situations and edge cases matter a lot, because even small usability problems can have serious consequences for patient safety. So, with a colleague, I designed test scenarios based on identified hazards and the related use situations, and worked with physicians to ensure they were realistic."
             - "I ran all the formative testing: iterative user tests to evaluate the designs and identify possible use errors in the development stage. These tests confirmed previously found risks and identified new hazards. Based on the findings we made, design changes to improve usability and use safety."
             - "The work was guided by medical device risk management and usability standards ISO 14971, IEC 62366-1 and IEC/TR 62366-2."
@@ -195,9 +193,7 @@ fi:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
         - label: "Roolini"
-          value: "UX-tutkimuksista ja arvioinneista vastaava (konsultti)"
-        - label: "Työn sisältö"
-          value: "Vastasin käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tulosten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
+          value: "Toimin johtavana UX-konsulttina osana laajempaa tiimiä. Vastasin mm. käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tulosten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
         - label: "Lopputulos"
           value: "Tutkimukseen perustuva, käyttäjälähtöisempi ja käyttöturvallisempi tuote. Dokumentoitu näyttö käytettävyyden validoinnista CE-merkintäprosessissa. Tuote on saanut CE-merkinnän."
       cover:
@@ -221,7 +217,7 @@ fi:
             file: "medtech-design-testing_light.svg"
             alt: ""
           paragraphs:
-            - "Kollegani vastasivat varsinaisesta käyttöliittymäsuunnittelusta, mutta osallistuin tiiviisti suunnitteluprosessiin ja suunnitteluratkaisujen arviointiin. Tunnistin suunnittelun edetessä mahdollisia käytettävyysongelmia ja nostin esiin erityisesti käyttöturvallisuuteen liittyviä riskejä."
+            - "Osallistuin tiiviisti käyttöliittymän suunnitteluprosessiin ja suunnitteluratkaisujen arviointiin. Tunnistin suunnittelun edetessä mahdollisia käytettävyysongelmia ja nostin esiin erityisesti käyttöturvallisuuteen liittyviä riskejä."
             - "Lääkinnällisten laitteiden kehityksessä poikkeukselliset käyttötilanteet ja reunatapaukset ovat erityisen tärkeitä, sillä niissä pienilläkin käytettävyysongelmilla voi olla vakavia seurauksia potilasturvallisuudelle. Suunnittelimme siksi yhdessä kollegani kanssa testiskenaarioita, jotka perustuivat tunnistettuihin vaaroihin ja niihin liittyviin käyttötilanteisiin. Varmistimme skenaarioiden realistisuuden yhteistyössä lääkäreiden kanssa."
             - "Vastasin kaikista formatiivisista käytettävyystesteistä, joiden tavoitteena oli arvioida suunnitteluratkaisuja iteratiivisesti ja tunnistaa mahdolliset käyttövirheet jo kehityksen aikana. Testien avulla pystyimme arvioimaan aiemmin tunnistettuja käyttöturvallisuusriskejä sekä tunnistamaan uusia käyttövirheitä ja mahdollisia vaaratilanteita. Havaintojen perusteella kehitimme käyttöliittymää sujuvammaksi ja turvallisemmaksi."
             - "Työtä ohjasivat lääkinnällisten laitteiden riskienhallinnan ja käytettävyyssuunnittelun standardit ISO 14971, IEC 62366-1 ja IEC/TR 62366-2."
@@ -310,9 +306,7 @@ sv:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
         - label: "Min roll"
-          value: "Ansvarig för UX-forskning och utvärdering (konsult)"
-        - label: "Omfattning"
-          value: "Jag ansvarade för användarforskningen samt den formativa och summativa användbarhetsutvärderingen av produkten som en del av CE-märkningsprocessen. Utifrån resultaten bidrog jag till att göra användargränssnittet mer användarcentrerat, lättare att använda och säkrare."
+          value: "Jag fungerade som senior UX-konsult i ett större team. Bl.a. ansvarade jag för användarforskningen samt den formativa och summativa användbarhetsutvärderingen av produkten som en del av CE-märkningsprocessen. Utifrån resultaten bidrog jag till att göra användargränssnittet mer användarcentrerat, lättare att använda och säkrare."
         - label: "Resultat"
           value: "En användarvänligare och säkrare produkt som bygger på forskning. Användbarheten är validerad och dokumenterad, och produkten är nu CE-märkt."
       cover:
@@ -336,7 +330,7 @@ sv:
             file: "medtech-design-testing_light.svg"
             alt: ""
           paragraphs:
-            - "Mina kollegor ansvarade för själva gränssnittsdesignen, men jag var nära involverad i designprocessen och i utvärderingen av designlösningarna. Under arbetets gång identifierade jag möjliga användbarhetsproblem och lyfte särskilt fram risker som gällde patientsäkerhet."
+            - "Jag var nära involverad i designprocessen och i utvärderingen av designlösningarna. Under arbetets gång identifierade jag möjliga användbarhetsproblem och lyfte särskilt fram risker som gällde patientsäkerhet."
             - "Inom medicinteknik är ovanliga användningssituationer och gränsfall särskilt viktiga, eftersom även små användbarhetsproblem kan ha allvarliga följder för patientsäkerheten. Tillsammans med en kollega utformade jag därför testscenarier som utgick från identifierade faror och relaterade användningssituationer. Vi arbetade med läkare för att säkerställa att scenarierna var realistiska."
             - "Jag genomförde all formativ användbarhetstestning, vars mål var att iterativt utvärdera designlösningarna och identifiera möjliga användningsfel redan under utvecklingen. Med hjälp av testerna bekräftade vi tidigare identifierade risker och upptäckte nya möjliga användningsfel och faror. Utifrån iakttagelserna gjorde vi gränssnittet smidigare och säkrare."
             - "Arbetet vägleddes av standarderna för riskhantering och användbarhet inom medicinteknik: ISO 14971, IEC 62366-1 och IEC/TR 62366-2."
