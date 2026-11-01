@@ -40,7 +40,7 @@ en:
           - "<strong>How I think:</strong> I base my design decisions on research. That doesn't mean going slow, it means <em>understanding</em> what you're doing: "
           - "<blockquote>Who are the stakeholders? What are the value streams? What value are we creating, and for whom? What are the consequences, positive and negative, of releasing this product? How do we define — and then measure — success or failure?</blockquote>"
           - "To answer these questions, you have to get out there and talk to, observe, and listen to people."
-          - "<strong>Outcomes, not outputs:</strong> In a world where AI tools make it cheaper and faster than ever to build software, it's vital that we not just create stuff, but <em>value</em>. AI offers new possibilities for designers to go hands-on, but one core idea remains the same: tools are secondary. I'll use whatever works: pen & paper, Figma, Claude Code. No matter the tools, the true force multipliers are still <em>understanding</em> and <em>clarity</em>."
+          - "<strong>Outcomes, not outputs:</strong> In a world where AI tools make it cheaper and faster than ever to build software, it's vital that we not just create stuff, but <em>value</em>. AI offers new possibilities for designers to go hands-on, but one core idea remains the same: tools are secondary. I'll use whatever works: Claude Code, Figma, pen & paper. No matter the tools, the true force multipliers are still <em>understanding</em> and <em>clarity</em>."
       - heading: "\"How do you use AI?\""
         paragraphs:
           - "Lots of ways! Here's three:"
