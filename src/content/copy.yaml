@@ -13,7 +13,7 @@ en:
   name: "Thomas Stenius"
   role: "Senior UX & Service Designer"
   intro: 
-    - "9 years, 100+ client projects. Helping organizations turn business goals and user needs into clear design decisions."
+    - "<strong>9 years, 100+ client projects.</strong> Helping organizations turn business goals and user needs into clear design decisions."
     - "People-centered, method-flexible, and hands-on with accessibility and LLM tools*."
   portrait_alt: "Portrait of Thomas Stenius"
   testimonials_heading: "What clients say"
@@ -23,19 +23,42 @@ en:
     en: "Translated from English"
   # Quotes about you overall. original_lang = the language the person said it in.
   testimonials:
-    - text: "Thomas was well-informed and presented his ideas clearly."
+    - text: "We’ve had a longer co-operation and have always been satisfied with your professionalism and attitude towards work and your clients."
       name: "Client"
-      title: "healthcare IT industry"
-      original_lang: "fi"
+      title: "insurance company"
+      original_lang: "en"
     - text: "Your exceptional work has truly exceeded our expectations. The insights you delivered have been instrumental in shaping our design and business strategies, providing us with a clearer understanding of our customers and their needs."
       name: "Client"
       title: "telecommunications company"
       original_lang: "en"
+  about:
+    heading: "About me"
+    sections:
+      - heading: "\"What kind of designer are you?\""
+        paragraphs:
+          - "<strong>What I do:</strong> End-to-end: research, concept, design, evaluation, stakeholder alignment, accessibility review. For visual polish, I like to partner with visual designers."
+          - "<strong>How I think:</strong> I base my design decisions on research. That doesn't mean going slow, it means <em>understanding</em> what you're doing: "
+          - "<blockquote>Who are the stakeholders? What are the value streams? What value are we creating, and for whom? What are the consequences, positive and negative, of releasing this product? How do we define — and then measure — success or failure?</blockquote>"
+          - "To answer these questions, you have to get out there and talk to, observe, and listen to people."
+          - "<strong>Outcomes, not outputs:</strong> In a world where AI tools make it cheaper and faster than ever to build software, it's vital that we not just create stuff, but <em>value</em>. AI offers new possibilities for designers to go hands-on, but one core idea remains the same: tools are secondary. I'll use whatever works: Claude Code, Figma, pen & paper. No matter the tools, the true force multipliers are still <em>understanding</em> and <em>clarity</em>."
+      - heading: "\"How do you use AI?\""
+        paragraphs:
+          - "Lots of ways! Here's three:"
+          - "<strong>Sharpening steel:</strong> Helps refine my ideas. I like to think of it like an evolution of the \"rubber duck\" concept, where you organize your thoughts by explaining them step-by-step to an inanimate duck. AI chatbots, of course, can respond, poking holes in your arguments and highlighting potential things you've missed. Steel sharpens steel."
+          - "<strong>Deep search:</strong> Language models are great at diving through huge piles of data to find the stuff that traditional search has trouble with. A timestamp for a quote from 12 hours of interview recordings? No problem. A specific file from an old project? Even a vague prompt is enough."
+          - "<strong>Functional prototypes and websites:</strong> LLMs are great at both generating code and explaining how it works. For instance, this website was built with the help of Claude. I hand-sketched the layout and defined the requirements, content, and accessibility criteria (WCAG 2.2); Claude generated the base code and decorative elements, which I reviewed, edited, and expanded upon. From then on, I would iterate either by editing the code directly or asking Claude to step in. The whole time I stayed on top of what was happening both in the code and the design."
+      - heading: "\"Okay, when do you <em>not</em> use AI?\""
+        paragraphs:
+          - "<strong>Thought-heavy tasks:</strong> Complex problem-solving, vision work, concepting, wireframing, deciding what's important. I believe the first draft of anything should always be your own, no matter how rough, as that's where essential framing happens. Language models can be very helpful critics and sparring partners, but I'm the one conducting the orchestra. It's certainly <em>not</em> this:"
+          - "<blockquote>Claude, generate me a fully functional design system. Make no mistakes.</blockquote>"
+          - "Design is intentional, and generative AI models have no intention of their own. They’re powerful (and often useful) statistical pattern-matchers that respond to prompts, but that's all they are."
+          - "<strong>When generative AI is overkill:</strong> Compute is not cheap, financially or environmentally. If there is a less computationally intensive way of doing something, I consider that first. For simple tasks like sorting a spreadsheet, a deterministic script is the wiser choice. If I need generative AI but the task isn't super involved, I reach for a smaller model."
+          - "<strong>Real-world testing:</strong> Trying something in the real world is the fastest way to know what actually works. For instance, I tested this site with real assistive technologies (screen readers, keyboard-only, voice-activation), checking against established accessibility criteria (WCAG 2.2)."
+      - heading: "\"Going forward, what do you want to do?\""
+        paragraphs:
+          - "Make <em>technically sound</em>, <em>financially viable</em>, and <em>environmentally sustainable</em> products and services that <em>improve people's lives</em>."
+          - "<em>Tech</em>, <em>biz</em>, <em>planet</em>, and <em>people</em> — remove any aspect and the product won't work, especially long-term."
   work_heading: "Selected work"
-  glance_labels:
-    role: "My role"
-    scope: "Scope"
-    outcome: "Outcome"
   read_more: "Read the case study"
   outcome_label: "Outcome"
   contact_heading: "Contact me"
@@ -51,9 +74,12 @@ en:
     - title: "Medical device: from early concept to CE-marked product"
       # "At a glance": three short lines shown under the title
       glance:
-        role: "UX research and evaluation lead (consultant)"
-        scope: "I was responsible for the user research and formative and summative usability evaluation of the device as part of the CE marking process. Based on the findings, I helped make the UI more user-friendly and safer to use."
-        outcome: "A user-friendlier, safer device backed by research; documented usability validation for CE marking; device CE marked."
+        - label: "My role"
+          value: "UX research and evaluation lead (consultant)"
+        - label: "Scope"
+          value: "I was responsible for the user research and formative and summative usability evaluation of the device as part of the CE marking process. Based on the findings, I helped make the UI more user-friendly and safer to use."
+        - label: "Outcome"
+          value: "A user-friendlier, safer device backed by research; documented usability validation for CE marking; device CE marked."
       # Any number of sections, each with a heading and one or more paragraphs
       cover:
         file: "medtech-cover.svg"
@@ -90,20 +116,17 @@ en:
         - heading: "Outcome"
           paragraphs:
           - "The summative evaluation passed its acceptance criteria, supporting the CE-marking of the device. The product is now CE marked."
-      # Optional project quote: delete the whole "quote" block if there is none.
-      # One or two images, shown top right with the text wrapping around them.
-      # alt: leave empty ("") if the image is just decoration; otherwise describe it.
 
 fi:
   lang_name: "Suomi"
-  title: "Thomas Stenius – Johtava UX-asiantuntija ja palvelumuotoilija"
-  description: "Thomas Steniuksen portfolio. Johtava UX- ja palvelumuotoilija sekä käyttäjätutkija."
+  title: "Thomas Stenius – Johtava UX- ja palvelumuotoilija"
+  description: "Thomas Steniuksen portfolio. Johtava UX- ja palvelumuotoilija."
   skip_link: "Siirry pääsisältöön"
   nav_label: "Kielivalinta"
   name: "Thomas Stenius"
-  role: "Johtava UX-asiantuntija ja palvelumuotoilija"
+  role: "Johtava UX- ja palvelumuotoilija"
   intro: 
-    - "9 vuotta, 100+ asiakasprojektia. Autan organisaatioita yhdistämään liiketoiminnan tavoitteet ja käyttäjien tarpeet toimiviksi, käyttäjälähtöisiksi palveluiksi ja ratkaisuiksi."
+    - "<strong>9 vuotta, 100+ asiakasprojektia.</strong> Autan organisaatioita yhdistämään liiketoiminnan tavoitteet ja käyttäjien tarpeet toimiviksi, käyttäjälähtöisiksi palveluiksi ja ratkaisuiksi."
     - "Olen ihmiskeskeinen ja menetelmiltäni joustava - lähestymistapani käyttäjäkokemukseen, saavutettavuuteen sekä LLM-työkaluihin* on käytännönläheinen."
   portrait_alt: "Etunimi Sukunimen muotokuva"
   testimonials_heading: "Mitä asiakkaat sanovat"
@@ -112,19 +135,43 @@ fi:
     sv: "Käännetty ruotsista"
     en: "Käännetty englannista"
   testimonials:
-    - text: "Thomas oli asiantunteva ja esitti asiansa ymmärrettävästi."
+    - text: "Olemme tehneet pitkään yhteistyötä ja olleet aina tyytyväisiä ammattitaitoonne ja asenteeseenne työtä ja asiakkaita kohtaan."
       name: "Asiakas"
-      title: "terveysteknologian toimiala"
-      original_lang: "fi"
+      title: "vakuutusyhtiö"
+      original_lang: "en"
     - text: "Poikkeuksellinen työpanoksesi todellakin ylitti odotuksemme. Esittämäsi havainnot ovat keskeisesti vaikuttaneet suunnittelu- ja liiketoimintastrategioihimme lisäten ymmärrystämme asiakkaistamme ja heidän tarpeistaan."
       name: "Asiakas"
       title: "telekommunikaatioyritys"
       original_lang: "en"
+  about:
+    heading: "Kuka minä olen"
+    sections:
+      - heading: "\"Millainen suunnittelija olet?\""
+        paragraphs:
+          - "<strong>Mitä teen:</strong> Toteutan suunnitteluprosessia alusta loppuun: tutkimus, konseptointi, suunnittelu, arviointi, sidosryhmien valjastaminen, saavutettavuustarkastukset. Ulkoasun viimeistelyn teen mielelläni yhteistyössä visuaalisen suunnittelijan kanssa."
+          - "<strong>Miten ajattelen:</strong> Perustan suunnittelupäätökseni tutkimukseen. Se ei tarkoita, että edetään hitaasti, vaan että suunnittelu pohjautuu <em>ymmärrykseen siitä, mitä ollaan tekemässä</em>:"
+          - "<blockquote>Keitä sidosryhmät ovat? Mistä arvo muodostuu? Mitä arvoa luomme ja kenelle? Mitä seurauksia tuotteen julkaisemisella on, hyviä ja huonoja? Miten määrittelemme onnistumisen tai epäonnistumisen, ja miten niitä mitataan?</blockquote>"
+          - "Vain puhumalla ihmisten kanssa, havainnoimalla heidän käyttäytymistään ja kuuntelemalla heitä voidaan näihin kysymyksiin vastata."
+          - "<strong>Vaikutus, ei tuotos:</strong> Tekoälytyökalut ovat tehneet ohjelmistojen rakentamisesta halvempaa ja nopeampaa kuin koskaan ennen. Nyt on siis olennaista, ettei vain luoda tavaraa vaan <em>arvoa</em>. Tekoäly tuo suunnittelijoille uusia mahdollisuuksia laittaa kädet saveen, mutta yksi perusajatus pysyy samana: työkalut ovat vain työkaluja. Käytän sitä, mikä toimii: Claude Codea, Figmaa, kynää ja paperia. Aito tehokkuus syntyy silti <em>selkeydestä</em> ja <em>ymmärryksestä</em>."
+      - heading: "\"Miten käytät tekoälyä?\""
+        paragraphs:
+          - "Monella tapaa! Tässä kolme:"
+          - "<strong>Ajatusten terävöittäminen:</strong> Tekoälybotit ovat hyvä alusta ajatusten terävöittämiseen. Miellän ne seuraavaksi askeleeksi klassisesta \"kumiankkamenetelmästä\": Ajatukset järjestyvät, kun ne selittää auki vaihe kerrallaan elottomalle ankalle. Chatbotit voivat tietysti myös vastata (toisin kuin kumiankat), ja samalla löytää aukkoja argumenteissa ja muistuttaa asioista, jotka ovat voineet jäädä huomaamatta. Teräs hioo terästä."
+          - "<strong>Semanttinen haku:</strong> Kielimallit ovat loistavia kahlaamaan valtavien aineistomassojen läpi ja löytämään sen, mihin perinteinen haku ei yllä. Aikaleima lainaukselle 12 tunnin haastattelutallenteista? Onnistuu hetkessä. Pitää etsiä jokin tietty tiedosto vanhasta projektista? Epämääräinenkin prompti riittää tekoälylle."
+          - "<strong>Toiminnalliset prototyypit ja verkkosivut:</strong> Kielimallit ovat loistavia sekä koodin tuottamisessa että sen auki selittämisessä. Esimerkkinä tämä sivusto on yhdessä Clauden kanssa. Hahmottelin ensin osiot piirtämällä asettelun käsin. Määrittelin vaatimukset, sisällön ja saavutettavuuskriteerit (WCAG 2.2). Claude tuotti pohjakoodin ja koristeelementit, jotka kävin läpi, muokkasin ja täydensin. Sitten iteroin sivustoa joko muokkaamalla suoraan koodia tai pyytämällä Claudea apuun. Koko ajan pysyin kärryillä siitä, mitä tapahtui sekä koodissa että käyttöliittymässä."
+      - heading: "\"Okei, entä mihin <em>et</em> käytä tekoälyä?\""
+        paragraphs:
+          - "<strong>Ajattelua vaativat tehtävät:</strong> Monimutkaiset ongelmat, visionti, konseptointi, rautalankamallit. Päätöksenteko siitä, mikä on tärkeää. Ajattelen, että ensimmäinen luonnos pitää aina olla itse tehty, vaikka se olisi kuinka raakile, koska juuri siinä tapahtuu suunnittelun kannalta olennainen asia: kehystys. Kielimallit ovat hyviä kriitikoita ja sparrauskumppaneita, mutta pidän itse vahvasti ohjat omissa käsissäni. Se ei todellakaan näytä tältä:"
+          - "<blockquote>Claude, generoi minulle täysin toimiva design system. Älä tee virheitä.</blockquote>"
+          - "Suunnittelu on tahallista toimintaa, ja generatiivisilla tekoälymalleilla ei ole omaa tahtoa. Ne ovat kyllä tehokkaita (ja usein hyödyllisiä) tilastollisia hahmontunnistajia, jotka vastaavat promptiin, mutta siihen ne rajoittuvat."
+          - "<strong>Kun pienempi tykki riittää:</strong> Laskentateho ei ole ilmaista, ei rahassa eikä ympäristön kannalta. Jos asian voi tehdä vähemmän laskentaa vaativalla tavalla, harkitsen sitä ensin. Yksinkertaisissa tehtävissä, kuten taulukon lajittelussa, deterministinen skripti on viisaampi valinta. Jos kuitenkin tarvitsen generatiivista tekoälyä, mutta tarve ei ole erityisen monimutkainen, tartun suosiolla pienempään malliin."
+          - "<strong>Oikean maailman testaus:</strong> Oikean maailman testaus on nopein tapa saada selville, mikä oikeasti toimii. Esimerkkinä testasin tämän sivuston oikeilla apuvälineillä (mm. ruudunlukijoilla, pelkällä näppäimistöllä ja puheohjauksella) saavutettavuuskriteerejä (WCAG 2.2) vasten."
+      - heading: "\"Mitä haluat jatkossa tehdä?\""
+        paragraphs:
+          - "Rakentaa <em>teknisesti järkeviä</em>, <em>taloudellisesti kannattavia</em> ja <em>ympäristön kannalta kestäviä</em> tuotteita ja palveluita, jotka <em>parantavat ihmisten elämää</em>."
+          - "<em>Teknologia</em>, <em>bisnes</em>, <em>planeetta</em> ja <em>ihmiset</em> — ota yksikin pois, niin tuote lakkaa toimimasta, ainakin pitkällä tähtäimellä."
+
   work_heading: "Valittuja projekteja"
-  glance_labels:
-    role: "Roolini"
-    scope: "Työn sisältö"
-    outcome: "Lopputulos"
   read_more: "Lue projektin kuvaus"
   outcome_label: "Lopputulos"
   contact_heading: "Ota yhteyttä"
@@ -139,9 +186,12 @@ fi:
   projects:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
-        role: "UX-tutkimuksista ja arvioinneista vastaava (konsultti)"
-        scope: "Vastasin käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tulosten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
-        outcome: "Tutkimukseen perustuva, käyttäjälähtöisempi ja käyttöturvallisempi tuote. Dokumentoitu näyttö käytettävyyden validoinnista CE-merkintäprosessissa. Tuote on saanut CE-merkinnän."
+        - label: "Roolini"
+          value: "UX-tutkimuksista ja arvioinneista vastaava (konsultti)"
+        - label: "Työn sisältö"
+          value: "Vastasin käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tulosten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
+        - label: "Lopputulos"
+          value: "Tutkimukseen perustuva, käyttäjälähtöisempi ja käyttöturvallisempi tuote. Dokumentoitu näyttö käytettävyyden validoinnista CE-merkintäprosessissa. Tuote on saanut CE-merkinnän."
       cover:
         file: "medtech-cover.svg"
         alt: ""
@@ -177,8 +227,6 @@ fi:
         - heading: "Lopputulos"
           paragraphs:
           - "Summatiivinen käytettävyysarviointi täytti hyväksymiskriteerit ja tuki laitteen CE-merkinnän saavuttamista. Laite on nyt CE-merkitty."
-      # One or two images, shown top right with the text wrapping around them.
-      # alt: leave empty ("") if the image is just decoration; otherwise describe it.
 
 sv:
   lang_name: "Svenska"
@@ -189,7 +237,7 @@ sv:
   name: "Thomas Stenius"
   role: "Senior UX- och tjänstedesigner"
   intro: 
-    - "9 år, 100+ kundprojekt. Jag hjälper organisationer omvandla sina mål och användarbehov till klara och tydliga designriktningar."
+    - "<strong>9 år, 100+ kundprojekt.</strong> Jag hjälper organisationer omvandla sina mål och användarbehov till klara och tydliga designriktningar."
     - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg*."
   portrait_alt: "Porträtt av Thomas Stenius"
   testimonials_heading: "Vad kunder säger"
@@ -198,19 +246,43 @@ sv:
     sv: "Översatt från svenska"
     en: "Översatt från engelska"
   testimonials:
-    - text: "Thomas var en expert och kommunicerade sin sak klart och tydligt."
+    - text: "Vi har haft ett långvarigt samarbete, och har alltid varit nöjda med din professionalism och inställning till arbetet och kunden."
       name: "Kund"
-      title: "hälso-IT-branschen"
-      original_lang: "fi"
+      title: "försäkringsbolag"
+      original_lang: "en"
     - text: "Ditt exceptionella arbete har verkligen överträffat våra förväntningar. De insikter du levererade har varit avgörande för att forma våra design- och affärsstrategier och gett oss en tydligare förståelse för våra kunder och deras behov."
       name: "Kund"
       title: "telekommunikationsföretag"
       original_lang: "en"
+  about:
+    heading: "Vem jag är"
+    sections:
+      - heading: "\"Hurdan designer är du?\""
+        paragraphs:
+          - "<strong>Vad jag gör:</strong> Hela processen från början till slut: research, koncept, design, utvärdering, få ihop intressenterna, tillgänglighetsgranskning. För den visuella finslipningen samarbetar jag gärna med visuella designers."
+          - "<strong>Hur jag tänker:</strong> Mina designbeslut måsta grunda sig på research. Det betyder inte att man går långsamt, utan att man <em>förstår vad man håller på med</em>:"
+          - "<blockquote>Vilka är intressenterna? Var går värdeflödena? Vilket värde skapar vi, och för vem? Vilka konsekvenser, positiva och negativa, förverkligas om vi lanserar den här produkten? Hur definierar vi – och mäter – framgång och misslyckande?</blockquote>"
+          - "För att kunna svara på dessa frågor måste man prata med människor, observera dem och lyssna."
+          - "<strong>Resultat, inte volym:</strong> I en värld där AI-verktyg gör det billigare och snabbare än någonsin att bygga mjukvara är det avgörande att vi inte bara skapar mera saker, utan värde. AI ger designers nya fina möjligheter att själva smutsa ner händerna, men verktyg är bara verktyg i slutändan. Jag använder de redskap som funkar: Claude Code, Figma, penna och papper. Fortfarande är det <em>klarhet</em> och <em>förståelse</em> som medför den största effekten."
+      - heading: "\"Hur använder du AI?\""
+        paragraphs:
+          - "På många sätt! Här är tre:"
+          - "<strong>Att vässa stålet:</strong> Chattbotar hjälper mig att vässa mina idéer. Jag ser det som en vidareutveckling av den s.k. \"gummiankmetoden\", där man reder ut sina tankar genom att förklara dem steg för steg till en leksaksanka. AI-chattbottar kan förstås dessutom svara tillbaka, hitta luckor i resonemanget och peka ut sådant man missat. Stål vässar stål."
+          - "<strong>Djupsökning:</strong> Språkmodeller är fantastiska på att gräva sig igenom enorma datamängder och hitta sånt som traditionellt varit väldigt svårt att hitta. En tidsstämpel för ett citat ur 12 timmars intervjuinspelningar? Inga problem. En specifik fil från ett gammalt projekt? Även en vag prompt räcker."
+          - "<strong>Funktionella prototyper och webbplatser:</strong> LLM:er är bra både på att skriva kod och på att förklara hur den fungerar. Som exempel har jag byggt den här nätsidan med hjälp av Claude. Jag skissade layouten för hand och definierade kraven, innehållet och tillgänglighetskriterierna (WCAG 2.2). Claude skapade baskoden och dekorationerna, som jag sedan granskade, redigerade och byggde vidare på. Därefter itererade jag antingen direkt i koden eller genom att be Claude om tips. Hela tiden hade jag koll på vad som hände, både i koden och i designen."
+      - heading: "\"Okej, när använder du <em>inte</em> AI?\""
+        paragraphs:
+          - "<strong>Tankekrävande uppgifter:</strong> Komplex problemlösning, visionsarbete, konceptutveckling, wireframing, att avgöra vad som är viktigt. Jag tror att första utkastet till vad som helst alltid ska komma från en själv, hur skissartat det än är, för det är där ramarna sätts. Språkmodeller kan vara riktigt bra kritiker och bollplank, men det är jag som dirigerar orkestern. Det är definitivt inte så här:"
+          - "<blockquote>Claude, generera ett fullt fungerande designsystem åt mig. Gör inga misstag.</blockquote>"
+          - "Design är något avsiktligt, och generativa AI-modeller har ingen egen avsikt. De är kraftfulla (och ofta användbara) statistiska mönstermatchare som reagerar på prompter, men mer än så är de inte."
+          - "<strong>När generativ AI är \"overkill\":</strong> Datorkraft är inte gratis, varken ekonomiskt eller miljömässigt. Om det finns ett mindre beräkningsintensivt sätt att göra något väljer jag i första hand det. För enkla uppgifter, som att sortera en tabell, är ett deterministiskt skript det klokare valet. Om jag behöver generativ AI men uppgiften inte är särskilt krävande tar jag en mindre modell."
+          - "<strong>Tester i verkligheten:</strong> Att prova saker i verkligheten är det snabbaste sättet att få veta vad som faktiskt funkar. Den här webbplatsen testade jag till exempel med riktiga hjälpmedel (skärmläsare, enbart tangentbord, röststyrning) och kontrollerade den mot etablerade tillgänglighetskriterier (WCAG 2.2)."
+      - heading: "\"Vad vill du göra framöver?\""
+        paragraphs:
+          - "Skapa tekniskt solida, ekonomiskt bärkraftiga och miljömässigt hållbara produkter och tjänster som förbättrar människors liv."
+          - "<em>Teknologi</em>, <em>business</em>, <em>planet</em> och <em>människor</em> – tar man bort någon av dem fungerar inte produkten, särskilt inte på lång sikt."
+
   work_heading: "Utvalda projekt"
-  glance_labels:
-    role: "Min roll"
-    scope: "Omfattning"
-    outcome: "Resultat"
   read_more: "Läs fallstudien"
   outcome_label: "Resultat"
   contact_heading: "Kontakta mig"
@@ -225,9 +297,12 @@ sv:
   projects:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
-        role: "Ansvarig för UX-forskning och utvärdering (konsult)"
-        scope: "Jag ansvarade för användarforskningen samt den formativa och summativa användbarhetsutvärderingen av produkten som en del av CE-märkningsprocessen. Utifrån resultaten bidrog jag till att göra användargränssnittet mer användarcentrerat, lättare att använda och säkrare."
-        outcome: "En användarvänligare och säkrare produkt som bygger på forskning. Användbarheten är validerad och dokumenterad, och produkten är nu CE-märkt."
+        - label: "Min roll"
+          value: "Ansvarig för UX-forskning och utvärdering (konsult)"
+        - label: "Omfattning"
+          value: "Jag ansvarade för användarforskningen samt den formativa och summativa användbarhetsutvärderingen av produkten som en del av CE-märkningsprocessen. Utifrån resultaten bidrog jag till att göra användargränssnittet mer användarcentrerat, lättare att använda och säkrare."
+        - label: "Resultat"
+          value: "En användarvänligare och säkrare produkt som bygger på forskning. Användbarheten är validerad och dokumenterad, och produkten är nu CE-märkt."
       cover:
         file: "medtech-cover.svg"
         alt: ""
@@ -263,5 +338,3 @@ sv:
         - heading: "Resultat"
           paragraphs:
           - "Den summativa användbarhetsutvärderingens acceptanskriterier uppfylldes, och utvärderingen stödde produktens CE-märkning. Produkten är nu CE-märkt."
-      # One or two images, shown top right with the text wrapping around them.
-      # alt: leave empty ("") if the image is just decoration; otherwise describe it.
