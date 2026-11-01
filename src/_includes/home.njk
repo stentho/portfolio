@@ -6,11 +6,12 @@
     <h1>{{ t.name }}</h1>
     <p class="role">{{ t.role }}</p>
     <div class="intro">
+      <p class="intro-lead">{{ t.intro_lead }}</p>
       {% if t.intro is string %}
-      <p>{{ t.intro }}</p>
+      <p>{{ t.intro | safe }}</p>
       {% else %}
       {% for para in t.intro %}
-      <p>{{ para }}</p>
+      <p>{{ para | safe }}</p>
       {% endfor %}
       {% endif %}
     </div>
@@ -26,9 +27,22 @@
 </section>
 {% endif %}
 
+{% if t.about %}
+<section class="section about" aria-labelledby="about-heading">
+  <h2 id="about-heading">{{ t.about.heading }}</h2>
+  {% for s in t.about.sections %}
+  <details class="about-item">
+    <summary><span>{{ s.heading | safe }}</span></summary>
+    {% for para in s.paragraphs %}
+    <p>{{ para | safe }}</p>
+    {% endfor %}
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+
 <section class="section" aria-labelledby="work-heading">
   <h2 id="work-heading">{{ t.work_heading }}</h2>
-
   {% for p in t.projects %}
   <article class="project">
     <div class="project-text">
@@ -37,18 +51,12 @@
       {% endif %}
       <h3>{{ p.title }}</h3>
       <dl class="glance">
+        {% for item in p.glance %}
         <div>
-          <dt>{{ t.glance_labels.role }}</dt>
-          <dd>{{ p.glance.role }}</dd>
+          <dt>{{ item.label }}</dt>
+          <dd>{{ item.value }}</dd>
         </div>
-        <div>
-          <dt>{{ t.glance_labels.scope }}</dt>
-          <dd>{{ p.glance.scope }}</dd>
-        </div>
-        <div>
-          <dt>{{ t.glance_labels.outcome }}</dt>
-          <dd>{{ p.glance.outcome }}</dd>
-        </div>
+        {% endfor %}
       </dl>
       <details class="more">
         <summary>{{ t.read_more }}</summary>

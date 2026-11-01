@@ -4,6 +4,7 @@
 :root {
   /* Colours */
   --bg:         #F8F2E9;   /* page background */
+  --bg-light:   #fefbf7;   /* page background */
   --bg-alt:     #ebdfd0;   /* top of the page gradient, footer */
   --bg-alt2:    #ede6db;   /* testimonials stripe */
   --surface:    #fffefe;   /* cards */
@@ -42,6 +43,10 @@ body {
   line-height: 1.6;
 }
 
+strong {
+  font-weight: 700;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -54,7 +59,26 @@ a {
   text-underline-offset: 0.2em;
 }
 
-a:hover {
+@media (hover: hover) {
+  a:hover { text-decoration-thickness: 0.15em; }
+
+  .lang-list a:hover {
+    background: var(--surface);
+    color: var(--text);
+    text-decoration: underline solid var(--text) 2px;
+  }
+
+  .about-item summary:hover {
+    background-color: var(--bg);
+    filter: drop-shadow(0 0 0.25rem var(--dropshadow));
+    color: var(--text);
+    text-decoration: underline solid var(--text) 2px;
+  }
+
+  .more summary:hover { text-decoration: underline solid var(--border) 2px; }
+}
+
+a:focus {
   text-decoration-thickness: 0.15em;
 }
 
@@ -171,8 +195,10 @@ h4 {
   filter: drop-shadow(0 0 0.1rem var(--dropshadow-dark));
 }
 
-.lang-list a:hover {
+.lang-list a:focus {
   background: var(--surface);
+  color: var(--text);
+  text-decoration: underline solid var(--text) 2px;
 }
 
 /* Current language: filled AND underlined, so it is not shown by colour alone */
@@ -211,7 +237,7 @@ h4 {
   grid-template-columns: 1fr;
   gap: 2rem;
   align-items: start;
-  padding-block: 4rem;
+  padding-block: 5rem;
 }
 
 .hero img {
@@ -224,12 +250,17 @@ h4 {
 .role {
   margin: 0.5rem 0 1.8rem;
   color: var(--accent);
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 600;
   line-height: 1.3;
 }
 
 /* Intro: one or more paragraphs */
+.intro-lead {
+  font-weight: 600;
+  font-style: italic;
+}
+
 .intro {
   max-width: 36rem;
   margin: 0;
@@ -243,7 +274,7 @@ h4 {
 }
 
 .intro p + p {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 48rem) {
@@ -264,7 +295,9 @@ h4 {
    Sections
    ========================================================== */
 .section {
-  padding-block: 2rem;
+  max-width: 40rem;       /* the narrow column */
+  margin-inline: auto;
+  padding-top: 5rem;
 }
 
 
@@ -277,7 +310,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
   gap: 3rem;
-  padding-block: 2.5rem;                     /* the stripe's height */
+  padding-block: 3rem;                     /* the stripe's height */
   background: var(--bg-alt2);
   box-shadow: 0 0 0 100vmax var(--bg-alt2);  /* extends the colour past the column */
   clip-path: inset(0 -100vmax);              /* cuts it off above and below, so the page doesn't scroll sideways */
@@ -312,6 +345,72 @@ h4 {
   display: block;
 }
 
+/* ==========================================================
+   About
+   ========================================================== */
+
+.about-item {
+  margin-bottom: 0.25rem;
+  border: 2px var(--accent);
+}
+
+.about-item:last-of-type {
+  margin-bottom: 0rem;
+}
+
+.about-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 2.75rem;
+  padding: 1.5rem;
+  font-size: clamp(1rem, 0.4rem + 3vw, 1.3rem);
+  color: var(--muted);
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+  list-style: none;
+  background-color: var(--bg-alt2);
+  border-radius: 10px;
+}
+
+.about-item summary::-webkit-details-marker { display: none; }
+
+.about-item summary:focus-visible,
+.about-item summary:active {
+  background-color: var(--bg);
+  filter: drop-shadow(0 0 0.25rem var(--dropshadow));
+  color: var(--text);
+  text-decoration: underline solid var(--text) 2px;
+}
+
+.about-item[open] summary {
+  margin-bottom: 2rem;   /* extra space between the heading row and the text; raise it to taste */
+  background-color: var(--bg-light);
+  filter: drop-shadow(0 0 0.25rem var(--dropshadow));
+  color: var(--text);
+}
+
+.about-item p:last-child { margin-bottom: 2rem; }
+
+.about p {
+  margin: 0;
+  max-width: 40rem;      /* comfortable line length */
+}
+
+.about p + p {
+  margin-top: 0.75rem;
+}
+
+.about blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* quotation marks before and after */
+.about blockquote::before { content: open-quote; }
+.about blockquote::after  { content: close-quote; }
 
 /* ==========================================================
    Projects (case study cards)
@@ -321,14 +420,13 @@ h4 {
   flex-direction: column;
   gap: 1.5rem;
   max-width: 46rem;          /* wide screens: 40rem text + 3rem padding on each side */
-  margin-inline: auto;
+  margin-inline: -1rem;
   padding: 1.5rem;
   background: var(--surface);
   border-radius: 20px;
   filter: drop-shadow(0 0 1rem var(--dropshadow));
   line-height: 1.5;
 }
-
 .project + .project {
   margin-top: 2rem;
 }
@@ -351,6 +449,7 @@ h4 {
 @media (min-width: 48rem) {
   .project {
     padding: 3rem;
+    margin-inline: -3rem;
   }
 }
 
@@ -387,7 +486,7 @@ h4 {
 
 .glance dt {
   flex: 0 0 5.5rem;
-  color: var(--border-alt);
+  color: var(--accent);
   font-weight: 650;
   text-align: right;
 }
@@ -442,11 +541,11 @@ h4 {
   min-height: 2.75rem;
   padding: 0.6rem 1rem;
   background: var(--surface);
-  border-bottom: 3px solid var(--dropshadow);
   color: var(--border);
   font-weight: 600;
   cursor: pointer;
   list-style: none;                 /* hides the default arrow */
+  border-radius: 10px;
 }
 
 .more summary::-webkit-details-marker {
@@ -454,7 +553,8 @@ h4 {
 }
 
 /* Chevron, drawn with borders: points down when closed */
-.more summary::after {
+.more summary::after,
+.about-item summary::after {
   content: "";
   flex: none;
   width: 0.6rem;
@@ -465,12 +565,14 @@ h4 {
 }
 
 /* Points up when open */
-.more[open] summary::after {
+.more[open] summary::after,
+.about-item[open] summary::after {
   transform: translateY(25%) rotate(-135deg);
 }
 
-.more summary:hover {
-  background: var(--bg);
+.more summary:focus-visible,
+.more summary:active {
+  text-decoration: underline solid var(--border) 2px;
 }
 
 /* Quiet when open: no border */
@@ -503,7 +605,7 @@ h4 {
    Footer
    ========================================================== */
 .site-footer {
-  padding-block: 3rem 6rem;
+  padding-block: 4rem 6rem;
   color: var(--text);
   font-size: 1rem;
   line-height: 1.5;
@@ -515,5 +617,9 @@ h4 {
 }
 
 .site-footer p + p {
-  margin-top: 2rem;
+  margin-top: 3rem;
+}
+
+.site-footer .wrap {
+  max-width: 43rem;       /* 46rem of content + 1.5rem padding on each side */
 }
