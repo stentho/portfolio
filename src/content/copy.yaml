@@ -148,12 +148,12 @@ fi:
   about:
     heading: "Kuka minä olen"
     sections:
-      - heading: "\"Millainen suunnittelija olet?\""
+      - heading: "\"Minkälainen suunnittelija olet?\""
         paragraphs:
-          - "<strong>Mitä teen:</strong> Toteutan suunnitteluprosessia alusta loppuun: tutkimus, konseptointi, suunnittelu, arviointi, sidosryhmien valjastaminen, saavutettavuustarkastukset. Ulkoasun viimeistelyn teen mielelläni yhteistyössä visuaalisen suunnittelijan kanssa."
-          - "<strong>Miten ajattelen:</strong> Perustan suunnittelupäätökseni tutkimukseen. Se ei tarkoita, että edetään hitaasti, vaan että suunnittelu pohjautuu <em>ymmärrykseen siitä, mitä ollaan tekemässä</em>:"
+          - "<strong>Mitä teen:</strong> Suunnitteluprosessin joka vaihe: tutkimus, konseptointi, suunnittelu, arviointi, sidosryhmien valjastaminen, saavutettavuustarkastukset. Ulkoasun viimeistelyn teen mielelläni yhteistyössä visuaalisen suunnittelijan kanssa."
+          - "<strong>Miten ajattelen:</strong> Ankkuroin suunnittelupäätökseni tutkimukseen. Se ei tarkoita, että edetään hitaasti, vaan että suunnittelu pohjautuu <em>ymmärrykseen siitä, mitä ollaan tekemässä</em>:"
           - "<blockquote>Keitä sidosryhmät ovat?</blockquote>"
-          - "<blockquote>Mistä arvo muodostuu?</blockquote>"
+          - "<blockquote>Miten arvovirrat liikkuvat?</blockquote>"
           - "<blockquote>Mitä arvoa luomme ja kenelle?</blockquote>"
           - "<blockquote>Mitä seurauksia tuotteen julkaisemisella on, hyviä ja huonoja?</blockquote>"
           - "<blockquote>Miten määrittelemme onnistumisen tai epäonnistumisen, ja miten niitä mitataan?</blockquote>"
@@ -264,7 +264,7 @@ sv:
       - heading: "\"Hurdan designer är du?\""
         paragraphs:
           - "<strong>Vad jag gör:</strong> Hela processen från början till slut: research, koncept, design, utvärdering, få ihop intressenterna, tillgänglighetsgranskning. För den visuella finslipningen samarbetar jag gärna med visuella designers."
-          - "<strong>Hur jag tänker:</strong> Mina designbeslut måsta grunda sig på research. Det betyder inte att man går långsamt, utan att man <em>förstår vad man håller på med</em>:"
+          - "<strong>Hur jag tänker:</strong> Mina designbeslut grundar sig på research. Det betyder inte att man går långsamt, utan att man <em>förstår vad man håller på med</em>:"
           - "<blockquote>Vilka är intressenterna?</blockquote>"
           - "<blockquote>Var går värdeflödena?</blockquote>" 
           - "<blockquote>Vilket värde skapar vi, och för vem?</blockquote>"

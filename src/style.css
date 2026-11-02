@@ -395,8 +395,15 @@ h4 {
 .about-item p:last-child { margin-bottom: 2rem; }
 
 .about p {
-  margin: 0;
+  margin-block: 1.5rem;
+  margin-inline: 0.5rem;
   max-width: 40rem;      /* comfortable line length */
+}
+
+@media (min-width: 48rem) {
+  .about p {
+    margin-inline: 1rem;
+  }
 }
 
 .about p + p {
@@ -438,7 +445,7 @@ h4 {
 
 /* Space between paragraphs inside a project */
 .project p + p {
-  margin-top: 0.75rem;
+  margin-top: 1.4rem;
 }
 
 /* Every image in a card gets the same rounded corners */
