@@ -14,7 +14,7 @@ en:
   role: "Senior UX & Service Designer"
   intro: 
     - "<strong>9 years, 100+ client projects.</strong> Helping organizations turn business goals and user needs into clear design decisions."
-    - "People-centered, method-flexible, and hands-on with accessibility and LLM tools*."
+    - "People-centered, method-flexible, and hands-on with accessibility and LLM tools."
   portrait_alt: "Portrait of Thomas Stenius"
   testimonials_heading: "What clients say"
   translated_from:
@@ -73,7 +73,7 @@ en:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Co-developed with Claude Sonnet 5.5. I led the layout, requirements, content, and accessibility criteria (WCAG 2.2); Claude generated code and illustrations, which I reviewed and iterated on. Built with Eleventy, YAML content files and plain HTML/CSS, hosted on GitHub Pages."
+  footer_note: "Co-developed with Claude Sonnet 5.5. I led the layout, requirements, content, and accessibility criteria (WCAG 2.2); Claude generated code and illustrations, which I reviewed and iterated on. Built with Eleventy, YAML content files and plain HTML/CSS, hosted on GitHub Pages."
   projects:
     - title: "Medical device: from early concept to CE-marked product"
       # "At a glance": three short lines shown under the title
@@ -246,7 +246,7 @@ fi:
   role: "Johtava UX- ja palvelumuotoilija"
   intro: 
     - "<strong>9 vuotta, 100+ asiakasprojektia.</strong> Autan organisaatioita yhdistämään liiketoiminnan tavoitteet ja käyttäjien tarpeet toimiviksi, käyttäjälähtöisiksi palveluiksi ja ratkaisuiksi."
-    - "Olen ihmiskeskeinen ja menetelmiltäni joustava - lähestymistapani käyttäjäkokemukseen, saavutettavuuteen sekä LLM-työkaluihin* on käytännönläheinen."
+    - "Olen ihmiskeskeinen ja menetelmiltäni joustava - lähestymistapani käyttäjäkokemukseen, saavutettavuuteen sekä LLM-työkaluihin on käytännönläheinen."
   portrait_alt: "Etunimi Sukunimen muotokuva"
   testimonials_heading: "Mitä asiakkaat sanovat"
   translated_from:
@@ -267,7 +267,7 @@ fi:
     sections:
       - heading: "\"Minkälainen suunnittelija olet?\""
         paragraphs:
-          - "<strong>Mitä teen:</strong> Repertuaariin kuuluu suunnitteluprosessin joka vaihe: tutkimus, konseptointi, suunnittelu, arviointi, sidosryhmien valjastaminen, saavutettavuustarkastukset. Ulkoasun viimeistelyn hoidan mieluiten yhdessä visuaalisen suunnittelijan kanssa."
+          - "<strong>Mitä teen:</strong> Hoidan monipuolisesti suunnitteluprosessin eri vaiheita: tutkimus, konseptointi, suunnittelu, arviointi, sidosryhmien valjastaminen, saavutettavuustarkastukset. Ulkoasun viimeistelyn hoidan mieluiten yhdessä visuaalisen suunnittelijan kanssa."
           - "<strong>Miten ajattelen:</strong> Pohjaan suunnittelupäätökseni tutkimukseen. Se ei tarkoita, että etenisin hitaasti, vaan että suunnittelufilosofiani pohjautuu <em>ymmärrykseen siitä, mitä ollaan tekemässä</em>:"
           - "<blockquote>Keitä sidosryhmät ovat?</blockquote>"
           - "<blockquote>Miten arvovirrat liikkuvat?</blockquote>"
@@ -311,7 +311,7 @@ fi:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Sivusto on rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin. Sivusto on tehty Eleventyllä, YAML-sisältötiedostoilla sekä pelkällä HTML:llä ja CSS:llä, ja sijaitsee GitHub Pagesissa."
+  footer_note: "Sivusto on rakennettu yhdessä Claude Sonnet 5.5-tekoälyavustajan kanssa. Vastasin ulkoasusta, vaatimuksista, sisällöstä ja saavutettavuuskriteereistä (WCAG 2.2); Claude tuotti koodin ja kuvitukset, jotka tarkistin ja iteroin. Sivusto on tehty Eleventyllä, YAML-sisältötiedostoilla sekä pelkällä HTML:llä ja CSS:llä, ja sijaitsee GitHub Pagesissa."
   projects:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
@@ -360,12 +360,12 @@ fi:
         alt: ""
       intro:
         paragraphs:
-          - "<strong>Kuuden vuoden ja 30+ projektin aikana olen ollut mukana vaikuttamassa tuote-, design-, saavutettavuus- ja vaatimustenmukaisuuspäätöksiin asiakaskokemuksen parantamiseksi.</strong>"
-          - "Jokainen toimeksianto alkoi yhteisellä sparrauksella asiakkaan suunnittelijoiden ja tuoteomistajien kanssa projektin rajauksesta ja tavoitteista. Lopuksi vein konkreettiset suositukset suoraan päätöksentekijöiden pöydälle."
+          - "<strong>6 vuotta, 30+ projektia. UX-konsultoinnin puitteissa olen päässyt vaikuttamaan monella tapaa, asiakasymmärryksen kasvattamisesta tuotestrategiaan ja saavutettavuuden parantamiseen.</strong>"
+          - "Jokaisessa projektissa sparraillaan ensin asiakkaan suunnittelijoiden ja tuoteomistajien kanssa projektin ja tavoitteiden rajaamisesta. Lopuksi vein konkreettiset suositukset suoraan päätöksentekijöiden pöydälle."
           - "Kolme poimintaa, jotka kuvaavat työn kirjoa:"
       subcases:
-        - title: "1. Viihdeboksin käyttöönotto: ensikokemuksen kitkat kuntoon"
-          teaser: "Havainnot ohjasivat satojentuhansien asiakkaiden käyttöönottoprosessin uudistamista."
+        - title: "1. Viihdeboksi: käyttööonoton kipukohdat kuntoon"
+          teaser: "Havainnot ohjasivat satojentuhansien asiakkaan käyttöönottoprosessin uudistamisprosessia."
           cover:
             file: "setup-cover.svg"
             alt: ""
@@ -380,26 +380,27 @@ fi:
                 file: "setup-challenge.svg"
                 alt: ""
               paragraphs:
-              - "Asiakastyytyväisyyskyselyissä toistui negatiivinen palaute viihdeboksin käyttöönotosta. Haluttiin paremmin ymmärtää kipupisteitä, jotta uudistuksia osattaisiin priorisoida oikein. Johdin tutkimusprosessia ja design-suositusten laatimista. Rajasimme kokonaisuuden yhdessä asiakkaan suunnittelijoiden ja liiketoimintakehittäjän kanssa."
+              - "Asiakastyytyväisyyskyselyissä toistui negatiivinen palaute viihdeboksin käyttöönottoprosessista. Haluttiin paremmin ymmärtää asiakkaiden haasteita korjaustoimenpiteiden priorisoinnin tueksi."
+              - "Johdin tutkimus- ja UX-konsultointiprosessia, jossa rajattiin projektin laajuus ensin yhdessä asiakkaan liiketoimintakehittäjän kanssa."
             - heading: "Lähestymistapa ja havainnot"
               image:
                 file: "setup-findings.svg"
                 alt: ""
               paragraphs:
-                - "Seurasin kuuden käyttäjän pakkauksen purkua, asennusta ja käyttöönottoa aidolla laitteella ja oikealla televisiolla. Tämä paljasti käytännön ongelmia, jotka olisivat jääneet prototyypillä huomaamatta."
-                - "Jokaisen havainnon perusteella muotoilin asiakkaan teknisiin reunaehtoihin sopivan parannusehdotuksen:"
+                - "Seurasin, kun kuusi kohderyhmän käyttäjää purkasi, asensi ja otti asiakkaan viihdeboksin käyttöön ensimmäistä kertaa. Testaus tehtiin oikealla laitteella ja televisiolla, jonka ansiosta löysimme aitoja kipukohtia, jotka olisivat jääneet prototyypillä huomaamatta."
+                - "Havaintojen perusteella laadin parannusehdotuksia, ottaen huomioon asiakkaan liiketoimintatavoitteet ja tekniset rajoitteet:"
                 - |
-                  - <strong>Paristojen löytäminen ja asennus oli hankalaa</strong> → Asennetaan paristot kaukosäätimeen valmiiksi tehtaalla.
-                  - <strong>Ohjelmistoasennus tuntui pitkältä ja puuduttavalta</strong> → Virtaviivaistetaan käyttöönottoprosessia missä pystytään, lisätään selkeät etenemisindikaattorit jäljelle jääviin vaiheisiin.
-                  - <strong>Useat erilliset haut hämmensivät</strong> → Yksi yhtenäinen haku koko laitteen sisällölle.
+                  - <strong>Paristojen löytäminen ja asennus oli yllättävän hankalaa</strong> → Asennetaan paristot valmiiksi kaukosäätimeen.
+                  - <strong>Ohjelmistoasennus tuntui pitkältä ja puuduttavalta</strong> → Virtaviivaistetaan käyttöönottoprosessia mahdollisuuksien mukaan, ja lisätään selkeät etenemisindikaattorit silloin kun se ei ole mahdollista.
+                  - <strong>Useat eri hakutoiminnot hämmensivät käyttäjiä</strong> → Yksi yhtenäinen haku koko alustalle.
             - heading: "Vaikutus"
               image:
                 file: "setup-impact.svg"
                 alt: ""
               paragraphs:
-               - "Esittelin tulokset tuotejohdolle, ja kävimme tiimin kanssa läpi design-suositusten toteutuskelpoisuuden ja prioriteetit. Tiimi otti käyttöönottoprosessin uudistamisen työn alle huomioiden tekniset rajoitteet. Tarkemmat toteutustiedot ovat luottamuksellisia."
-        - title: "2. Matkailu ja roaming: tuotepäätöksen kääntäminen oikealle uralle"
-          teaser: "Tutkimus esti tuotteen kehittämisen, joka ei olisi vastannut asiakkaiden tarpeisiin – säästäen kymmeniä tuhansia euroja."
+               - "Esittelin tulokset tuotejohdolle, ja kävimme yhdessä läpi design-suositusten toteutuskelpoisuuden ja prioriteetit. Tiimi otti käyttöönottoprosessin uudistamisen työn alle; tarkemmat toteutustiedot ovat luottamuksellisia."
+        - title: "2. Matkailu ja roaming: tuotestrategian uudelleenhahmottaminen"
+          teaser: "Tutkimustulosten perusteella estettiin uuden tuotteen kehitys, joka olisi maksanut kymmeniä tuhansia euroja eikä olisi vastannut asiakkaiden tarpeisiin."
           cover:
             file: "roaming-cover.svg"
             alt: ""
@@ -414,25 +415,27 @@ fi:
                 file: "roaming-challenge.svg"
                 alt: ""
               paragraphs:
-              - "Asiakas halusi kasvattaa matkailijasegmenttiään ja vauhdittaa roaming-palveluidensa vaisua käyttöä. Vastasin asiakasymmärryksen hankkimisesta ja rajasin tutkimuksen yhdessä digitaalisesta kokemuksesta vastaavan vetäjän kanssa."
+              - "Asiakas halusi kasvattaa matkailijasegmenttiään ja lisätä melko vaisua roaming-tuotteiden käyttöä."
+              - "Rajasin projektin laajuuden yhdessä asiakkaan digikokemusvastaajan kanssa: minä vastasin asiakasymmärryksen kasvattamisesta ja tuotestrategian tukemisesta."
             - heading: "Lähestymistapa ja havainnot"
               image:
                 file: "roaming-findings.svg"
                 alt: ""
               paragraphs:
-              - "Haastattelin kahdeksaa aktiivimatkailijaa ja testasin heidän kanssaan uusia roaming-tuotekonsepteja. Havainnot kääntyivät suosituksiksi:"
+              - "Tein kahdeksan syvähaastattelua aktiivimatkailijoiden kanssa. Tavoitteena oli saada monipuolisempi käsitys heidän tarpeistaan ja kokemuksistaan. Näytin haastattelun tueksi myös uusia roaming-tuotekonsepteja."
+              - "Havaintojen perusteella laadin asiakkaan tuella konkreettiset toimintasuositukset:"
               - |
-                - <strong>Roamingia välteltiin takavuosien kalliiden laskujen pelossa, ja tilalle valittiin hotellin Wi-Fi tai paikallinen prepaid</strong> → Nostetaan mieluummin esiin olemassa olevia matkadatapaketteja selkeänä vaihtoehtona reissunettiin, jolloin vältettiin perinteisen käyttöperusteisen laskutuksen huono kaiku.
-                - <strong>Tervetulo-tekstiviestin vaihtoehtoja ei ymmärretty eikä omaa tiedonsiirtotarvetta osattu arvioida</strong> → Avataan datan määrät konkreettisilla esimerkeillä ja tehdään kulutuksen seuranta helpoksi tekstiviestitse.
-                - <strong>Isompia paketteja suosittiin johdonmukaisesti; käyttöperusteista laskutusta pidettiin vain hätävarana</strong> → Siirretään painopiste nykyvalikoiman isompiin paketteihin. Vaikka niiden kulu- ja katerakenne on hieman toisenlainen, asiakasarvo oli suurempi.
+                - <strong>Roamingia välteltiin takavuosien kalliiden laskujen pelossa; moni turvautui hotellin WiFiin tai prepaid-liittymään</strong> → Nostetaan selvemmin esiin jo olemassa olevia matkadatapaketteja vaihtoehtona roamingiin, jolloin vältetään perinteisen käyttöperusteisen laskutuksen huono kaiku.
+                - <strong>Tervetulotekstiviestit aiheuttivat hämmennystä ja datan tarvetta ei osattu arvioida</strong> → Avataan datamäärät konkreettisilla esimerkeillä ja helpotetaan kulutuksen seurantaa tekstiviesteillä.
+                - <strong>Isompia datapaketteja suosittiin; käyttöperusteista laskutusta pidettiin vain hätävarana</strong> → Siirretään painopiste nykyvalikoimassa isompiin datapaketteihin. Vaikka niiden kulurakenne on hieman toisenlainen, asiakasarvo oli niissä selvemmin havaittavissa.
             - heading: "Vaikutus"
               image:
                 file: "roaming-impact.svg"
                 alt: ""
               paragraphs:
-               - "Esittelin havainnot tuotejohdolle ja sparrasin tiimin kanssa prioriteetit. Löydösten perusteella kaavailtua uutta tuotetta ei lähdetty rakentamaan turhaan, mikä säästi kymmeniä tuhansia euroja kehityskuluja. Sen sijaan paukut suunnattiin olemassa olevien tuotteiden tietoisuuden lisäämiseen."
+               - "Esittelin havainnot tuotejohdolle ja sparrasin tiimin kanssa parannustoimenpiteistä ja prioriteeteistä. Löydösten perusteella kaavailtua uutta tuotetta ei lähdetty rakentamaan, koska se ei olisi vastannut asiakkaan tarpeeseen, mikä säästi kymmeniä tuhansia euroja tuotekehityskuluissa. Sen sijaan painopiste suunnattiin olemassa olevien tuotteiden tietoisuuden lisäämiseen."
         - title: "3. Viestintäalustan saavutettavuuden parantaminen"
-          teaser: "Vuotta myöhemmin tehty tarkastava arviointi vahvisti, että valtaosa havaituista ongelmista oli korjattu."
+          teaser: "Valtaosa havaituista ongelmista oli korjattu vuotta myöhemmin tehdyssä saavutettavuuden tarkastavassa arvioinnissa."
           cover:
             file: "a11y-cover.svg"
             alt: ""
@@ -441,38 +444,38 @@ fi:
               quote:
                 text: "Hienoa työtä, Thomas . . . Hyviä havaintoja, hyviä yksityiskohtia, hyvin toteutettu."
                 name: "Asiakas"
-                title: "ohjelmistokehittäjä asiakkaalla"
+                title: "ohjelmistokehittäjä"
                 original_lang: "en"
               image:
                 file: "a11y-challenge.svg"
                 alt: ""
               paragraphs:
-              - "Asiakas halusi tietää asiakasviestintäalustansa saavutettavuuden tason, pitkälti lakisääteisten vaatimusten vuoksi. Vedin arvioinnin, rajasin sen kehitystiimin kanssa ja peilasin palvelua WCAG 2.2 -kriteereihin sekä EU:n esteettömyysdirektiivin vaatimuksiin."
+              - "Asiakas halusi selvittää asiakasviestintäalustansa saavutettavuuden tilan, pitkälti nojaten lakisääteisiin vaatimuksiin. Johdin arviointiprosessia: rajattiin laajuus kehitystiimin kanssa ja ankkuroitiin arvioinnin kriteerit WCAG 2.2 -standardiin sekä EU:n esteettömyysdirektiivin vaatimuksiin."
             - heading: "Lähestymistapa ja havainnot"
               image:
                 file: "a11y-findings.svg"
                 alt: ""
               paragraphs:
-              - "Arvioin palvelun Windows-kannettavalla käyttäen NVDA-ruudunlukuohjelmaa ja pelkkää näppäimistöä. Keskeiset havainnot:"
+              - "Arvioin palvelun Windows-tietokoneella, käyttäen mm. NVDA-ruudunlukuohjelmaa ja näppäimistönavigointia. Keskeiset havainnot:"
               - |
-                - Liitetiedostoja ei pystynyt lisäämään pelkällä näppäimistöllä, ja osa muistakin toiminnoista jäi saavuttamattomiin.
-                - Kohdistusindikaattorit (focus) puuttuivat ja monilta komponenteilta puuttui ohjelmallinen nimilappu.
+                - Liitetiedostoja ei pystynyt lisäämään pelkällä näppäimistöllä, ja joitakin muita toimintoja ei myöskään voinut käyttää apuvälinellä.
+                - Kohdistusindikaattorit ja ohjelmalliset nimilaput puuttuivat monesta komponentista.
                 - Kohdistusjärjestys oli paikoitellen sekava.
             - heading: "Vaikutus"
               image:
                 file: "a11y-impact.svg"
                 alt: ""
               paragraphs:
-              - "Esittelin tulokset tuoteomistajille ja kehitystiimille, ja pisteytimme korjaukset vakavuuden (1–4) sekä arvioidun työmäärän mukaan. Vuotta myöhemmin ehdotin seurantakierrosta, jolle asiakas näytti vihreää valoa – tällä kertaa testasin palvelun myös iOS-laitteella VoiceOverin avulla. Valtaosa aiemmin liputetuista ongelmista oli korjattu. Joitakin vanhoja oli yhä jäljellä ja uusiakin löytyi (osittain iOS-testauksen, aiempien esteiden takaa paljastuneiden ongelmien sekä uusien ominaisuuksien myötä). Kokonaisuudessaan palvelun saavutettavuus parani kuitenkin merkittävästi."
+              - "Esittelin tulokset kehitystiimille ja tuoteomistajille. Pisteytin havainnot vakavuuden perusteella (1–4), ja tiimissä arvioitiin työmäärää korjaustoimenpiteille. Vuotta myöhemmin ehdotin seurantakierrosta, jolle asiakas näytti vihreää valoa – tällä kertaa testasin palvelua myös iOS-laitteella mm. VoiceOverin kanssa. Valtaosa aiemmin liputetuista ongelmista oli korjattu. Joitakin vanhoja puutteita oli yhä jäljellä ja uusiakin löytyi (osittain iOS-testauksen, aiempien ongelmien takaa paljastuneiden ongelmien sekä uusien ominaisuuksien myötä). Kokonaisuudessaan palvelun saavutettavuus oli kuitenkin parantunt merkittävästi."
       synthesis:
         heading: "Summa summarum"
         paragraphs:
-          - "Teen tiivistä yhteistyötä tuote-, muotoilu-, kehitys- ja johtotiimien kanssa, jotta voimme lisätä asiakasymmärrystä, karsia turhaa kitkaa ja tehdä palveluista helppokäyttöisempiä ja saavutettavampia."
+          - "Teen tiivistä yhteistyötä tuote-, muotoilu-, kehitys- ja johtotiimien kanssa lisätäkseni asiakasymmärrystä, karsiakseni turhaa kitkaa ja tehdäkseni palveluista helppokäyttöisempiä ja saavutettavampia."
           - "Sama toimintamalli kantaa hyvinkin erilaisissa projekteissa:"
           - |
             - <strong>Rajataan projektin laajuus yhdessä asiakkaan kanssa.</strong> Jokaisen projektin tärkein vaihe on tavoitteiden ja tutkimuskysymysten määrittely sekä pohtiminen, miten tuloksia tullaan oikeasti hyödyntämään jatkossa.
             - <strong>Testataan realistisissa olosuhteissa.</strong> Todelliset skenaariot, oikeat kohderyhmän käyttäjät ja oikeat apuvälineet takaavat sen, että havainnot pätevät myös käytännössä.
-            - <strong>Toteutuskelpoiset suositukset ja maaliin vieminen.</strong> Yhdistetään käyttäjäymmärrys muihin teknisiin ja liiketoiminnallisiin olosuhteisiin, sovitaan prioriteeteista tiimien kanssa ja seurataan, että korjaukset myös pitävät.
+            - <strong>Toteutuskelpoiset suositukset ja maaliin vieminen.</strong> Yhdistetään käyttäjäymmärrys ja UX-havainnot teknisiin ja liiketoiminnallisiin rajoitteihin, sovitaan prioriteeteista tiimien kanssa ja seurataan, että korjaukset toimivat myös käytännössä.
 
 
 sv:
@@ -485,7 +488,7 @@ sv:
   role: "Senior UX- och tjänstedesigner"
   intro: 
     - "<strong>9 år, 100+ kundprojekt.</strong> Jag hjälper organisationer omvandla sina mål och användarbehov till klara och tydliga designriktningar."
-    - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg*."
+    - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg."
   portrait_alt: "Porträtt av Thomas Stenius"
   testimonials_heading: "Vad kunder säger"
   translated_from:
@@ -545,7 +548,7 @@ sv:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
   footer: "© 2026 Thomas Stenius"
-  footer_note: "*Byggd tillsammans med Claude Sonnet 5.5. Jag ansvarade för layout, krav, innehåll och tillgänglighetskriterier (WCAG 2.2); Claude genererade kod och illustrationer, som jag granskade och itererade. Byggd med Eleventy, YAML-innehållsfiler och ren HTML/CSS. Hostad på GitHub Pages."
+  footer_note: "Byggd tillsammans med Claude Sonnet 5.5. Jag ansvarade för layout, krav, innehåll och tillgänglighetskriterier (WCAG 2.2); Claude genererade kod och illustrationer, som jag granskade och itererade. Byggd med Eleventy, YAML-innehållsfiler och ren HTML/CSS. Hostad på GitHub Pages."
   projects:
     - title: "Medicinteknisk produkt: från tidigt koncept till CE-märkt produkt"
       glance:
