@@ -1,4 +1,7 @@
 {% from "quote.njk" import render_quote %}
+{% from "glance.njk" import render_glance %}
+{% from "block.njk" import render_block %}
+{% from "sections.njk" import render_sections %}
 {% set t = copy[lang] %}
 <div class="hero">
   <img src="/images/photo.jpg" alt="{{ t.portrait_alt }}" width="665" height="665">
@@ -50,14 +53,29 @@
       <img class="cover" src="/images/{{ p.cover.file }}" alt="{{ p.cover.alt }}" width="480" height="320">
       {% endif %}
       <h3>{{ p.title }}</h3>
-      <dl class="glance">
-        {% for item in p.glance %}
-        <div>
-          <dt>{{ item.label }}</dt>
-          <dd>{{ item.value }}</dd>
-        </div>
+      {{ render_glance(p.glance) }}
+      {{ render_block(p.intro) }}
+      {% if p.subcases %}
+      <div class="subcases">
+        {% for sc in p.subcases %}
+        <article class="subcase">
+          {% if sc.cover %}
+          <img class="cover" src="/images/{{ sc.cover.file }}" alt="{{ sc.cover.alt }}" width="480" height="320">
+          {% endif %}
+          <h4>{{ sc.title }}</h4>
+          <p class="teaser">{{ sc.teaser }}</p>
+          {{ render_glance(sc.glance) }}
+          <details class="more">
+            <summary>{{ t.subcase_more }}<span class="visually-hidden">: {{ sc.title }}</span></summary>
+            {% for para in sc.paragraphs %}{{ para | md | safe }}{% endfor %}
+            {{ render_sections(sc.sections, 5, t, lang) }}
+          </details>
+        </article>
         {% endfor %}
-      </dl>
+      </div>
+      {% endif %}
+      {{ render_block(p.synthesis) }}
+      {% if p.sections | length %}
       <details class="more">
         <summary>{{ t.read_more }}</summary>
         {% for s in p.sections %}
@@ -67,11 +85,12 @@
           {% endif %}
           <h4>{{ s.heading }}</h4>
           {% for para in s.paragraphs %}
-          <p>{{ para }}</p>
+          <p>{{ para | safe }}</p>
           {% endfor %}
         </div>
         {% endfor %}
       </details>
+      {% endif %}
     </div>
     {% if p.quote %}
     {{ render_quote(p.quote, t, lang) }}

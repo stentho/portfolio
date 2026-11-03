@@ -63,8 +63,8 @@ en:
           - "Make <em>technically sound</em>, <em>financially viable</em>, and <em>environmentally sustainable</em> products and services that <em>improve people's lives</em>."
           - "<em>Tech</em>, <em>biz</em>, <em>planet</em>, and <em>people</em> — remove any aspect and the product won't work, especially long-term."
   work_heading: "Selected work"
-  read_more: "Read the case study"
-  outcome_label: "Outcome"
+  read_more: "Read the case"
+  subcase_more: "Read the case"
   contact_heading: "Contact me"
   contact_text: "I'd love to hear from you."
   contact_links:
@@ -81,7 +81,7 @@ en:
         - label: "My role"
           value: "I was a senior UX consultant part of a larger team. Among other responsibilities, I led the user research and formative and summative usability evaluation of the device as part of the CE marking process. Based on the findings, I helped make the UI more user-friendly and safer to use."
         - label: "Outcome"
-          value: "A user-friendlier, safer device backed by research; documented usability validation for CE marking; device CE marked."
+          value: "A user-friendlier, safer device backed by research; documented usability validation for CE marking; device is now CE marked."
       # Any number of sections, each with a heading and one or more paragraphs
       cover:
         file: "medtech-cover.svg"
@@ -91,7 +91,7 @@ en:
           paragraphs:
             - "In medtech, patient safety is everything. A client had an early-stage device concept, backed by initial user research and mockups from earlier work."
             - "I joined a small team of designers and developers working closely with the client’s product owner. Our goal was to turn the early concept into a finished, user-centered and safe-to-use medical product that meets CE marking requirements."
-            - "We worked in three phases:"
+            - "We worked in <em>three phases</em>:"
         - heading: "1. Understand the context, fill the research gaps"
           image:
             file: "medtech-context_light.svg"
@@ -118,7 +118,124 @@ en:
         - heading: "Outcome"
           paragraphs:
           - "The summative evaluation passed its acceptance criteria, supporting the CE-marking of the device. The product is now CE marked."
-
+    - title: "Teleoperator: ongoing UX partnership with 30+ projects"
+      cover:
+        file: "case-cover.svg"
+        alt: ""
+      intro:
+        paragraphs:
+          - "<strong>6 years and 30+ projects, informing product, design, accessibility, and compliance decisions to improve customer experience.</strong>"
+          - "Each project started by working with the client’s designers and product people to shape the scope and strategy of the research, and ended with taking recommendations to the decision-makers."
+          - "Three projects to demonstrate the breadth of my work:"
+      subcases:
+        - title: "1. Entertainment box setup: fixing a frustrating first experience"
+          teaser: "Findings shaped plans to redesign the setup process for hundreds of thousands of customers."
+          cover:
+            file: "setup-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Challenge"
+              quote:
+                text: "I'm very satisfied with the UX work that Thomas did for our service . . . I'm especially happy that the recommendations also included alternative ways to ease the customer's experience, so that we could implement as many improvements despite technical limitations. From the beginning, Thomas wanted to understand our problem space, and goals of the research, and the project met its goals brilliantly."
+                name: "Client"
+                title: "Business Development Manager"
+                original_lang: "fi"
+              image:
+                file: "setup-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "Customer satisfaction surveys had revealed negative feedback about setting up the client’s entertainment box. The client wanted evidence on the pain points to prioritize redesigns. I led the research and design recommendations, scoping them with the client’s designers and business development manager."
+            - heading: "Approach and findings"
+              image:
+                file: "setup-findings.svg"
+                alt: ""
+              paragraphs:
+                - "I observed 6 target-audience participants unbox and set up a real production box with a real TV, which exposed problems a prototype would have missed. The process was fine overall, but each issue led to a recommendation shaped by the client’s technical constraints:"
+                - |
+                  - <strong>Batteries were tricky to find and insert</strong> → preinstall them in the remote.
+                  - <strong>Software setup was long and fatiguing</strong> → streamline where possible, add progress indicators where not.
+                  - <strong>Multiple search systems were confusing</strong> → one search across the product.
+            - heading: "Impact"
+              image:
+                file: "setup-impact.svg"
+                alt: ""
+              paragraphs:
+               - "I presented to product leadership and worked with the teams to check feasibility and align on priorities. The team planned a redesign of the setup process, with workarounds for technically constrained issues. Implementation details are confidential."
+        - title: "2. Travel and roaming: redirecting a product decision"
+          teaser: "Research stopped a product that wouldn’t have met customer needs, saving tens of thousands of euros."
+          cover:
+            file: "roaming-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Challenge"
+              quote:
+                text: "A special thanks goes out to Thomas, whose expertise and dedication to the roaming research process have been remarkable. His ability to uncover critical user insights and communicate them effectively has made a significant impact on our work."
+                name: "Client"
+                title: "Digital Experience Lead"
+                original_lang: "en"
+              image:
+                file: "roaming-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "The client wanted to grow its traveler segment and lift the low usage of its roaming lineup. I led the customer insights effort, scoping it with the digital experience lead."
+            - heading: "Approach and findings"
+              image:
+                file: "roaming-findings.svg"
+                alt: ""
+              paragraphs:
+              - "I interviewed 8 frequent travelers and tested new roaming product concepts with them. Each finding led to a recommendation:"
+              - |
+                - <strong>Travelers avoided roaming because of its history of high prices, preferring WiFi or prepaid SIMs</strong> → raise awareness of existing travel data packages as a distinct alternative that fits the “travel SIM” niche and sidesteps pay-as-you-go’s bad connotations.
+                - <strong>They couldn’t understand the welcome SMS options or gauge their data needs</strong> → explain amounts with concrete examples and make usage easy to track via SMS.
+                - <strong>Larger packages were consistently preferred; pay-as-you-go was seen as for emergencies</strong> → emphasize the larger packages in the current lineup. They have a different cost and margin profile, but I argued the customer utility made up for it.
+            - heading: "Impact"
+              image:
+                file: "roaming-impact.svg"
+                alt: ""
+              paragraphs:
+               - "I presented to product leadership and worked with the team to align on priorities. Based on my findings, a proposed new product was never developed, as it would not have satisfied the customer need, saving an estimated tens of thousands of euros. Instead, raising awareness of existing products was prioritized."
+        - title: "3. Accessibility improvements to the communication platform"
+          teaser: "A re-evaluation a year later confirmed that most flagged issues had been fixed."
+          cover:
+            file: "a11y-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Challenge"
+              quote:
+                text: "Very nice job, Thomas . . . Good findings, good details, well executed."
+                name: "Client"
+                title: "Developer"
+                original_lang: "en"
+              image:
+                file: "a11y-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "The client wanted to know how accessible their customer communication platform was, mainly for compliance reasons. I led the evaluation, scoping it with the development team, and assessed the service against WCAG 2.2 and the European Accessibility Act."
+            - heading: "Approach and findings"
+              image:
+                file: "a11y-findings.svg"
+                alt: ""
+              paragraphs:
+              - "I evaluated the service on a Windows laptop with the NVDA screen reader and keyboard-only navigation. Issues included:"
+              - |
+                - Files couldn’t be attached by keyboard, and some other functions were also unreachable.
+                - Focus indicators were missing, and many components lacked programmatic labels.
+                - The focus order was confusing in places.
+            - heading: "Impact"
+              image:
+                file: "a11y-impact.svg"
+                alt: ""
+              paragraphs:
+              - "I presented the findings to the product owners and development team, and we prioritized issues by severity (1-4, set by me) and estimated effort to fix. A year later, I proposed a re-evaluation, which the client agreed to, and this time I also tested on iOS with VoiceOver. Most flagged issues had been fixed. Some remained and new ones had appeared, from the added iOS coverage, from barriers the earlier ones had masked, and from new features. Overall accessibility had improved substantially."
+      synthesis:
+        heading: "Overall takeaway"
+        paragraphs:
+          - "I’ve worked with product, design, development and leadership teams to understand customers, remove friction, and make services more usable and accessible."
+          - "My approach stays the same across very different projects:"
+          - |
+            - <strong>Workshop the scope with the client.</strong> The most important part of any project is defining the goals and research questions, and understanding how the results will be used.
+            - <strong>Test in realistic conditions.</strong> Realistic scenarios, real target-audience users, and real assistive technology, so the findings hold up in practice.
+            - <strong>Make recommendations that can be built, then follow through.</strong> I weigh user insight against technical and business constraints, agree on priorities with the teams, and check that fixes held, as with the accessibility re-evaluation I proposed.
 fi:
   lang_name: "Suomi"
   title: "Thomas Stenius – Johtava UX- ja palvelumuotoilija"
@@ -171,14 +288,15 @@ fi:
           - "<blockquote>Claude, generoi minulle täysin toimiva design system. Älä tee virheitä.</blockquote>"
           - "Suunnittelu on tahallista toimintaa, ja generatiivisilla tekoälymalleilla ei ole omaa tahtoa. Ne ovat kyllä tehokkaita (ja usein hyödyllisiä) tilastollisia hahmontunnistajia, jotka vastaavat promptiin, mutta siihen ne rajoittuvat."
           - "<strong>Kun pienempi tykki riittää:</strong> Laskentateho ei ole ilmaista, ei rahassa eikä ympäristön kannalta. Jos asian voi tehdä vähemmän laskentaa vaativalla tavalla, harkitsen sitä ensin. Yksinkertaisissa tehtävissä, kuten taulukon lajittelussa, deterministinen skripti on viisaampi valinta. Jos kuitenkin tarvitsen generatiivista tekoälyä, mutta tarve ei ole erityisen monimutkainen, tartun suosiolla pienempään malliin."
-          - "<strong>Oikean maailman testaus:</strong> Oikean maailman testaus on nopein tapa saada selville, mikä oikeasti toimii. Esimerkkinä testasin tämän sivuston oikeilla apuvälineillä (mm. ruudunlukijoilla, pelkällä näppäimistöllä ja puheohjauksella) saavutettavuuskriteerejä (WCAG 2.2) vasten."
+          - "<strong>Testaus käytännössä:</strong> Käytännön testaus on nopein tapa saada selville, mikä aidosti toimii. Esimerkkinä testasin tämän sivuston oikeilla apuvälineillä (mm. ruudunlukijoilla, pelkällä näppäimistöllä ja puheohjauksella) saavutettavuuskriteerejä (WCAG 2.2) vasten."
       - heading: "\"Mitä haluat jatkossa tehdä?\""
         paragraphs:
           - "Rakentaa <em>teknisesti järkeviä</em>, <em>taloudellisesti kannattavia</em> ja <em>ympäristön kannalta kestäviä</em> tuotteita ja palveluita, jotka <em>parantavat ihmisten elämää</em>."
           - "<em>Teknologia</em>, <em>bisnes</em>, <em>planeetta</em> ja <em>ihmiset</em> — ota yksikin pois, niin tuote lakkaa toimimasta, ainakin pitkällä tähtäimellä."
 
   work_heading: "Valittuja projekteja"
-  read_more: "Lue projektin kuvaus"
+  read_more: "Lue lisää projektista"
+  subcase_more: "Lue lisää projektista"
   outcome_label: "Lopputulos"
   contact_heading: "Ota yhteyttä"
   contact_text: "Vastaan mielelläni kysymyksiin."
@@ -231,6 +349,126 @@ fi:
         - heading: "Lopputulos"
           paragraphs:
           - "Summatiivinen käytettävyysarviointi täytti hyväksymiskriteerit ja tuki laitteen CE-merkinnän saavuttamista. Laite on nyt CE-merkitty."
+    - title: "Teleoperaattori: pitkäaikainen UX-kumppanuus ja yli 30 projektia"
+      cover:
+        file: "case-cover.svg"
+        alt: ""
+      intro:
+        paragraphs:
+          - "<strong>Kuuden vuoden ja 30+ projektin aikana olen ollut mukana vaikuttamassa tuote-, design-, saavutettavuus- ja vaatimustenmukaisuuspäätöksiin asiakaskokemuksen parantamiseksi.</strong>"
+          - "Jokainen toimeksianto alkoi yhteisellä sparrauksella asiakkaan suunnittelijoiden ja tuoteomistajien kanssa projektin rajauksesta ja tavoitteista. Lopuksi vein konkreettiset suositukset suoraan päätöksentekijöiden pöydälle."
+          - "Kolme poimintaa, jotka kuvaavat työn kirjoa:"
+      subcases:
+        - title: "1. Viihdeboksin käyttöönotto: ensikokemuksen kitkat kuntoon"
+          teaser: "Havainnot ohjasivat satojentuhansien asiakkaiden käyttöönottoprosessin uudistamista."
+          cover:
+            file: "setup-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Haaste"
+              quote:
+                text: "Olen erittäin tyytyväinen UX tutkimusprojektiin, jonka Thomas teki palvelustamme . . . Olen erityisen tyytyväinen siihen, että ehdotukset sisälsivät myös vaihtoehtoisia tapoja helpottaa asiakkaan kokemusta, jotta meillä olisi mahdollisuus tehdä monia parannuksia teknisistä rajoitteista huolimatta. Thomas halusi alusta asti ymmärtää tarkoin meidän ongelmakenttämme, sekä mihin tutkimuksella pyritään, ja projekti saavutti tavoitteensa erinomaisesti."
+                name: "Asiakas"
+                title: "liiketoimintakehittäjä"
+                original_lang: "fi"
+              image:
+                file: "setup-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "Asiakastyytyväisyyskyselyissä toistui negatiivinen palaute viihdeboksin käyttöönotosta. Haluttiin paremmin ymmärtää kipupisteitä, jotta uudistuksia osattaisiin priorisoida oikein. Johdin tutkimusprosessia ja design-suositusten laatimista. Rajasimme kokonaisuuden yhdessä asiakkaan suunnittelijoiden ja liiketoimintakehittäjän kanssa."
+            - heading: "Lähestymistapa ja havainnot"
+              image:
+                file: "setup-findings.svg"
+                alt: ""
+              paragraphs:
+                - "Seurasin kuuden käyttäjän pakkauksen purkua, asennusta ja käyttöönottoa aidolla laitteella ja oikealla televisiolla. Tämä paljasti käytännön ongelmia, jotka olisivat jääneet prototyypillä huomaamatta."
+                - "Jokaisen havainnon perusteella muotoilin asiakkaan teknisiin reunaehtoihin sopivan parannusehdotuksen:"
+                - |
+                  - <strong>Paristojen löytäminen ja asennus oli hankalaa</strong> → Asennetaan paristot kaukosäätimeen valmiiksi tehtaalla.
+                  - <strong>Ohjelmistoasennus tuntui pitkältä ja puuduttavalta</strong> → Virtaviivaistetaan käyttöönottoprosessia missä pystytään, lisätään selkeät etenemisindikaattorit jäljelle jääviin vaiheisiin.
+                  - <strong>Useat erilliset haut hämmensivät</strong> → Yksi yhtenäinen haku koko laitteen sisällölle.
+            - heading: "Vaikutus"
+              image:
+                file: "setup-impact.svg"
+                alt: ""
+              paragraphs:
+               - "Esittelin tulokset tuotejohdolle, ja kävimme tiimin kanssa läpi design-suositusten toteutuskelpoisuuden ja prioriteetit. Tiimi otti käyttöönottoprosessin uudistamisen työn alle huomioiden tekniset rajoitteet. Tarkemmat toteutustiedot ovat luottamuksellisia."
+        - title: "2. Matkailu ja roaming: tuotepäätöksen kääntäminen oikealle uralle"
+          teaser: "Tutkimus esti tuotteen kehittämisen, joka ei olisi vastannut asiakkaiden tarpeisiin – säästäen kymmeniä tuhansia euroja."
+          cover:
+            file: "roaming-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Haaste"
+              quote:
+                text: "Erityiskiitos Thomakselle, jonka osaaminen ja panostus roaming-tutkimusprosessiin on ollut merkittävä. Hän osasi kerätä kriittisen käyttäjäymmärryksen ja viestiä havainnoistaan tehokkaasti, mikä teki työhömme suuren vaikutuksen."
+                name: "Asiakas"
+                title: "Digital Experience Lead"
+                original_lang: "en"
+              image:
+                file: "roaming-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "Asiakas halusi kasvattaa matkailijasegmenttiään ja vauhdittaa roaming-palveluidensa vaisua käyttöä. Vastasin asiakasymmärryksen hankkimisesta ja rajasin tutkimuksen yhdessä digitaalisesta kokemuksesta vastaavan vetäjän kanssa."
+            - heading: "Lähestymistapa ja havainnot"
+              image:
+                file: "roaming-findings.svg"
+                alt: ""
+              paragraphs:
+              - "Haastattelin kahdeksaa aktiivimatkailijaa ja testasin heidän kanssaan uusia roaming-tuotekonsepteja. Havainnot kääntyivät suosituksiksi:"
+              - |
+                - <strong>Roamingia välteltiin takavuosien kalliiden laskujen pelossa, ja tilalle valittiin hotellin Wi-Fi tai paikallinen prepaid</strong> → Nostetaan mieluummin esiin olemassa olevia matkadatapaketteja selkeänä vaihtoehtona reissunettiin, jolloin vältettiin perinteisen käyttöperusteisen laskutuksen huono kaiku.
+                - <strong>Tervetulo-tekstiviestin vaihtoehtoja ei ymmärretty eikä omaa tiedonsiirtotarvetta osattu arvioida</strong> → Avataan datan määrät konkreettisilla esimerkeillä ja tehdään kulutuksen seuranta helpoksi tekstiviestitse.
+                - <strong>Isompia paketteja suosittiin johdonmukaisesti; käyttöperusteista laskutusta pidettiin vain hätävarana</strong> → Siirretään painopiste nykyvalikoiman isompiin paketteihin. Vaikka niiden kulu- ja katerakenne on hieman toisenlainen, asiakasarvo oli suurempi.
+            - heading: "Vaikutus"
+              image:
+                file: "roaming-impact.svg"
+                alt: ""
+              paragraphs:
+               - "Esittelin havainnot tuotejohdolle ja sparrasin tiimin kanssa prioriteetit. Löydösten perusteella kaavailtua uutta tuotetta ei lähdetty rakentamaan turhaan, mikä säästi kymmeniä tuhansia euroja kehityskuluja. Sen sijaan paukut suunnattiin olemassa olevien tuotteiden tietoisuuden lisäämiseen."
+        - title: "3. Viestintäalustan saavutettavuuden parantaminen"
+          teaser: "Vuotta myöhemmin tehty tarkastava arviointi vahvisti, että valtaosa havaituista ongelmista oli korjattu."
+          cover:
+            file: "a11y-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Haaste"
+              quote:
+                text: "Hienoa työtä, Thomas . . . Hyviä havaintoja, hyviä yksityiskohtia, hyvin toteutettu."
+                name: "Asiakas"
+                title: "ohjelmistokehittäjä asiakkaalla"
+                original_lang: "en"
+              image:
+                file: "a11y-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "Asiakas halusi tietää asiakasviestintäalustansa saavutettavuuden tason, pitkälti lakisääteisten vaatimusten vuoksi. Vedin arvioinnin, rajasin sen kehitystiimin kanssa ja peilasin palvelua WCAG 2.2 -kriteereihin sekä EU:n esteettömyysdirektiivin vaatimuksiin."
+            - heading: "Lähestymistapa ja havainnot"
+              image:
+                file: "a11y-findings.svg"
+                alt: ""
+              paragraphs:
+              - "Arvioin palvelun Windows-kannettavalla käyttäen NVDA-ruudunlukuohjelmaa ja pelkkää näppäimistöä. Keskeiset havainnot:"
+              - |
+                - Liitetiedostoja ei pystynyt lisäämään pelkällä näppäimistöllä, ja osa muistakin toiminnoista jäi saavuttamattomiin.
+                - Kohdistusindikaattorit (focus) puuttuivat ja monilta komponenteilta puuttui ohjelmallinen nimilappu.
+                - Kohdistusjärjestys oli paikoitellen sekava.
+            - heading: "Vaikutus"
+              image:
+                file: "a11y-impact.svg"
+                alt: ""
+              paragraphs:
+              - "Esittelin tulokset tuoteomistajille ja kehitystiimille, ja pisteytimme korjaukset vakavuuden (1–4) sekä arvioidun työmäärän mukaan. Vuotta myöhemmin ehdotin seurantakierrosta, jolle asiakas näytti vihreää valoa – tällä kertaa testasin palvelun myös iOS-laitteella VoiceOverin avulla. Valtaosa aiemmin liputetuista ongelmista oli korjattu. Joitakin vanhoja oli yhä jäljellä ja uusiakin löytyi (osittain iOS-testauksen, aiempien esteiden takaa paljastuneiden ongelmien sekä uusien ominaisuuksien myötä). Kokonaisuudessaan palvelun saavutettavuus parani kuitenkin merkittävästi."
+      synthesis:
+        heading: "Summa summarum"
+        paragraphs:
+          - "Teen tiivistä yhteistyötä tuote-, muotoilu-, kehitys- ja johtotiimien kanssa, jotta voimme lisätä asiakasymmärrystä, karsia turhaa kitkaa ja tehdä palveluista helppokäyttöisempiä ja saavutettavampia."
+          - "Sama toimintamalli kantaa hyvinkin erilaisissa projekteissa:"
+          - |
+            - <strong>Rajataan projektin laajuus yhdessä asiakkaan kanssa.</strong> Jokaisen projektin tärkein vaihe on tavoitteiden ja tutkimuskysymysten määrittely sekä pohtiminen, miten tuloksia tullaan oikeasti hyödyntämään jatkossa.
+            - <strong>Testataan realistisissa olosuhteissa.</strong> Todelliset skenaariot, oikeat kohderyhmän käyttäjät ja oikeat apuvälineet takaavat sen, että havainnot pätevät myös käytännössä.
+            - <strong>Toteutuskelpoiset suositukset ja maaliin vieminen.</strong> Yhdistetään käyttäjäymmärrys muihin teknisiin ja liiketoiminnallisiin olosuhteisiin, sovitaan prioriteeteista tiimien kanssa ja seurataan, että korjaukset myös pitävät.
+
 
 sv:
   lang_name: "Svenska"
@@ -287,11 +525,12 @@ sv:
           - "<strong>Tester i verkligheten:</strong> Att prova saker i verkligheten är det snabbaste sättet att få veta vad som faktiskt funkar. Den här webbplatsen testade jag till exempel med riktiga hjälpmedel (skärmläsare, enbart tangentbord, röststyrning) och kontrollerade den mot etablerade tillgänglighetskriterier (WCAG 2.2)."
       - heading: "\"Vad vill du göra framöver?\""
         paragraphs:
-          - "Skapa tekniskt solida, ekonomiskt bärkraftiga och miljömässigt hållbara produkter och tjänster som förbättrar människors liv."
+          - "Skapa <em>tekniskt fungerande</em>, <em>ekonomiskt vettiga</em> och <em>miljömässigt hållbara</em> produkter och tjänster som <em>förbättrar människors liv</em>."
           - "<em>Teknologi</em>, <em>business</em>, <em>planet</em> och <em>människor</em> – tar man bort någon av dem fungerar inte produkten, särskilt inte på lång sikt."
 
   work_heading: "Utvalda projekt"
-  read_more: "Läs fallstudien"
+  read_more: "Läs om projektet"
+  subcase_more: "Läs om projektet"
   outcome_label: "Resultat"
   contact_heading: "Kontakta mig"
   contact_text: "Hör gärna av dig."
@@ -344,3 +583,121 @@ sv:
         - heading: "Resultat"
           paragraphs:
           - "Den summativa användbarhetsutvärderingens acceptanskriterier uppfylldes, och utvärderingen stödde produktens CE-märkning. Produkten är nu CE-märkt."
+    - title: "Teleoperatör: långt UX-partnerskap och över 30 projekt"
+      cover:
+        file: "case-cover.svg"
+        alt: ""
+      intro:
+        paragraphs:
+          - "<strong>Under sex år och 30+ projekt har jag stöttat beslut kring produktutveckling, design, tillgänglighet och regelefterlevnad för att förbättra kundupplevelsen.</strong>"
+          - "Varje projekt inleddes i tätt samarbete med kundens designers och produktfolk för att ringa in undersökningens omfattning och strategi – och avslutades med att vi lade konkreta rekommendationer på beslutsfattarnas bord."
+          - "Här är tre exempel som visar bredden i mitt arbete:"
+      subcases:
+        - title: "1. TV-box: att fixa en frustrerande första upplevelse"
+          teaser: "Insikterna lade grunden för att förnya installationsprocessen för hundratusentals kunder."
+          cover:
+            file: "setup-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Utmaning"
+              quote:
+                text: "Jag är väldigt nöjd med UX-undersökningen som Thomas gjorde om vår tjänst . . . Jag är särskilt nöjd med att rekommendationerna också beaktade alternativa sätt att förbättra kundupplevelsen, så att vi kunde implementera så många förbättringar som möjligt trots tekniska begränsningar. Från början till slut ville Thomas förstå vårt problemutrymme och forskningens mål, och projektet uppfyllde sina mål utmärkt."
+                name: "Kund"
+                title: "Business Development Manager"
+                original_lang: "fi"
+              image:
+                file: "setup-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "I kundenkäterna kom det fram återkommande kritik mot hur det kändes att packa upp och installera kundens TV-box. Kunden ville undersöka vad som låg bakom friktionen för att kunna prioritera rätt i vidareutvecklingen. Jag ledde undersökningen och formulerade designrekommendationerna i samarbete med kundens designers och affärsutvecklare."
+            - heading: "Metod och insikter"
+              image:
+                file: "setup-findings.svg"
+                alt: ""
+              paragraphs:
+                - "Jag observerade sex personer ur målgruppen när de packade upp och installerade en riktig produktionsbox kopplad till en vanlig tv. Det lyfte fram konkreta problem som en prototyp aldrig hade avslöjat. Helheten fungerade i stort sett okej, men varje enskilt problem mynnade ut i en rekommendation anpassad efter kundens tekniska ramar:"
+                - |
+                  - <strong>Batterierna var svåra att hitta och sätta i</strong> → Fjärrkontrollen borde levereras med batterierna förinstallerade från fabriken.
+                  - <strong>Mjukvaruinstallationen kändes lång och tröttsam</strong> → Processen bör förenklas där det går, och tydliga förloppsindikatorer lades till i de steg som inte kunde kortas ner.
+                  - <strong>Flera separata sökfunktioner var förvirrande</strong> → All sökning borde samlas i en och samma funktion i hela gränssnittet.
+            - heading: "Resultat"
+              image:
+                file: "setup-impact.svg"
+                alt: ""
+              paragraphs:
+               - "Jag presenterade resultaten för produktledningen och gick igenom genomförbarhet och prioriteringar tillsammans med teamen. Teamet tog fram en plan för att göra om hela installationsprocessen, med smarta kompromisser kring tekniska begränsningar. Detaljerna kring själva genomförandet är konfidentiella."
+        - title: "2. Resor och roaming: en kursändring i produktbeslutet"
+          teaser: "Undersökningen satte stopp för en produkt som inte svarade mot kundernas behov – och sparade tiotusentals euro."
+          cover:
+            file: "roaming-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Utmaning"
+              quote:
+                text: "Ett stort tack till Thomas, vars sakkunnighet och engagemang i roaming-undersökningen har varit exceptionellt. Hans förmåga att avslöja kritiska användarinsikter och kommunicera dem effektivt har gjort en betydande inverkan på vårt arbete."
+                name: "Kund"
+                title: "Digital Experience Lead"
+                original_lang: "en"
+              image:
+                file: "roaming-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "Kunden ville växa inom resesegmentet och få fart på den låga användningen av sina roamingtjänster. Jag ansvarade för kundinsikterna och avgränsade uppdraget tillsammans med ledaren för digital upplevelse."
+            - heading: "Metod och insikter"
+              image:
+                file: "roaming-findings.svg"
+                alt: ""
+              paragraphs:
+              - "Jag gjorde djupintervjuer med åtta vana resenärer och testade nya roamingkoncept med dem. Varje insikt ledde till en konkret rekommendation:"
+              - |
+                - <strong>Resenärer undvek roaming p.g.a. rädsla för skyhöga räkningar som förr i tiden, och valde hellre WiFi eller lokala prepaid-kort</strong> → Lyft hellre fram befintliga datapaket för resor som ett tydligt och tryggt alternativ, i stället för att driva rörlig taxa som har en negativ klang hos kunderna.
+                - <strong>Välkomst-sms:et var svårt att tyda och folk visste inte hur mycket data de behövde</strong> → Förklara datamängder med praktiska exempel och gör det enkelt att hålla koll på förbrukningen via sms.
+                - <strong>Resenärerna föredrog större datapaket; löpande debitering sågs bara som en nödlösning</strong> → Fokusera på de större paketen i det befintliga utbudet. De har visserligen en annan kostnads- och marginalprofil, men kundnyttan och förtroendet väger upp skillnaden.
+            - heading: "Resultat"
+              image:
+                file: "roaming-impact.svg"
+                alt: ""
+              paragraphs:
+               - "Jag presenterade slutsatserna för produktledningen och sparrade prioriteringarna med teamet. Tack vare insikterna lades planerna på den tilltänkta nya produkten ner helt eftersom den inte mötte kundernas behov, vilket sparade tiotusentals euro i utvecklingskostnader. Resurserna lades i stället på att göra befintliga lösningar mer kända och attraktiva."
+        - title: "3. Förbättringar i tillgängligheten för kommunikationsplattform"
+          teaser: "En uppföljande granskning ett år senare visade att största delen av bristerna hade åtgärdats."
+          cover:
+            file: "a11y-cover.svg"
+            alt: ""
+          sections:
+            - heading: "Utmaning"
+              quote:
+                text: "Mycket bra jobbat, Thomas . . . Bra upptäckter, bra detaljer, väl genomfört."
+                name: "Kund"
+                title: "systemutvecklare hos kunden"
+                original_lang: "en"
+              image:
+                file: "a11y-challenge.svg"
+                alt: ""
+              paragraphs:
+              - "Kunden behövde få koll på tillgängligheten i sin plattform för kundkommunikation, främst för att möta lagstadgade krav. Jag ledde granskningen, avgränsade upplägget ihop med utvecklingsteamet och bedömde tjänsten utifrån WCAG 2.2 och EU:s tillgänglighetsdirektiv."
+            - heading: "Metod och insikter"
+              image:
+                file: "a11y-findings.svg"
+                alt: ""
+              paragraphs:
+              - "Jag utvärderade tjänsten på en Windows-laptop med skärmläsaren NVDA och enbart tangentbordsnavigering. Några av de centrala problemen:"
+              - |
+                - Filer gick inte att bifoga med enbart tangentbord, och vissa andra funktioner var helt onåbara.
+                - Tydliga fokusmarkeringar saknades och många komponenter saknade programmatiska etiketter.
+                - Fokusordningen var ibland ologisk.
+            - heading: "Resultat"
+              image:
+                file: "a11y-impact.svg"
+                alt: ""
+              paragraphs:
+              - "Jag presenterade resultaten för produktägarna och utvecklingsteamet, och vi prioriterade åtgärderna utifrån svårighetsgrad (skala 1–4) och beräknad arbetsinsats. Ett år senare föreslog jag en uppföljning som kunden gav grönt ljus för – och den här gången testade jag även på iOS med VoiceOver. Största delen av de tidigare flaggade problemen hade åtgärdats. Vissa fanns kvar och en del nya hade tillkommit (dels via iOS-täckningen, dels genom nya funktioner och hinder som tidigare dolts bakom andra fel). Plattformens övergripande tillgänglighet hade ändå tagit ett rejält kliv framåt."
+      synthesis:
+        heading: "Summa summarum"
+        paragraphs:
+          - "Jag jobbar tätt ihop med produkt-, design-, utvecklings- och ledningsteam för att förstå kundernas vardag, skala bort onödig friktion och göra tjänster mer användbara och tillgängliga."
+          - "Samma strategi fungerar i väldigt olika projekt:"
+          - |
+            - <strong>Gemensam avgränsning i workshop med kunden.</strong> Det viktigaste i varje projekt är att formulera skarpa mål och undersökningsfrågor, och säkerställa hur resultaten faktiskt ska användas i praktiken.
+            - <strong>Testning under realistiska förhållanden.</strong> Äkta scenarier, verkliga användare ur målgruppen och faktiska hjälpmedel – så att insikterna håller när de möter verkligheten.
+            - <strong>Genomförbara rekommendationer och uppföljning.</strong> Jag väger alltid användarbehov mot tekniska och affärsmässiga ramar, enas om prioriteringar med teamen och stämmer av att förbättringarna verkligen biter – precis som vid den uppföljande tillgänglighetsgranskningen.

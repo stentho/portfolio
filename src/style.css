@@ -9,8 +9,9 @@
   --bg-alt2:    #ede6db;   /* testimonials stripe */
   --surface:    #fffefe;   /* cards */
   --text:       #2B231D;
+  --text-light: #393939;
   --muted:      #5A4B40;   /* quotes */
-  --accent:     #4e5840;   /* links, role */
+  --accent:     #4a5a35;   /* links, role */
   --border:     #6B5B4E;   /* expander text */
   --border-alt: #5a4230;   /* current language, at-a-glance labels */
   --border-alt2: #6a3f2c;  /* image border */
@@ -115,6 +116,32 @@ a:focus {
   border: 0;
 }
 
+/* Expanders opening and closing animations */
+@media (prefers-reduced-motion: no-preference) {
+  /* the chevron turns smoothly */
+  .more summary::after,
+  .about-item summary::after {
+    transition: transform 0.3s ease;
+  }
+
+  /* the content slides open and closed (browsers that support it) */
+  @supports (interpolate-size: allow-keywords) {
+    :root {
+      interpolate-size: allow-keywords;
+    }
+
+    details::details-content {
+      height: 0;
+      overflow: clip;
+      overflow-clip-margin: 0.5rem;   /* keeps keyboard focus rings at the edges from being cut off */
+      transition: height 0.3s ease, content-visibility 0.3s ease allow-discrete;
+    }
+
+    details[open]::details-content {
+      height: auto;
+    }
+  }
+}
 
 /* ==========================================================
    Headings
@@ -141,7 +168,14 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
-  margin: 1.5rem 0 0.5rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.75rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0rem;
 }
 
 
@@ -327,7 +361,7 @@ h4 {
 
 .quote blockquote p {
   margin: 0 0 1rem;
-  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
   font-style: italic;
   line-height: 1.4;
 }
@@ -466,6 +500,27 @@ h4 {
   }
 }
 
+/* ---------- Styling the lists ---------- */
+.project ul,
+.about ul {
+  list-style-type: "–  ";
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.25rem;
+  max-width: 40rem;
+}
+
+.project li + li,
+.about li + li {
+  margin-top: 0.5rem;
+}
+
+.project li::marker,
+.about li::marker {
+  color: var(--border);         /* optional: colour the dash */
+  font-size: 1.25rem;            /* optional: make the dash a little bigger */
+  font-weight: 600;              /* optional: make the dash bold */
+}
+
 /* ---------- Cover image: banner above the title ---------- */
 .cover {
   width: 100%;
@@ -493,8 +548,8 @@ h4 {
 
 .glance dt {
   flex: 0 0 5.5rem;
-  color: var(--accent);
-  font-weight: 650;
+  color: var(--muted);
+  font-weight: 600;
   text-align: right;
 }
 
@@ -516,6 +571,7 @@ h4 {
   .glance dt {
     flex: none;
     text-align: left;
+    font-weight: 700;
     margin-bottom: 0.25rem;
   }
 }
@@ -523,6 +579,12 @@ h4 {
 /* ---------- Case study sections (heading, text, image) ---------- */
 .case-section {
   display: flow-root;        /* keeps the floated image inside its section */
+}
+
+.case-section .quote {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 .case-image {
@@ -546,9 +608,8 @@ h4 {
   justify-content: center;
   gap: 1rem;
   min-height: 2.75rem;
-  padding: 0.6rem 1rem;
   background: var(--surface);
-  color: var(--border);
+  color: var(--accent);
   font-weight: 600;
   cursor: pointer;
   list-style: none;                 /* hides the default arrow */
@@ -588,6 +649,33 @@ h4 {
   margin-bottom: 1rem;
 }
 
+/* ---------- Subcases (inside a larger case) ---------- */
+.subcases {
+  margin-top: 1rem;
+}
+
+.subcase {
+  padding-block: 1.5rem 1.5rem;
+}
+
+.subcase h4 {
+  margin: 0 0 0.5rem;
+}
+
+.subcase .glance {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.subcase .teaser {
+  color: var(--text-light);
+  line-height: 1.3;
+}
+
+.subcase .cover { 
+  aspect-ratio: 7 / 1;
+  border-radius: 10px;
+}
 
 /* ==========================================================
    Contact

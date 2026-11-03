@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <rect width="480" height="320" fill="#F8F2E9"/>
+  <g transform="translate(68 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(116 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(164 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(212 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(260 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(308 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(356 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <g transform="translate(404 44) scale(0.85)" fill="#6A3F2C"><circle cx="0" cy="-8" r="9"/><path d="M-15 14 a15 15 0 0 1 30 0 z"/></g>
+  <rect x="60" y="92" width="104" height="162" rx="14" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4" stroke-dasharray="8 6"/>
+  <rect x="92" y="114" width="40" height="118" rx="10" fill="#DADDE0"/>
+  <rect x="92" y="204.0" width="40" height="28" rx="10" fill="#A47B62"/>
+  <rect x="190" y="92" width="104" height="162" rx="14" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4"/>
+  <rect x="222" y="114" width="40" height="118" rx="10" fill="#DADDE0"/>
+  <rect x="222" y="174.0" width="40" height="58" rx="10" fill="#A47B62"/>
+  <rect x="320" y="92" width="104" height="162" rx="14" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="5"/>
+  <rect x="352" y="114" width="40" height="118" rx="10" fill="#DADDE0"/>
+  <rect x="352" y="136.0" width="40" height="96" rx="10" fill="#6A3F2C"/>
+  <circle cx="424" cy="92" r="20" fill="#6A3F2C" stroke="#FFFCF7" stroke-width="5"/>
+  <path d="M415.5 92.0 L421.4 98.8 L433.4 84.3" fill="none" stroke="#FFFCF7" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 232" width="480" height="232">
+  <rect width="480" height="232" fill="#F8F2E9"/>
+  <line x1="40" y1="200" x2="440" y2="200" stroke="#CDB8A0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="40" cy="200" r="6" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3.5"/>
+  <circle cx="120" cy="200" r="6" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3.5"/>
+  <circle cx="200" cy="200" r="6" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3.5"/>
+  <circle cx="280" cy="200" r="6" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3.5"/>
+  <circle cx="360" cy="200" r="6" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3.5"/>
+  <circle cx="440" cy="200" r="6" fill="#6A3F2C" stroke="#6A3F2C" stroke-width="3.5"/>
+  <rect x="25.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="39.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="53.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="67.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="81.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="95.5" y="152" width="9" height="9" rx="2" fill="#6A3F2C"/>
+  <line x1="100.0" y1="118" x2="100.0" y2="148" stroke="#6A3F2C" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
+  <rect x="109.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="123.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="137.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="151.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="165.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="179.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="193.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="207.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="221.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="235.5" y="152" width="9" height="9" rx="2" fill="#6A3F2C"/>
+  <line x1="240.0" y1="118" x2="240.0" y2="148" stroke="#6A3F2C" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
+  <rect x="249.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="263.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="277.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="291.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="305.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="319.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="333.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="347.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="361.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="375.5" y="152" width="9" height="9" rx="2" fill="#6A3F2C"/>
+  <line x1="380.0" y1="118" x2="380.0" y2="148" stroke="#6A3F2C" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
+  <rect x="389.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="403.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="417.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="431.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="445.5" y="152" width="9" height="9" rx="2" fill="#CDB8A0"/>
+  <rect x="52" y="22" width="96" height="92" rx="14" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4"/>
+  <rect x="192" y="22" width="96" height="92" rx="14" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4"/>
+  <rect x="332" y="22" width="96" height="92" rx="14" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="4"/>
+  <rect x="66" y="60" width="40" height="24" rx="5" fill="#DADDE0" stroke="#6A3F2C" stroke-width="3"/>
+  <circle cx="75" cy="72" r="2.5" fill="#6A3F2C"/>
+  <rect x="114" y="46" width="16" height="40" rx="6" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3"/>
+  <circle cx="122" cy="57" r="2.5" fill="#6A3F2C"/>
+  <circle cx="122" cy="66" r="2.5" fill="#CDB8A0"/>
+  <circle cx="122" cy="75" r="2.5" fill="#CDB8A0"/>
+  <circle cx="240" cy="68" r="27" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="3"/>
+  <ellipse cx="240" cy="68" rx="11" ry="27" fill="none" stroke="#6A3F2C" stroke-width="3"/>
+  <line x1="213" y1="68" x2="267" y2="68" stroke="#6A3F2C" stroke-width="3" stroke-linecap="round"/>
+  <rect x="360" y="60" width="40" height="16" rx="8" fill="#CDB8A0"/>
+  <rect x="353" y="53" width="54" height="30" rx="12" fill="none" stroke="#6A3F2C" stroke-width="3" stroke-dasharray="5 4"/>
+  <polygon points="388,74 388,94 394,89 398,99 402,97 398,87 405,86" fill="#FFFCF7" stroke="#6A3F2C" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

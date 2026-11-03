@@ -1,0 +1,10 @@
+{% macro render_glance(items) %}
+<dl class="glance">
+  {% for item in items %}
+  <div>
+    <dt>{{ item.label }}</dt>
+    <dd>{{ item.value }}</dd>
+  </div>
+  {% endfor %}
+</dl>
+{% endmacro %}
