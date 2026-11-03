@@ -1,0 +1,17 @@
+{% from "quote.njk" import render_quote %}
+{% macro render_sections(sections, level, t, lang) %}
+{% for s in sections %}
+<div class="case-section">
+  {% if s.quote %}
+  {{ render_quote(s.quote, t, lang) }}
+  {% endif %}
+  {% if s.image %}
+  <img class="case-image" src="/images/{{ s.image.file }}" alt="{{ s.image.alt }}" width="480" height="320">
+  {% endif %}
+  {% if s.heading %}<h{{ level }}>{{ s.heading }}</h{{ level }}>{% endif %}
+  {% for para in s.paragraphs %}
+  {{ para | md | safe }}
+  {% endfor %}
+</div>
+{% endfor %}
+{% endmacro %}

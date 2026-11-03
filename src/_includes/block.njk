@@ -1,0 +1,13 @@
+{% macro render_block(b) %}
+{% if b %}
+<div class="case-block case-section">
+  {% if b.image %}
+  <img class="case-image" src="/images/{{ b.image.file }}" alt="{{ b.image.alt }}" width="480" height="320">
+  {% endif %}
+  {% if b.heading %}<h4>{{ b.heading }}</h4>{% endif %}
+  {% for para in b.paragraphs %}
+  {{ para | md | safe }}
+  {% endfor %}
+</div>
+{% endif %}
+{% endmacro %}

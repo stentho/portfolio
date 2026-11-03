@@ -20,6 +20,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("CNAME"); // custom domain, from the project root
 
+  const md = require("markdown-it")({ html: true });
+  eleventyConfig.addFilter("md", (s) => md.render(String(s)));         // paragraphs and lists
+  eleventyConfig.addFilter("mdi", (s) => md.renderInline(String(s)));  // short one-line fields
+  
   return {
     dir: {
       input: "src",
