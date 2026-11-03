@@ -37,7 +37,7 @@
   <details class="about-item">
     <summary><span>{{ s.heading | safe }}</span></summary>
     {% for para in s.paragraphs %}
-    <p>{{ para | safe }}</p>
+    <p>{{ para | md | safe }}</p>
     {% endfor %}
   </details>
   {% endfor %}

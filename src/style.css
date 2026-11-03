@@ -505,8 +505,14 @@ h5 {
 .about ul {
   list-style-type: "–  ";
   margin: 1rem 0 1.5rem;
-  padding-left: 1.25rem;
   max-width: 40rem;
+}
+
+@media (max-width: 30rem) {
+  .project ul,
+  .about ul {
+    padding-left: 1.5rem;
+  }
 }
 
 .project li + li,
@@ -516,7 +522,7 @@ h5 {
 
 .project li::marker,
 .about li::marker {
-  color: var(--border);         /* optional: colour the dash */
+  color: var(--text);         /* optional: colour the dash */
   font-size: 1.25rem;            /* optional: make the dash a little bigger */
   font-weight: 600;              /* optional: make the dash bold */
 }
@@ -674,7 +680,7 @@ h5 {
 
 .subcase .cover { 
   aspect-ratio: 7 / 1;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 /* ==========================================================
