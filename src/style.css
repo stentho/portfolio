@@ -656,7 +656,7 @@ h5 {
 }
 
 .more[open] {
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
   
   /* Creates a solid line using a gradient slice */
   background-image: linear-gradient(to right, var(--bg-alt), var(--bg-alt));
@@ -675,7 +675,7 @@ h5 {
 }
 
 .subcase {
-  padding-block: 2rem 3rem;
+  padding-block: 3rem;
 }
 
 .subcase h4 {
