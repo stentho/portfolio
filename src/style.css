@@ -655,13 +655,27 @@ h5 {
   margin-bottom: 1rem;
 }
 
+.more[open] {
+  padding-bottom: 5rem;
+  
+  /* Creates a solid line using a gradient slice */
+  background-image: linear-gradient(to right, var(--bg-alt), var(--bg-alt));
+  background-repeat: no-repeat;
+  
+  /* Size of the segment: 50px wide, 3px high */
+  background-size: 6rem 4px; 
+  
+  /* Position of the segment: centered horizontally, at the very bottom */
+  background-position: center bottom; 
+}
+
 /* ---------- Subcases (inside a larger case) ---------- */
 .subcases {
-  margin-top: 1rem;
+  margin-block: 1rem;
 }
 
 .subcase {
-  padding-block: 1.5rem 1.5rem;
+  padding-block: 2rem 3rem;
 }
 
 .subcase h4 {

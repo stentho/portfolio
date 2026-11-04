@@ -32,7 +32,7 @@ en:
       title: "telecommunications company"
       original_lang: "en"
   about:
-    heading: "About me"
+    heading: "\"Thomas who?\""
     sections:
       - heading: "\"What kind of designer are you?\""
         paragraphs:
@@ -263,7 +263,7 @@ fi:
       title: "telekommunikaatioyritys"
       original_lang: "en"
   about:
-    heading: "Kuka minä olen"
+    heading: "\"Thomas kuka?\""
     sections:
       - heading: "\"Minkälainen suunnittelija olet?\""
         paragraphs:
@@ -354,15 +354,15 @@ fi:
         - heading: "Lopputulos"
           paragraphs:
           - "Summatiivinen käytettävyysarviointi täytti hyväksymiskriteerit ja tuki laitteen CE-merkinnän saavuttamista. Laite on nyt CE-merkitty."
-    - title: "Teleoperaattori: pitkäaikainen UX-kumppanuus ja yli 30 projektia"
+    - title: "Teleoperaattori: 30+ projektia jatkuvan UX-konsultoinnin puitteissa"
       cover:
         file: "case-cover.svg"
         alt: ""
       intro:
         paragraphs:
-          - "<strong>6 vuotta, 30+ projektia. UX-konsultoinnin puitteissa olen päässyt vaikuttamaan monella tapaa, asiakasymmärryksen kasvattamisesta tuotestrategiaan ja saavutettavuuden parantamiseen.</strong>"
+          - "<strong>6 vuotta, 30+ projektia. Pitkän UX-konsultoinnin kuluessa olen päässyt vaikuttamaan monella tapaa asiakasymmärryksen kasvattamisesta tuotestrategiaan ja saavutettavuuden parantamiseen.</strong>"
           - "Jokaisessa projektissa sparraillaan ensin asiakkaan suunnittelijoiden ja tuoteomistajien kanssa projektin ja tavoitteiden rajaamisesta. Lopuksi vein konkreettiset suositukset suoraan päätöksentekijöiden pöydälle."
-          - "Kolme poimintaa, jotka kuvaavat työn kirjoa:"
+          - "Kolme nostoa vuosien varrelta:"
       subcases:
         - title: "1. Viihdeboksi: käyttööonoton kipukohdat kuntoon"
           teaser: "Havainnot ohjasivat satojentuhansien asiakkaan käyttöönottoprosessin uudistamisprosessia."
@@ -505,7 +505,7 @@ sv:
       title: "telekommunikationsföretag"
       original_lang: "en"
   about:
-    heading: "Vem jag är"
+    heading: "\"Vem är du, Thomas?\""
     sections:
       - heading: "\"Hurdan designer är du?\""
         paragraphs:
