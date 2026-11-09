@@ -32,7 +32,7 @@
 
 {% if t.about %}
 <section class="section about" aria-labelledby="about-heading">
-  <h2 id="about-heading">{{ t.about.heading }}</h2>
+  <h2 id="about-heading">{{ t.about.heading | safe }}</h2>
   {% for s in t.about.sections %}
   <details class="about-item">
     <summary><span>{{ s.heading | safe }}</span></summary>
