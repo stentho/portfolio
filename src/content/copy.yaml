@@ -38,25 +38,35 @@ en:
         paragraphs:
           - "<strong>What I do:</strong> End-to-end: research, concept, design, evaluation, stakeholder alignment, accessibility review. For visual polish, I like to partner with visual designers."
           - "<strong>How I think:</strong> I base my design decisions on research. That doesn't mean going slow, it means <em>understanding</em> what you're doing: "
-          - "<blockquote>Who are the stakeholders?</blockquote>"
-          - "<blockquote>What are the value streams?</blockquote>" 
-          - "<blockquote>What value are we creating, and for whom?</blockquote>"
-          - "<blockquote>What are the consequences, positive and negative, of releasing this product?</blockquote>"
-          - "<blockquote>How do we define — and then measure — success or failure?</blockquote>"
+          - |
+            - Who are the stakeholders?
+            - What are the value streams?
+            - What value are we creating, and for whom?
+            - What are the consequences, positive and negative, of releasing this product?
+            - How do we define — and then measure — success or failure?
           - "To answer these questions, you have to get out there and talk to, observe, and listen to people."
-          - "<strong>Outcomes, not outputs:</strong> In a world where AI tools make it cheaper and faster than ever to build software, it's vital that we not just create stuff, but <em>value</em>. AI offers new possibilities for designers to go hands-on, but one core idea remains the same: tools are secondary. I'll use whatever works: Claude Code, Figma, pen & paper. No matter the tools, the true force multipliers are still <em>understanding</em> and <em>clarity</em>."
+          - "<strong>Outcomes, not outputs:</strong> In a world where AI tools make it cheaper and faster than ever to build software, it's vital that we not just create stuff, but <em>value</em>."
+          - "AI offers new possibilities for designers to go hands-on, but one core idea remains the same: tools are secondary. I'll use whatever works: Claude Code, Figma, pen & paper. Or why not all three?"
+          - "No matter the tools, the true force multipliers are still <em>understanding</em> and <em>clarity</em>."
       - heading: "\"How do you use AI?\""
         paragraphs:
           - "Lots of ways! Here's three:"
-          - "<strong>Sharpening steel:</strong> Helps refine my ideas. I like to think of it like an evolution of the \"rubber duck\" concept, where you organize your thoughts by explaining them step-by-step to an inanimate duck. AI chatbots, of course, can respond, poking holes in your arguments and highlighting potential things you've missed. Steel sharpens steel."
-          - "<strong>Deep search:</strong> Language models are great at diving through huge piles of data to find the stuff that traditional search has trouble with. A timestamp for a quote from 12 hours of interview recordings? No problem. A specific file from an old project? Even a vague prompt is enough."
-          - "<strong>Functional prototypes and websites:</strong> LLMs are great at both generating code and explaining how it works. For instance, this website was built with the help of Claude. I hand-sketched the layout and defined the requirements, content, and accessibility criteria (WCAG 2.2); Claude generated the base code and decorative elements, which I reviewed, edited, and expanded upon. From then on, I would iterate either by editing the code directly or asking Claude to step in. The whole time I stayed on top of what was happening both in the code and the design."
+          - "<strong>Sharpening steel:</strong> Helps refine my ideas. I like to think of it like an evolution of the \"rubber duck\" concept, where you organize your thoughts by explaining them step-by-step to an inanimate duck. AI chatbots, of course, can respond, poking holes in your arguments and highlighting potential things you've missed. Steel sharpens steel, and so on."
+          - "<strong>Deep search:</strong> Language models are great at diving through huge piles of data to find the stuff that traditional search has trouble with. A timestamp for a quote from 12 hours of interview recordings? No problem. A memo from an old project? Even a vague prompt will do the trick."
+          - "<strong>Functional prototypes and websites:</strong> LLMs are great at both generating code and explaining how it works. For instance, this website was built with the help of Claude."
+          - |
+            - I hand-sketched the layout using a drawing program.
+            - I defined the requirements, content, color palette, and accessibility criteria (WCAG 2.2)
+            - Claude generated the base code and decorative elements, which I reviewed, edited, and expanded upon as needed in my code editor. 
+            - I added more content and new components either by editing the code directly or asking Claude to step in. The whole time I stayed on top of what was happening both in the code and the user interface."
       - heading: "\"Okay, when do you <em>not</em> use AI?\""
         paragraphs:
-          - "<strong>Thought-heavy tasks:</strong> Complex problem-solving, vision work, concepting, wireframing, deciding what's important. I believe the first draft of anything should always be your own, no matter how rough, as that's where essential framing happens. Language models can be very helpful critics and sparring partners, but I'm the one conducting the orchestra. It's certainly <em>not</em> this:"
-          - "<blockquote>Claude, generate me a fully functional design system. Make no mistakes.</blockquote>"
+          - "<strong>Thought-heavy tasks:</strong> Complex problem-solving, vision work, concepting, wireframing, deciding what's important. I believe the first draft of anything should always be your own, no matter how rough, as that's where essential framing happens. Language models can be very helpful critics and sparring partners, but I'm the one conducting the orchestra."
+          - "It's certainly <em>not</em> this:"
+          - |
+            - <code>Claude, generate me a fully functional design system. Make no mistakes.</code>
           - "Design is intentional, and generative AI models have no intention of their own. They’re powerful (and often useful) statistical pattern-matchers that respond to prompts, but that's all they are."
-          - "<strong>When generative AI is overkill:</strong> Compute is not cheap, financially or environmentally. If there is a less computationally intensive way of doing something, I consider that first. For simple tasks like sorting a spreadsheet, a deterministic script is the wiser choice. If I need generative AI but the task isn't super involved, I reach for a smaller model."
+          - "<strong>When generative AI is overkill:</strong> Compute is not cheap, financially or environmentally. If there is a less computationally intensive way of doing something, I consider that first. For simple tasks like sorting a spreadsheet, a deterministic script is the wiser choice. If I need generative AI but the task isn't super involved, I'll reach for a smaller model."
           - "<strong>Real-world testing:</strong> Trying something in the real world is the fastest way to know what actually works. For instance, I tested this site with real assistive technologies (screen readers, keyboard-only, voice-activation), checking against established accessibility criteria (WCAG 2.2)."
       - heading: "\"Going forward, what do you want to do?\""
         paragraphs:
@@ -129,7 +139,7 @@ en:
           - "Three projects to demonstrate the breadth of my work:"
       subcases:
         - title: "1. Entertainment box setup: fixing a frustrating first experience"
-          teaser: "Findings shaped plans to redesign the setup process for hundreds of thousands of customers."
+          teaser: "Findings shaped the redesign for hundreds of thousands of customers."
           cover:
             file: "setup-cover.svg"
             alt: ""
@@ -152,15 +162,20 @@ en:
               paragraphs:
                 - "I observed 6 target-audience participants unbox and set up a real production box with a real TV, which exposed problems a prototype would have missed. The process was fine overall, but each issue led to a recommendation shaped by the client’s technical constraints:"
                 - |
-                  - <strong>Batteries were tricky to find and insert</strong> → preinstall them in the remote.
+                  - <strong>The remote control and batteries were tricky to find</strong> → preinstall them in the remote.
                   - <strong>Software setup was long and fatiguing</strong> → streamline where possible, add progress indicators where not.
-                  - <strong>Multiple search systems were confusing</strong> → one search across the product.
+                  - <strong>A key TV feature was hard to discover</strong> → add a corresponding physical button to the remote. (For confidentiality reasons I can't reveal what the feature was.)
             - heading: "Impact"
               image:
                 file: "setup-impact.svg"
                 alt: ""
               paragraphs:
-               - "I presented to product leadership and worked with the teams to check feasibility and align on priorities. The team planned a redesign of the setup process, with workarounds for technically constrained issues. Implementation details are confidential."
+               - "I presented to product leadership and worked together with them to check feasibility and align on priorities."
+               - "My findings and recommendations had a significant impact on the redesign of the product:"
+               - |
+                 - <strong>Packaging:</strong> The remote control and batteries were brought to a more prominent location in the packaging.
+                 - <strong>Remote:</strong> A physical button was added to the remote to make the key TV feature easier to discover and use.
+                 - <strong>Setup:</strong> The software setup was streamlined e.g. by removing repeating steps.
         - title: "2. Travel and roaming: redirecting a product decision"
           teaser: "Research stopped a product that wouldn’t have met customer needs, saving tens of thousands of euros."
           cover:
@@ -204,7 +219,7 @@ en:
               quote:
                 text: "Very nice job, Thomas . . . Good findings, good details, well executed."
                 name: "Client"
-                title: "Developer"
+                title: "Software developer"
                 original_lang: "en"
               image:
                 file: "a11y-challenge.svg"
@@ -235,7 +250,7 @@ en:
           - |
             - <strong>Workshop the scope with the client.</strong> The most important part of any project is defining the goals and research questions, and understanding how the results will be used.
             - <strong>Test in realistic conditions.</strong> Realistic scenarios, real target-audience users, and real assistive technology, so the findings hold up in practice.
-            - <strong>Make recommendations that can be built, then follow through.</strong> I weigh user insight against technical and business constraints, agree on priorities with the teams, and check that fixes held, as with the accessibility re-evaluation I proposed.
+            - <strong>Make design recommendations that can be built, and follow through.</strong> I weigh user insights against technical and business constraints, agree on priorities with the teams, and later verify that design changes had real impact.
 fi:
   lang_name: "Suomi"
   title: "Thomas Stenius – Johtava UX- ja palvelumuotoilija"
@@ -267,37 +282,42 @@ fi:
     sections:
       - heading: "\"Minkälainen suunnittelija olet?\""
         paragraphs:
-          - "<strong>Mitä teen:</strong> Hoidan monipuolisesti suunnitteluprosessin eri vaiheita: tutkimus, konseptointi, suunnittelu, arviointi, sidosryhmien valjastaminen, saavutettavuustarkastukset. Ulkoasun viimeistelyn hoidan mieluiten yhdessä visuaalisen suunnittelijan kanssa."
+          - "<strong>Mitä teen:</strong> Hoidan monipuolisesti suunnitteluprosessin eri vaiheita: tutkimusta, konseptointia, suunnittelua, arviointia, sidosryhmien osallistamista, saavutettavuustarkastuksia. Ulkoasun viimeistelyn teen mieluiten yhdessä visuaalisen suunnittelijan kanssa."
           - "<strong>Miten ajattelen:</strong> Pohjaan suunnittelupäätökseni tutkimukseen. Se ei tarkoita, että etenisin hitaasti, vaan että suunnittelufilosofiani pohjautuu <em>ymmärrykseen siitä, mitä ollaan tekemässä</em>:"
-          - "<blockquote>Keitä sidosryhmät ovat?</blockquote>"
-          - "<blockquote>Miten arvovirrat liikkuvat?</blockquote>"
-          - "<blockquote>Minkälaista arvoa luomme ja kenelle?</blockquote>"
-          - "<blockquote>Mitä seurauksia tuotteen julkaisemisella on, hyviä ja huonoja?</blockquote>"
-          - "<blockquote>Miten määrittelemme onnistumisen tai epäonnistumisen, ja miten niitä mitataan?</blockquote>"
-          - "Vastaus ilmenee vain puhumalla ihmisten kanssa ja tarkkailemalla, miten he toimivat aidossa tilanteessa."
-          - "<strong>Vaikutus, ei tuotos:</strong> Tekoälytyökalut ovat mahdollistaneet ohjelmistojen rakentamisen yhä nopeammin ja halvemmin. Olennaista on siis, ettei vain luoda lisää tavaraa vaan <em>arvoa</em>. Tekoäly tuo suunnittelijoille mahdollisuuden vaikuttaa monipuolisemmin tuotekehitykseen, mutta yksi perusajatus pysyy samana: työkalut ovat vain työkaluja. Käytän sitä, mikä toimii: Claude Codea, Figmaa, kynää ja paperia. Ja miksei kaikkia kolmea samaan aikaan? Aito tehokkuus syntyy joka tapauksessa siitä, kuinka hyvin <em>ymmärrämme</em> sidosryhmiämme ja kuinka selkeä kuva meillä on tavoitetilastamme."
+          - |
+            - Keitä sidosryhmät ovat?
+            - Miten arvovirrat liikkuvat?
+            - Minkälaista arvoa luomme ja kenelle?
+            - Mitä seurauksia tuotteen julkaisemisella on, hyviä ja huonoja?
+            - Miten määrittelemme onnistumisen tai epäonnistumisen, ja miten niitä mitataan?
+          - "Vastaukset näihin kysymyksiin löytyvät vain puhumalla ihmisten kanssa ja tarkkailemalla, miten he toimivat aidossa tilanteessa."
+          - "<strong>Vaikutus, ei tuotos:</strong> Tekoälytyökalut ovat mahdollistaneet ohjelmistojen kehittämisen yhä nopeammin ja halvemmin. Olennaista on siis, ettei vain luoda lisää tavaraa vaan <em>arvoa</em>."
+          - "Tekoäly tarjoaa suunnittelijoille mahdollisuuden vaikuttaa monipuolisemmin tuotekehitykseen, mutta yksi perusajatus pysyy samana: työkalut ovat vain työkaluja. Käytän sitä, mikä toimii: Claude Codea, Figmaa, kynää ja paperia. Ja miksei kaikkia kolmea samaan aikaan?"
+          - "Aito tehokkuus syntyy joka tapauksessa <em>sidosryhmiemme ymmärtämisestä</em> ja selkeästä käsityksestä siitä, <em>mitä haluamme saada aikaan</em>."
       - heading: "\"Miten käytät tekoälyä?\""
         paragraphs:
           - "Monella tapaa! Tässä kolme:"
-          - "<strong>Ajatusten terävöittäminen:</strong> Tekoälybotit toimivat hyvin ajatusten terävöittämiseen. Miellän ne seuraavaksi askeleeksi klassisesta \"kumiankkamenetelmästä\": Ajatukset järjestyvät, kun ne selittää auki vaihe kerrallaan kumiankalle. Chatbotit voivat tietysti myös vastata (toisin kuin kumiankat), löytää aukkoja argumenteissa ja muistuttaa asioista, jotka ovat voineet jäädä huomaamatta. Teräs hioo terästä ja niin edelleen."
-          - "<strong>Semanttinen haku:</strong> Kielimallit ovat taitavia löytämään <q>neulan heinäsuovasta</q>. Tarkka aikaleima lainaukselle 12 tunnin haastattelutallenteista? Onnistuu hetkessä. Muistiinpanot ikivanhasta projektista? Epämääräinenkin prompti riittää."
-          - "<strong>Toiminnalliset prototyypit ja verkkosivut:</strong> Koodin tuottaminen kielimallin avustuksella on pelottavan nopeaa, ja botti osaa myös selittää koodiaan taitavasti. Esimerkkinä rakensin tämän sivuston yhdessä Clauden kanssa:"
+          - "<strong>Ajatusten terävöittäminen:</strong> Tekoälybotit toimivat hyvin ajatusten terävöittämiseen. Miellän ne seuraavaksi askeleeksi klassisesta kumiankkamenetelmästä: Ajatukset järjestyvät, kun ne selittää auki vaihe kerrallaan kumiankalle. Chatbotit voivat tietysti myös vastata (toisin kuin kumiankat), löytää aukkoja argumenteissa ja muistuttaa asioista, jotka ovat saattaneet jäädä huomaamatta. Teräs hioo terästä ja niin edelleen."
+          - "<strong>Semanttinen haku:</strong> Kielimallit ovat taitavia löytämään neulan heinäsuovasta. Tarkka aikaleima lainaukselle 12 tunnin haastattelutallenteista? Onnistuu hetkessä. Muistiinpanot ikivanhasta projektista? Epämääräinenkin prompti riittää."
+          - "<strong>Toiminnalliset prototyypit ja verkkosivut:</strong> Koodin tuottaminen kielimallin avustuksella on pelottavan nopeaa, ja botti osaa myös selittää koodiaan taitavasti. Esimerkiksi tämän sivuston rakensin yhdessä Clauden kanssa:"
           - |
             - Hahmottelin ensin osiot piirtämällä asettelun käsin piirrustusohjelmalla. 
             - Määrittelin vaatimukset, sisällön, väripaletin ja saavutettavuuskriteerit (WCAG 2.2).
-            - Claude tuotti pohjakoodin ja koristeelementit, jotka kävin tarkkaan läpi. Muokkasin ja täydensin niitä tarpeen mukaan koodieditorilla. 
-            - Iteroin sivustoa lisäämällä sisältöä ja komponentteja joko suoraan koodista tai Clauden avulla. Koko ajan pysyin kärryillä siitä, mitä tapahtui sekä koodissa että käyttöliittymässä."
+            - Claude tuotti pohjakoodin ja koriste-elementit, jotka kävin tarkasti läpi. Muokkasin ja täydensin niitä tarpeen mukaan koodieditorissa. 
+            - Iteroin sivustoa lisäämällä sisältöä ja komponentteja joko suoraan koodiin tai Clauden avulla. Pysyin koko ajan kärryillä siitä, mitä tapahtui niin koodissa kuin käyttöliittymässä.
       - heading: "\"Okei, mihin <em>et</em> käytä tekoälyä?\""
         paragraphs:
-          - "<strong>Ajattelua vaativat tehtävät:</strong> Moniulotteiset ongelmat, visiointi, konseptointi, rautalangat, päätöksenteko, priorisointi – kaikki rasittavat pollaa, hyvällä tavalla. Näissä asioissa ensimmäinen luonnos tehdään aina itse, vaikka kynällä ja paperilla, koska muuten suunnittelulle olennainen ns. <em>kehystys</em> jää helposti taka-alalle. Kielimallit ovat hyviä kriitikoita ja sparrauskumppaneita, mutta pidän tärkeänä, että ohjat pysyvät omissa käsissäni. Se ei todellakaan näytä tältä:"
-          - "<blockquote>Claude, generoi minulle täysin toimiva design system. Älä tee virheitä.</blockquote>"
-          - "Suunnittelu on tavoitteellista toimintaa eikä tekoälymalleilla ole omia tavoitteita. Ne ovat kyllä tehokkaita (ja usein hyödyllisiä), mutta loppupeleissä ovat promptiin reagoivia tilastollisia hahmontunnistajia."
-          - "<strong>Kun pienempi tykki riittää:</strong> Laskentateho ei ole ilmaista, ei rahassa eikä ympäristön kannalta. Jos asian voi tehdä laskennallisesti kevyemmällä menetelmällä, harkitsen sitä ensin. Esimerkiksi taulukon lajittelussa perinteinen skripti voi olla viisaampi valinta. Jos kuitenkin tarvitaan generatiivista tekoälyä, mutta tehtävä ei ole erityisen monimutkainen, tartun suosiolla pienempään malliin."
-          - "<strong>Testaus käytännössä:</strong> Käytännön testaus on nopein tapa selvittää, mikä aidosti toimii. Esimerkkinä testasin tämän sivuston saavutettavuutta (WCAG 2.2:n kriteerejä vasten) käyttämällä oikeita apuvälineitä (mm. ruudunlukijalla, näppäimistöllä ja puheohjauksella)."
+          - "<strong>Ajattelua vaativat tehtävät:</strong> Moniulotteiset ongelmat, visiointi, konseptointi, rautalangat, päätöksenteko, priorisointi – kaikki rasittavat pollaa, hyvällä tavalla. Näissä tehtävissä teen ensimmäisen luonnoksen aina itse, vaikka kynällä ja paperilla. Muuten suunnittelulle olennainen ns. <em>ongelman kehystäminen</em> jää helposti taka-alalle. Kielimallit ovat hyviä kriitikoita ja sparrauskumppaneita, mutta pidän tärkeänä, että ohjat pysyvät omissa käsissäni."
+          - "Työskentely ei todellakaan näytä tältä:"
+          - |
+            - <code>Claude, generoi minulle täysin toimiva design system. Älä tee virheitä.</code>
+          - "Suunnittelu on tavoitteellista toimintaa, eikä tekoälymalleilla ole omia tavoitteita. Ne ovat kyllä tehokkaita (ja usein hyödyllisiä), mutta loppupeleissä ovat promptiin reagoivia tilastollisia hahmontunnistajia."
+          - "<strong>Kun pienempi tykki riittää:</strong> Laskentateho ei ole ilmaista, ei rahassa eikä ympäristön kannalta. Jos tehtävän voi ratkaista laskennallisesti kevyemmällä menetelmällä, harkitsen sitä ensin. Esimerkiksi taulukon lajittelussa perinteinen skripti voi olla viisaampi valinta. Jos kuitenkin tarvitaan generatiivista tekoälyä, mutta tehtävä ei ole erityisen monimutkainen, tartun suosiolla pienempään malliin."
+          - "<strong>Testaus käytännössä:</strong> Käytännön testaus on nopein tapa selvittää, mikä aidosti toimii. Esimerkiksi tämän sivuston saavutettavuutta testasin WCAG 2.2 -kriteerien pohjalta oikeilla apuvälineillä, kuten ruudunlukijalla sekä näppäimistö- ja puheohjauksella."
       - heading: "\"Mitä haluat jatkossa tehdä?\""
         paragraphs:
-          - "Rakentaa <em>teknisesti järkeviä</em>, <em>taloudellisesti kannattavia</em> ja <em>ympäristön kannalta kestäviä</em> tuotteita ja palveluita, jotka <em>parantavat ihmisten elämää</em>."
-          - "<em>Teknologia</em>, <em>bisnes</em>, <em>planeetta</em> ja <em>ihmiset</em> — ota yksikin pois, niin tuote lakkaa toimimasta, ainakin pitkällä tähtäimellä."
+          - "Rakentaa <em>teknisesti toimivia</em>, <em>taloudellisesti kannattavia</em> ja <em>ympäristön kannalta kestäviä</em> tuotteita ja palveluita, jotka <em>parantavat ihmisten elämää</em>."
+          - "<em>Teknologia</em>, <em>bisnes</em>, <em>planeetta</em> ja <em>ihmiset</em> — jos yksikin näistä jätetään huomiotta, tuote voi toimia hetken, mutta pitkällä aikavälillä sen menestyksen edellytykset alkavat murentua."
 
   work_heading: "Valittuja projekteja"
   read_more: "Lue lisää projektista"
@@ -360,12 +380,12 @@ fi:
         alt: ""
       intro:
         paragraphs:
-          - "<strong>6 vuotta, 30+ projektia. Pitkän UX-konsultoinnin kuluessa olen päässyt vaikuttamaan monella tapaa asiakasymmärryksen kasvattamisesta tuotestrategiaan ja saavutettavuuden parantamiseen.</strong>"
-          - "Jokaisessa projektissa sparraillaan ensin asiakkaan suunnittelijoiden ja tuoteomistajien kanssa projektin ja tavoitteiden rajaamisesta. Lopuksi vein konkreettiset suositukset suoraan päätöksentekijöiden pöydälle."
+          - "<strong>6 vuotta, 30+ projektia. Pitkäaikasen UX-konsultoinnin aikana olen päässyt vaikuttamaan monipuolisesti asiakkaan tuotekehitykseen: asiakasymmärryksen syventämisestä tuotestrategian kehittämiseen ja saavutettavuuden parantamiseen.</strong>"
+          - "Jokainen projekti alkoi yhteisellä sparrauksella asiakkaan suunnittelijoiden ja tuoteomistajien kanssa. Sen pohjalta määrittelimme projektin rajauksen ja tavoitteet. Lopuksi esittelin konkreettiset löydökset ja design-suositukset suoraan päätöksentekijöille."
           - "Kolme nostoa vuosien varrelta:"
       subcases:
         - title: "1. Viihdeboksi: käyttööonoton kipukohdat kuntoon"
-          teaser: "Havainnot ohjasivat satojentuhansien asiakkaan käyttöönottoprosessin uudistamisprosessia."
+          teaser: "Havainnot ohjasivat satojentuhansien asiakkaiden käyttöönottoprosessin uudistamista."
           cover:
             file: "setup-cover.svg"
             alt: ""
@@ -380,27 +400,32 @@ fi:
                 file: "setup-challenge.svg"
                 alt: ""
               paragraphs:
-              - "Asiakastyytyväisyyskyselyissä toistui negatiivinen palaute viihdeboksin käyttöönottoprosessista. Haluttiin paremmin ymmärtää asiakkaiden haasteita korjaustoimenpiteiden priorisoinnin tueksi."
-              - "Johdin tutkimus- ja UX-konsultointiprosessia, jossa rajattiin projektin laajuus ensin yhdessä asiakkaan liiketoimintakehittäjän kanssa."
+              - "Asiakastyytyväisyyskyselyissä nousi toistuvasti esiin negatiivista palautetta viihdeboksin käyttöönotosta. Asiakkaiden kohtaamia haasteita haluttiin ymmärtää paremmin, jotta korjaustoimenpiteet voitaisiin priorisoida oikein."
+              - "Johdin tutkimus- ja UX-konsultointiprosessia, jonka tavoitteet ja rajauksen määrittelimme aluksi yhdessä asiakkaan liiketoimintakehittäjän kanssa."
             - heading: "Lähestymistapa ja havainnot"
               image:
                 file: "setup-findings.svg"
                 alt: ""
               paragraphs:
-                - "Seurasin, kun kuusi kohderyhmän käyttäjää purkasi, asensi ja otti asiakkaan viihdeboksin käyttöön ensimmäistä kertaa. Testaus tehtiin oikealla laitteella ja televisiolla, jonka ansiosta löysimme aitoja kipukohtia, jotka olisivat jääneet prototyypillä huomaamatta."
+                - "Seurasin, kuinka kuusi kohderyhmään kuuluvaa käyttäjää purki viihdeboksin pakkauksesta, kytki sen televisioon ja otti sen käyttöön ensimmäistä kertaa. Testaus toteutettiin oikealla laitteella ja televisiolla, mikä auttoi tunnistamaan ongelmia, jotka olisivat jääneet prototyypillä huomaamatta."
                 - "Havaintojen perusteella laadin parannusehdotuksia, ottaen huomioon asiakkaan liiketoimintatavoitteet ja tekniset rajoitteet:"
                 - |
-                  - <strong>Paristojen löytäminen ja asennus oli yllättävän hankalaa</strong> → Asennetaan paristot valmiiksi kaukosäätimeen.
-                  - <strong>Ohjelmistoasennus tuntui pitkältä ja puuduttavalta</strong> → Virtaviivaistetaan käyttöönottoprosessia mahdollisuuksien mukaan, ja lisätään selkeät etenemisindikaattorit silloin kun se ei ole mahdollista.
-                  - <strong>Useat eri hakutoiminnot hämmensivät käyttäjiä</strong> → Yksi yhtenäinen haku koko alustalle.
+                  - <strong>Kaukosäätimen ja paristojen löytäminen ja asentaminen oli yllättävän hankalaa</strong> → Tuodaan kaukosäädin selkeämmin pakkauksessa esille ja asennetaan paristot valmiiksi kaukosäätimeen.
+                  - <strong>Ohjelmistoasennus tuntui pitkältä ja puuduttavalta</strong> → Sujuvoitetaan käyttöönottoprosessia ja lisätään selkeät edistymisindikaattorit vaiheisiin, joita ei voida nopeuttaa.
+                  - <strong>Yksi television katselun päätoiminnoista oli vaikea löytää</strong> → Lisätään kaukosäätimeen fyysinen painike tätä varten. (Luottamuksellisuuden vuoksi en voi kertoa, mikä toiminto oli kyseessä.)
             - heading: "Vaikutus"
               image:
                 file: "setup-impact.svg"
                 alt: ""
               paragraphs:
-               - "Esittelin tulokset tuotejohdolle, ja kävimme yhdessä läpi design-suositusten toteutuskelpoisuuden ja prioriteetit. Tiimi otti käyttöönottoprosessin uudistamisen työn alle; tarkemmat toteutustiedot ovat luottamuksellisia."
+               - "Esittelin tulokset tuotejohdolle, ja arvioimme yhdessä suunnittelusuositusten toteutettavuutta ja tärkeysjärjestystä."
+               - "Havainnoillani ja suosituksillani oli merkittävä vaikutus tuotteen uudistuksessa:"
+               - |
+                - <strong>Pakkaus:</strong> Tuotiin kaukosäädin ja paristot selkeämmin esille tuotepakkauksessa.
+                - <strong>Kaukosäädin:</strong> Lisättiin kaukosäätimeen uusi painike, joka helpottaa television katselun päätoiminnon käyttöä.
+                - <strong>Käyttöönotto:</strong> Lyhennettiin käyttöönottoprosessia mm. poistamalla turhaa toistoa käyttöliittymän asennusprosessista.
         - title: "2. Matkailu ja roaming: tuotestrategian uudelleenhahmottaminen"
-          teaser: "Tutkimustulosten perusteella estettiin uuden tuotteen kehitys, joka olisi maksanut kymmeniä tuhansia euroja eikä olisi vastannut asiakkaiden tarpeisiin."
+          teaser: "Tutkimustulosten ansiosta vältettiin kymmenien tuhansien eurojen investointi uuteen tuotteeseen, joka ei olisi vastannut asiakkaiden tarpeita."
           cover:
             file: "roaming-cover.svg"
             alt: ""
@@ -409,33 +434,34 @@ fi:
               quote:
                 text: "Erityiskiitos Thomakselle, jonka osaaminen ja panostus roaming-tutkimusprosessiin on ollut merkittävä. Hän osasi kerätä kriittisen käyttäjäymmärryksen ja viestiä havainnoistaan tehokkaasti, mikä teki työhömme suuren vaikutuksen."
                 name: "Asiakas"
-                title: "Digital Experience Lead"
+                title: "digikokemusvastaava"
                 original_lang: "en"
               image:
                 file: "roaming-challenge.svg"
                 alt: ""
               paragraphs:
-              - "Asiakas halusi kasvattaa matkailijasegmenttiään ja lisätä melko vaisua roaming-tuotteiden käyttöä."
-              - "Rajasin projektin laajuuden yhdessä asiakkaan digikokemusvastaajan kanssa: minä vastasin asiakasymmärryksen kasvattamisesta ja tuotestrategian tukemisesta."
+              - "Asiakas halusi kasvattaa matkailijasegmenttiään ja lisätä roaming-tuotteidensa toistaiseksi vähäistä käyttöä."
+              - "Määrittelimme projektin tavoitteet ja rajauksen yhdessä asiakkaan digikokemusvastaavan kanssa. Minun vastuullani oli syventää asiakasymmärrystä ja tukea tuotestrategian kehittämistä."
             - heading: "Lähestymistapa ja havainnot"
               image:
                 file: "roaming-findings.svg"
                 alt: ""
               paragraphs:
-              - "Tein kahdeksan syvähaastattelua aktiivimatkailijoiden kanssa. Tavoitteena oli saada monipuolisempi käsitys heidän tarpeistaan ja kokemuksistaan. Näytin haastattelun tueksi myös uusia roaming-tuotekonsepteja."
-              - "Havaintojen perusteella laadin asiakkaan tuella konkreettiset toimintasuositukset:"
+              - "Tein kahdeksan syvähaastattelua aktiivisesti matkustavien asiakkaiden kanssa. Tavoitteena oli syventää ymmärrystä heidän tarpeistaan ja kokemuksistaan. Haastatteluissa esittelin myös uusia roaming-tuotekonsepteja ja keräsin niistä palautetta."
+              - "Havaintojen pohjalta laadin yhdessä asiakkaan kanssa konkreettisia toimintasuosituksia:"
               - |
-                - <strong>Roamingia välteltiin takavuosien kalliiden laskujen pelossa; moni turvautui hotellin WiFiin tai prepaid-liittymään</strong> → Nostetaan selvemmin esiin jo olemassa olevia matkadatapaketteja vaihtoehtona roamingiin, jolloin vältetään perinteisen käyttöperusteisen laskutuksen huono kaiku.
-                - <strong>Tervetulotekstiviestit aiheuttivat hämmennystä ja datan tarvetta ei osattu arvioida</strong> → Avataan datamäärät konkreettisilla esimerkeillä ja helpotetaan kulutuksen seurantaa tekstiviesteillä.
-                - <strong>Isompia datapaketteja suosittiin; käyttöperusteista laskutusta pidettiin vain hätävarana</strong> → Siirretään painopiste nykyvalikoimassa isompiin datapaketteihin. Vaikka niiden kulurakenne on hieman toisenlainen, asiakasarvo oli niissä selvemmin havaittavissa.
+                - <strong>Roamingia välteltiin aiempien kalliiden laskujen pelossa. Moni turvautui mieluummin hotellin Wi-Fi-verkkoon tai prepaid-liittymään.</strong> → Nostetaan jo olemassa olevat matkadatapaketit selkeämmin esiin vaihtoehtona perinteiselle roamingille, jotta käyttöperusteisen laskutuksen kielteiset mielikuvat eivät jarruta niiden myyntiä.
+                - <strong>Tervetulotekstiviestit aiheuttivat hämmennystä, eikä omaa datantarvetta osattu arvioida.</strong> → Havainnollistetaan datamääriä konkreettisilla esimerkeillä ja helpotetaan kulutuksen seurantaa tekstiviestien avulla.
+                - <strong>Suurempia datapaketteja suosittiin, kun taas käyttöperusteinen laskutus nähtiin lähinnä hätävarana.</strong> → Siirretään tuotevalikoiman painopistettä suurempiin datapaketteihin. Vaikka niiden kustannusrakenne poikkeaa pienemmistä vaihtoehdoista, ne tuottavat asiakkaille selkeämmin arvoa.
             - heading: "Vaikutus"
               image:
                 file: "roaming-impact.svg"
                 alt: ""
               paragraphs:
-               - "Esittelin havainnot tuotejohdolle ja sparrasin tiimin kanssa parannustoimenpiteistä ja prioriteeteistä. Löydösten perusteella kaavailtua uutta tuotetta ei lähdetty rakentamaan, koska se ei olisi vastannut asiakkaan tarpeeseen, mikä säästi kymmeniä tuhansia euroja tuotekehityskuluissa. Sen sijaan painopiste suunnattiin olemassa olevien tuotteiden tietoisuuden lisäämiseen."
+               - "Esittelin havainnot tuotejohdolle ja sparrasin tiimin kanssa parannustoimenpiteistä ja niiden priorisoinnista. Tutkimustulosten perusteella suunnitteilla olleen uuden tuotteen kehittämisestä luovuttiin, sillä se ei olisi vastannut asiakkaiden tarpeisiin."
+               - "<strong>Päätös säästi kymmeniä tuhansia euroja tuotekehityskuluissa.</strong> Sen sijaan painopiste siirrettiin olemassa olevien tuotteiden tunnettuuden lisäämiseen."
         - title: "3. Viestintäalustan saavutettavuuden parantaminen"
-          teaser: "Valtaosa havaituista ongelmista oli korjattu vuotta myöhemmin tehdyssä saavutettavuuden tarkastavassa arvioinnissa."
+          teaser: "Vuotta myöhemmin tehdyssä tarkastavassa arvioinnissa valtaosa ongelmista oli korjattu."
           cover:
             file: "a11y-cover.svg"
             alt: ""
@@ -450,32 +476,35 @@ fi:
                 file: "a11y-challenge.svg"
                 alt: ""
               paragraphs:
-              - "Asiakas halusi selvittää asiakasviestintäalustansa saavutettavuuden tilan, pitkälti nojaten lakisääteisiin vaatimuksiin. Johdin arviointiprosessia: rajattiin laajuus kehitystiimin kanssa ja ankkuroitiin arvioinnin kriteerit WCAG 2.2 -standardiin sekä EU:n esteettömyysdirektiivin vaatimuksiin."
+              - "Asiakas halusi selvittää asiakasviestintäalustansa saavutettavuuden nykytilan erityisesti lakisääteisten vaatimusten näkökulmasta. Johdin arviointiprosessia, jonka laajuuden määrittelimme yhdessä kehitystiimin kanssa. Arvioinnin kriteerit pohjautuivat WCAG 2.2 -standardiin ja EU esteettömyysdirektiivin vaatimuksiin."
             - heading: "Lähestymistapa ja havainnot"
               image:
                 file: "a11y-findings.svg"
                 alt: ""
               paragraphs:
-              - "Arvioin palvelun Windows-tietokoneella, käyttäen mm. NVDA-ruudunlukuohjelmaa ja näppäimistönavigointia. Keskeiset havainnot:"
+              - "Arvioin palvelun saavutettavuutta Windows-ympäristössä käyttäen muun muassa NVDA-ruudunlukijaa ja näppäimistönavigointia."
+              - "Keskeiset havainnot:"
               - |
-                - Liitetiedostoja ei pystynyt lisäämään pelkällä näppäimistöllä, ja joitakin muita toimintoja ei myöskään voinut käyttää apuvälinellä.
-                - Kohdistusindikaattorit ja ohjelmalliset nimilaput puuttuivat monesta komponentista.
-                - Kohdistusjärjestys oli paikoitellen sekava.
+                - Kaikki toiminnot eivät olleet käytettävissä näppäimistöllä tai apuvälineillä. Esimerkiksi liitetiedostojen lisääminen ei onnistunut pelkällä näppäimistöllä.
+                - Useista käyttöliittymäkomponenteista puuttui joko näkyvä kohdistusilmaisin, ohjelmallisesti määritelty nimilappu tai molemmat.
+                - Kohdistusjärjestys oli paikoin epälooginen.
             - heading: "Vaikutus"
               image:
                 file: "a11y-impact.svg"
                 alt: ""
               paragraphs:
-              - "Esittelin tulokset kehitystiimille ja tuoteomistajille. Pisteytin havainnot vakavuuden perusteella (1–4), ja tiimissä arvioitiin työmäärää korjaustoimenpiteille. Vuotta myöhemmin ehdotin seurantakierrosta, jolle asiakas näytti vihreää valoa – tällä kertaa testasin palvelua myös iOS-laitteella mm. VoiceOverin kanssa. Valtaosa aiemmin liputetuista ongelmista oli korjattu. Joitakin vanhoja puutteita oli yhä jäljellä ja uusiakin löytyi (osittain iOS-testauksen, aiempien ongelmien takaa paljastuneiden ongelmien sekä uusien ominaisuuksien myötä). Kokonaisuudessaan palvelun saavutettavuus oli kuitenkin parantunt merkittävästi."
+              - "Esittelin tulokset kehitystiimille ja tuoteomistajille sekä luokittelin havainnot vakavuuden mukaan asteikolla 1–4. Kehitystiimi puolestaan arvioi korjaustoimenpiteiden vaatiman työmäärän."
+              - "Vuotta myöhemmin ehdotin seuranta-arviointia, johon asiakas tarttui. Tällä kertaa laajensin testausta myös iOS-laitteisiin ja VoiceOver-ruudunlukijaan."
+              - "Valtaosa aiemmin havaituista ongelmista oli korjattu. Joitakin vanhoja puutteita oli edelleen jäljellä, ja uusiakin löytyi muun muassa laajentuneen testauksen, uusien ominaisuuksien ja aiempien ongelmien korjaamisen myötä. Kokonaisuudessaan palvelun saavutettavuus oli kuitenkin parantunut merkittävästi."
       synthesis:
         heading: "Summa summarum"
         paragraphs:
-          - "Teen tiivistä yhteistyötä tuote-, muotoilu-, kehitys- ja johtotiimien kanssa lisätäkseni asiakasymmärrystä, karsiakseni turhaa kitkaa ja tehdäkseni palveluista helppokäyttöisempiä ja saavutettavampia."
-          - "Sama toimintamalli kantaa hyvinkin erilaisissa projekteissa:"
+          - "Teen tiivistä yhteistyötä tuote-, suunnittelu-, kehitys- ja johtotiimien kanssa syventääkseni asiakasymmärrystä, vähentääkseni turhaa kitkaa ja tehdäkseni palveluista helppokäyttöisempiä ja saavutettavampia."
+          - "Sama toimintamalli toimii hyvin erilaisissa projekteissa:"
           - |
-            - <strong>Rajataan projektin laajuus yhdessä asiakkaan kanssa.</strong> Jokaisen projektin tärkein vaihe on tavoitteiden ja tutkimuskysymysten määrittely sekä pohtiminen, miten tuloksia tullaan oikeasti hyödyntämään jatkossa.
-            - <strong>Testataan realistisissa olosuhteissa.</strong> Todelliset skenaariot, oikeat kohderyhmän käyttäjät ja oikeat apuvälineet takaavat sen, että havainnot pätevät myös käytännössä.
-            - <strong>Toteutuskelpoiset suositukset ja maaliin vieminen.</strong> Yhdistetään käyttäjäymmärrys ja UX-havainnot teknisiin ja liiketoiminnallisiin rajoitteihin, sovitaan prioriteeteista tiimien kanssa ja seurataan, että korjaukset toimivat myös käytännössä.
+            - <strong>Määritellään tavoitteet ja rajaus yhdessä asiakkaan kanssa.</strong> Jokaisen projektin tärkeimpiä vaiheita on tunnistaa olennaiset tutkimuskysymykset ja sopia, miten tuloksia hyödynnetään käytännössä.
+            - <strong>Testataan realistisissa olosuhteissa.</strong> Aidot käyttötilanteet, kohderyhmään kuuluvat käyttäjät ja oikeat apuvälineet auttavat tunnistamaan ongelmia, jotka voisivat muuten jäädä huomaamatta.
+            - <strong>Laaditaan toteutuskelpoiset suositukset ja viedään ne käytäntöön.</strong> Yhdistetään käyttäjäymmärrys ja tutkimushavainnot teknisiin ja liiketoiminnallisiin reunaehtoihin, priorisoidaan toimenpiteet yhdessä tiimien kanssa ja varmistetaan seurannalla, että korjaukset toimivat myös käytännössä.
 
 
 sv:
@@ -511,11 +540,12 @@ sv:
         paragraphs:
           - "<strong>Vad jag gör:</strong> Hela processen från början till slut: research, koncept, design, utvärdering, få ihop intressenterna, tillgänglighetsgranskning. För den visuella finslipningen samarbetar jag gärna med visuella designers."
           - "<strong>Hur jag tänker:</strong> Mina designbeslut grundar sig på research. Det betyder inte att man går långsamt, utan att man <em>förstår vad man håller på med</em>:"
-          - "<blockquote>Vilka är intressenterna?</blockquote>"
-          - "<blockquote>Var går värdeflödena?</blockquote>" 
-          - "<blockquote>Vilket värde skapar vi, och för vem?</blockquote>"
-          - "<blockquote>Vilka konsekvenser, positiva och negativa, förverkligas om vi lanserar den här produkten?</blockquote>"
-          - "<blockquote>Hur definierar vi – och mäter – framgång och misslyckande?</blockquote>"
+          - |
+            - Vilka är intressenterna?
+            - Var går värdeflödena?
+            - Vilket värde skapar vi, och för vem?
+            - Vilka konsekvenser, positiva och negativa, förverkligas om vi lanserar den här produkten?
+            - Hur definierar vi – och mäter – framgång och misslyckande?
           - "För att kunna svara på dessa frågor måste man prata med människor, observera dem och lyssna."
           - "<strong>Resultat, inte volym:</strong> I en värld där AI-verktyg gör det billigare och snabbare än någonsin att bygga mjukvara är det avgörande att vi inte bara skapar mera saker, utan värde. AI ger designers nya fina möjligheter att själva smutsa ner händerna, men verktyg är bara verktyg i slutändan. Jag använder de redskap som funkar: Claude Code, Figma, penna och papper. Fortfarande är det <em>klarhet</em> och <em>förståelse</em> som medför den största effekten."
       - heading: "\"Hur använder du AI?\""
@@ -527,10 +557,11 @@ sv:
       - heading: "\"Okej, när använder du <em>inte</em> AI?\""
         paragraphs:
           - "<strong>Tankekrävande uppgifter:</strong> Komplex problemlösning, visionsarbete, konceptutveckling, wireframing, att avgöra vad som är viktigt. Jag tror att första utkastet till vad som helst alltid ska komma från en själv, hur skissartat det än är, för det är där ramarna sätts. Språkmodeller kan vara riktigt bra kritiker och bollplank, men det är jag som dirigerar orkestern. Det är definitivt inte så här:"
-          - "<blockquote>Claude, generera ett fullt fungerande designsystem åt mig. Gör inga misstag.</blockquote>"
+          - |
+            - <code>Claude, generera ett fullt fungerande designsystem. Gör inga misstag.</code>
           - "Design är något avsiktligt, och generativa AI-modeller har ingen egen avsikt. De är kraftfulla (och ofta användbara) statistiska mönstermatchare som reagerar på prompter, men mer än så är de inte."
           - "<strong>När generativ AI är \"overkill\":</strong> Datorkraft är inte gratis, varken ekonomiskt eller miljömässigt. Om det finns ett mindre beräkningsintensivt sätt att göra något väljer jag i första hand det. För enkla uppgifter, som att sortera en tabell, är ett deterministiskt skript det klokare valet. Om jag behöver generativ AI men uppgiften inte är särskilt krävande tar jag en mindre modell."
-          - "<strong>Tester i verkligheten:</strong> Att prova saker i verkligheten är det snabbaste sättet att få veta vad som faktiskt funkar. Den här webbplatsen testade jag till exempel med riktiga hjälpmedel (skärmläsare, enbart tangentbord, röststyrning) och kontrollerade den mot etablerade tillgänglighetskriterier (WCAG 2.2)."
+          - "<strong>Tester i verkligheten:</strong> Att prova saker i verkligheten är det snabbaste sättet att få veta vad som faktiskt funkar. Den här webbplatsen testade jag till exempel med riktiga hjälpmedel (skärmläsare, tangentbord, röststyrning) och kontrollerade den mot etablerade tillgänglighetskriterier (WCAG 2.2)."
       - heading: "\"Vad vill du göra framöver?\""
         paragraphs:
           - "Skapa <em>tekniskt fungerande</em>, <em>ekonomiskt vettiga</em> och <em>miljömässigt hållbara</em> produkter och tjänster som <em>förbättrar människors liv</em>."

@@ -453,6 +453,7 @@ h5 {
 .about blockquote::before { content: open-quote; }
 .about blockquote::after  { content: close-quote; }
 
+
 /* ==========================================================
    Projects (case study cards)
    ========================================================== */
