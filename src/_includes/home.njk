@@ -18,6 +18,7 @@
       {% endfor %}
       {% endif %}
     </div>
+    <p class="intro-link"><a href="#contact">{{ t.intro_cta }}</a></p>
   </div>
 </div>
 
@@ -99,12 +100,17 @@
   {% endfor %}
 </section>
 
-<section class="section" aria-labelledby="contact-heading">
+<section class="section" id="contact" aria-labelledby="contact-heading">
   <h2 id="contact-heading">{{ t.contact_heading }}</h2>
   <p>{{ t.contact_text }}</p>
   <ul class="contact-list">
     {% for link in t.contact_links %}
-    <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+    {% set external = link.url.startsWith('http') %}
+    <li>
+      <a href="{{ link.url }}"{% if external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+        {{ link.label }}{% if external %}<span class="visually-hidden"> ({{ t.new_tab }})</span>{% endif %}
+      </a>
+    </li>
     {% endfor %}
   </ul>
 </section>

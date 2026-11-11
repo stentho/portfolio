@@ -15,6 +15,7 @@ en:
   intro: 
     - "<strong>9 years, 100+ client projects.</strong> Helping organizations turn business goals and user needs into clear design decisions."
     - "People-centered, method-flexible, and hands-on with accessibility and LLM tools."
+  intro_cta: "Get in touch"
   portrait_alt: "Portrait of Thomas Stenius"
   testimonials_heading: "What clients say"
   translated_from:
@@ -75,10 +76,11 @@ en:
   work_heading: "Selected work"
   read_more: "Read the case"
   subcase_more: "Read the case"
+  new_tab: "opens in a new tab"
   contact_heading: "Contact me"
   contact_text: "I'd love to hear from you."
   contact_links:
-    - label: "Email"
+    - label: "thomasstenius@gmail.com"
       url: "mailto:thomasstenius@gmail.com"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
@@ -177,7 +179,7 @@ en:
                  - <strong>Remote:</strong> A physical button was added to the remote to make the key TV feature easier to discover and use.
                  - <strong>Setup:</strong> The software setup was streamlined e.g. by removing repeating steps.
         - title: "2. Travel and roaming: redirecting a product decision"
-          teaser: "Research stopped a product that wouldn’t have met customer needs, saving tens of thousands of euros."
+          teaser: "My customer insights stopped a product that wouldn’t have met customer needs, saving tens of thousands of euros."
           cover:
             file: "roaming-cover.svg"
             alt: ""
@@ -262,6 +264,7 @@ fi:
   intro: 
     - "<strong>9 vuotta, 100+ asiakasprojektia.</strong> Autan organisaatioita yhdistämään liiketoiminnan tavoitteet ja käyttäjien tarpeet toimiviksi, käyttäjälähtöisiksi palveluiksi ja ratkaisuiksi."
     - "Olen ihmiskeskeinen ja menetelmiltäni joustava - lähestymistapani käyttäjäkokemukseen, saavutettavuuteen sekä LLM-työkaluihin on käytännönläheinen."
+  intro_cta: "Ota yhteyttä"
   portrait_alt: "Etunimi Sukunimen muotokuva"
   testimonials_heading: "Mitä asiakkaat sanovat"
   translated_from:
@@ -323,10 +326,11 @@ fi:
   read_more: "Lue lisää projektista"
   subcase_more: "Lue lisää projektista"
   outcome_label: "Lopputulos"
+  new_tab: "avautuu uuteen välilehteen"
   contact_heading: "Ota yhteyttä"
   contact_text: "Vastaan mielelläni kysymyksiin."
   contact_links:
-    - label: "Sähköposti"
+    - label: "thomasstenius@gmail.com"
       url: "mailto:thomasstenius@gmail.com"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"
@@ -336,7 +340,7 @@ fi:
     - title: "Lääkinnällinen laite: varhaisesta konseptista CE-merkittyyn tuotteeseen"
       glance:
         - label: "Roolini"
-          value: "Toimin johtavana UX-konsulttina osana laajempaa tiimiä. Vastasin mm. käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tulosten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
+          value: "Toimin johtavana UX-konsulttina osana laajempaa tiimiä. Vastasin mm. käyttäjätutkimuksista ja lääkinnällisen laitteen formatiivisesta ja summatiivisesta käytettävyysarvioinnista osana CE-merkintäprosessia. Tutkimusten pohjalta kehitin käyttöliittymää käyttäjälähtöisemmäksi, helppokäyttöisemmäksi ja turvallisemmaksi."
         - label: "Lopputulos"
           value: "Tutkimukseen perustuva, käyttäjälähtöisempi ja käyttöturvallisempi tuote. Dokumentoitu näyttö käytettävyyden validoinnista CE-merkintäprosessissa. Tuote on saanut CE-merkinnän."
       cover:
@@ -518,6 +522,7 @@ sv:
   intro: 
     - "<strong>9 år, 100+ kundprojekt.</strong> Jag hjälper organisationer omvandla sina mål och användarbehov till klara och tydliga designriktningar."
     - "Jag är människocentrerad, flexibel i metodologi och praktiskt inriktad med tillgänglighet och LLM-verktyg."
+  intro_cta: "Kontakta mig"
   portrait_alt: "Porträtt av Thomas Stenius"
   testimonials_heading: "Vad kunder säger"
   translated_from:
@@ -553,12 +558,17 @@ sv:
           - "På många sätt! Här är tre:"
           - "<strong>Att vässa stålet:</strong> Chattbotar hjälper mig att vässa mina idéer. Jag ser det som en vidareutveckling av den s.k. \"gummiankmetoden\", där man reder ut sina tankar genom att förklara dem steg för steg till en leksaksanka. AI-chattbottar kan förstås dessutom svara tillbaka, hitta luckor i resonemanget och peka ut sådant man missat. Stål vässar stål."
           - "<strong>Djupsökning:</strong> Språkmodeller är fantastiska på att gräva sig igenom enorma datamängder och hitta sånt som traditionellt varit väldigt svårt att hitta. En tidsstämpel för ett citat ur 12 timmars intervjuinspelningar? Inga problem. En specifik fil från ett gammalt projekt? Även en vag prompt räcker."
-          - "<strong>Funktionella prototyper och webbplatser:</strong> LLM:er är bra både på att skriva kod och på att förklara hur den fungerar. Som exempel har jag byggt den här nätsidan med hjälp av Claude. Jag skissade layouten för hand och definierade kraven, innehållet och tillgänglighetskriterierna (WCAG 2.2). Claude skapade baskoden och dekorationerna, som jag sedan granskade, redigerade och byggde vidare på. Därefter itererade jag antingen direkt i koden eller genom att be Claude om tips. Hela tiden hade jag koll på vad som hände, både i koden och i designen."
+          - "<strong>Funktionella prototyper och webbplatser:</strong> LLM:er är bra både på att skriva kod och på att förklara hur den fungerar. Som exempel har jag byggt den här nätsidan med hjälp av Claude:"
+          - |
+            - Till en början skissade jag layouten för hand med ett ritprogram.
+            - Sedan definierade jag kraven, innehållet och tillgänglighetskriterierna (WCAG 2.2).
+            - Claude skapade grundkoden och dekorationselementen, som jag granskade, redigerade och byggde vidare på enligt behov.
+            - Därefter lade jag till mer innehåll och komponenter antingen direkt i koden eller genom att be Claude om tips. Jag hade hela tiden koll på vad som hände, både i koden och i användargränssnittet.
       - heading: "\"Okej, när använder du <em>inte</em> AI?\""
         paragraphs:
           - "<strong>Tankekrävande uppgifter:</strong> Komplex problemlösning, visionsarbete, konceptutveckling, wireframing, att avgöra vad som är viktigt. Jag tror att första utkastet till vad som helst alltid ska komma från en själv, hur skissartat det än är, för det är där ramarna sätts. Språkmodeller kan vara riktigt bra kritiker och bollplank, men det är jag som dirigerar orkestern. Det är definitivt inte så här:"
           - |
-            - <code>Claude, generera ett fullt fungerande designsystem. Gör inga misstag.</code>
+            - <code>Claude, generera ett komplett, fungerande designsystem. Gör inga misstag.</code>
           - "Design är något avsiktligt, och generativa AI-modeller har ingen egen avsikt. De är kraftfulla (och ofta användbara) statistiska mönstermatchare som reagerar på prompter, men mer än så är de inte."
           - "<strong>När generativ AI är \"overkill\":</strong> Datorkraft är inte gratis, varken ekonomiskt eller miljömässigt. Om det finns ett mindre beräkningsintensivt sätt att göra något väljer jag i första hand det. För enkla uppgifter, som att sortera en tabell, är ett deterministiskt skript det klokare valet. Om jag behöver generativ AI men uppgiften inte är särskilt krävande tar jag en mindre modell."
           - "<strong>Tester i verkligheten:</strong> Att prova saker i verkligheten är det snabbaste sättet att få veta vad som faktiskt funkar. Den här webbplatsen testade jag till exempel med riktiga hjälpmedel (skärmläsare, tangentbord, röststyrning) och kontrollerade den mot etablerade tillgänglighetskriterier (WCAG 2.2)."
@@ -571,10 +581,11 @@ sv:
   read_more: "Läs om projektet"
   subcase_more: "Läs om projektet"
   outcome_label: "Resultat"
+  new_tab: "öppnas i en ny flik"
   contact_heading: "Kontakta mig"
   contact_text: "Hör gärna av dig."
   contact_links:
-    - label: "E-post"
+    - label: "thomasstenius@gmail.com"
       url: "mailto:thomasstenius@gmail.com"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/thomas-stenius"

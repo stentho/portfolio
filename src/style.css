@@ -118,6 +118,10 @@ a:focus {
 
 /* Expanders opening and closing animations */
 @media (prefers-reduced-motion: no-preference) {
+
+  /* smooth scroll */
+  html { scroll-behavior: smooth; }
+
   /* the chevron turns smoothly */
   .more summary::after,
   .about-item summary::after {
@@ -311,6 +315,10 @@ h5 {
   margin-top: 1rem;
 }
 
+.intro-link {
+  margin: 1.5rem 0 0;
+}
+
 @media (min-width: 48rem) {
   .hero {
     grid-template-columns: 18rem 1fr;
@@ -444,15 +452,6 @@ h5 {
   margin-top: 0.75rem;
 }
 
-.about blockquote {
-  font-style: italic;
-  font-size: 1.1rem;
-}
-
-/* quotation marks before and after */
-.about blockquote::before { content: open-quote; }
-.about blockquote::after  { content: close-quote; }
-
 
 /* ==========================================================
    Projects (case study cards)
@@ -463,6 +462,7 @@ h5 {
   gap: 1.5rem;
   max-width: 46rem;          /* wide screens: 40rem text + 3rem padding on each side */
   margin-inline: -1rem;
+  margin-bottom: 3rem;
   padding: 1.5rem;
   background: var(--surface);
   border-radius: 20px;
@@ -525,7 +525,7 @@ h5 {
 .about li::marker {
   color: var(--text);         /* optional: colour the dash */
   font-size: 1.25rem;            /* optional: make the dash a little bigger */
-  font-weight: 600;              /* optional: make the dash bold */
+  font-weight: 400;              /* optional: make the dash bold */
 }
 
 /* ---------- Cover image: banner above the title ---------- */
@@ -703,7 +703,7 @@ h5 {
    ========================================================== */
 .contact-list {
   list-style: none;
-  margin: 0 0 4rem;
+  margin: 0 0 10rem;
   padding: 0;
 }
 
@@ -716,12 +716,32 @@ h5 {
   padding-block: 0.25rem;
 }
 
+.contact-list a::after {
+  content: "";
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-left: 0.4em;
+  vertical-align: -0.05em;
+  background: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+
+.contact-list a[href^="mailto:"] {
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Cpath d='M3.5 7.5l8.5 6 8.5-6'/%3E%3C/svg%3E");
+}
+
+.contact-list a[href^="http"] {
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 4h6v6'/%3E%3Cpath d='M20 4l-9 9'/%3E%3Cpath d='M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5'/%3E%3C/svg%3E");
+}
+
 
 /* ==========================================================
    Footer
    ========================================================== */
 .site-footer {
-  padding-block: 4rem 6rem;
+  padding-block: 6rem 6rem;
   color: var(--text);
   font-size: 1rem;
   line-height: 1.5;
